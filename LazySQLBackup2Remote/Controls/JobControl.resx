@@ -1,0 +1,1079 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hlAfterBackup.EditValue" xml:space="preserve">
+    <value>After backup</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="hlAfterBackup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 532</value>
+  </data>
+  <data name="hlAfterBackup.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="hlAfterBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 18</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="hlAfterBackup.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;hlAfterBackup.Name" xml:space="preserve">
+    <value>hlAfterBackup</value>
+  </data>
+  <data name="&gt;&gt;hlAfterBackup.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.HyperLinkEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;hlAfterBackup.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;hlAfterBackup.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="hlBeforeBackup.EditValue" xml:space="preserve">
+    <value>Before backup</value>
+  </data>
+  <data name="hlBeforeBackup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 532</value>
+  </data>
+  <data name="hlBeforeBackup.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="hlBeforeBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 18</value>
+  </data>
+  <data name="hlBeforeBackup.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;hlBeforeBackup.Name" xml:space="preserve">
+    <value>hlBeforeBackup</value>
+  </data>
+  <data name="&gt;&gt;hlBeforeBackup.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.HyperLinkEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;hlBeforeBackup.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;hlBeforeBackup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v16.1" name="DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="lcCustomSQLScripts.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1">
+    <value>None</value>
+  </data>
+  <data name="lcCustomSQLScripts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 515</value>
+  </data>
+  <data name="lcCustomSQLScripts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 13</value>
+  </data>
+  <data name="lcCustomSQLScripts.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lcCustomSQLScripts.Text" xml:space="preserve">
+    <value>Run custom SQL scripts:</value>
+  </data>
+  <data name="&gt;&gt;lcCustomSQLScripts.Name" xml:space="preserve">
+    <value>lcCustomSQLScripts</value>
+  </data>
+  <data name="&gt;&gt;lcCustomSQLScripts.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcCustomSQLScripts.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;lcCustomSQLScripts.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lcServerName.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lcServerName.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1">
+    <value>None</value>
+  </data>
+  <data name="lcServerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="lcServerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 13</value>
+  </data>
+  <data name="lcServerName.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lcServerName.Text" xml:space="preserve">
+    <value>lcServerName</value>
+  </data>
+  <data name="&gt;&gt;lcServerName.Name" xml:space="preserve">
+    <value>lcServerName</value>
+  </data>
+  <data name="&gt;&gt;lcServerName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcServerName.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;lcServerName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="sbSchedulerSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 434</value>
+  </data>
+  <data name="sbSchedulerSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="sbSchedulerSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="sbSchedulerSettings.ToolTip" xml:space="preserve">
+    <value>Scheduler settings</value>
+  </data>
+  <data name="&gt;&gt;sbSchedulerSettings.Name" xml:space="preserve">
+    <value>sbSchedulerSettings</value>
+  </data>
+  <data name="&gt;&gt;sbSchedulerSettings.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;sbSchedulerSettings.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;sbSchedulerSettings.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="sbEmailSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 280</value>
+  </data>
+  <data name="sbEmailSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="sbEmailSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="sbEmailSettings.ToolTip" xml:space="preserve">
+    <value>Email settings</value>
+  </data>
+  <data name="&gt;&gt;sbEmailSettings.Name" xml:space="preserve">
+    <value>sbEmailSettings</value>
+  </data>
+  <data name="&gt;&gt;sbEmailSettings.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;sbEmailSettings.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;sbEmailSettings.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="teNextFullBackupStart.EditValue" type="System.DateTime, mscorlib">
+    <value>2014-04-17</value>
+  </data>
+  <data name="teNextFullBackupStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 476</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v16.1" name="DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="teNextFullBackupStart.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v16.1">
+    <value>Combo</value>
+  </data>
+  <data name="teNextFullBackupStart.Properties.Mask.EditMask" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="teNextFullBackupStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 20</value>
+  </data>
+  <data name="teNextFullBackupStart.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;teNextFullBackupStart.Name" xml:space="preserve">
+    <value>teNextFullBackupStart</value>
+  </data>
+  <data name="&gt;&gt;teNextFullBackupStart.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TimeEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teNextFullBackupStart.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;teNextFullBackupStart.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbScheduleThisJob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 434</value>
+  </data>
+  <data name="cbScheduleThisJob.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cbScheduleThisJob.Properties.Caption" xml:space="preserve">
+    <value>Schedule this job</value>
+  </data>
+  <data name="cbScheduleThisJob.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 19</value>
+  </data>
+  <data name="cbScheduleThisJob.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cbScheduleThisJob.Name" xml:space="preserve">
+    <value>cbScheduleThisJob</value>
+  </data>
+  <data name="&gt;&gt;cbScheduleThisJob.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbScheduleThisJob.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;cbScheduleThisJob.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="teOnFailureMailTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 346</value>
+  </data>
+  <data name="teOnFailureMailTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="teOnFailureMailTo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;teOnFailureMailTo.Name" xml:space="preserve">
+    <value>teOnFailureMailTo</value>
+  </data>
+  <data name="&gt;&gt;teOnFailureMailTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teOnFailureMailTo.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;teOnFailureMailTo.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="teOnSuccessMailTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 322</value>
+  </data>
+  <data name="teOnSuccessMailTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="teOnSuccessMailTo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;teOnSuccessMailTo.Name" xml:space="preserve">
+    <value>teOnSuccessMailTo</value>
+  </data>
+  <data name="&gt;&gt;teOnSuccessMailTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teOnSuccessMailTo.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;teOnSuccessMailTo.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cbSendEmails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 280</value>
+  </data>
+  <data name="cbSendEmails.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cbSendEmails.Properties.Caption" xml:space="preserve">
+    <value>Send e-mail notifications</value>
+  </data>
+  <data name="cbSendEmails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 19</value>
+  </data>
+  <data name="cbSendEmails.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cbSendEmails.Name" xml:space="preserve">
+    <value>cbSendEmails</value>
+  </data>
+  <data name="&gt;&gt;cbSendEmails.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbSendEmails.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;cbSendEmails.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="gcDestinations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 64</value>
+  </data>
+  <data name="gridBand1.Caption" xml:space="preserve">
+    <value>gridBand1</value>
+  </data>
+  <data name="gridBand1.Name" xml:space="preserve">
+    <value>gridBand1</value>
+  </data>
+  <data name="gridBand1.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="gridBand2.Caption" xml:space="preserve">
+    <value>gridBand2</value>
+  </data>
+  <data name="gridBand2.Name" xml:space="preserve">
+    <value>gridBand2</value>
+  </data>
+  <data name="gridBand2.Width" type="System.Int32, mscorlib">
+    <value>796</value>
+  </data>
+  <data name="gridBand3.Caption" xml:space="preserve">
+    <value>gridBand3</value>
+  </data>
+  <data name="gridBand3.Name" xml:space="preserve">
+    <value>gridBand3</value>
+  </data>
+  <data name="gridBand3.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="gcDelete.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="beDelete.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="beDelete.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v16.1">
+    <value>Glyph</value>
+  </data>
+  <data name="beDelete.Buttons1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="beDelete.Buttons2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="beDelete.Buttons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="beDelete.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="beDelete.Buttons5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="beDelete.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v16.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="beDelete.Buttons7" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="beDelete.Buttons8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="beDelete.Buttons9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="beDelete.Buttons10" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gcDelete.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gcDelete.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="gcType.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gcType.Width" type="System.Int32, mscorlib">
+    <value>796</value>
+  </data>
+  <data name="gcPath.Caption" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="gcPath.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gcPath.Width" type="System.Int32, mscorlib">
+    <value>796</value>
+  </data>
+  <data name="gcEdit.Caption" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="beEdit.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="beEdit.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v16.1">
+    <value>Glyph</value>
+  </data>
+  <data name="beEdit.Buttons1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="beEdit.Buttons2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="beEdit.Buttons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="beEdit.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="beEdit.Buttons5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="beEdit.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v16.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="beEdit.Buttons7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="beEdit.Buttons8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="beEdit.Buttons9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="beEdit.Buttons10" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gcEdit.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gcEdit.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="gcDestinations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 126</value>
+  </data>
+  <data name="gcDestinations.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;gcDestinations.Name" xml:space="preserve">
+    <value>gcDestinations</value>
+  </data>
+  <data name="&gt;&gt;gcDestinations.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcDestinations.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;gcDestinations.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="hlAddDestination.EditValue" xml:space="preserve">
+    <value>Add backup destination</value>
+  </data>
+  <data name="hlAddDestination.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 194</value>
+  </data>
+  <data name="hlAddDestination.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="hlAddDestination.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 18</value>
+  </data>
+  <data name="hlAddDestination.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;hlAddDestination.Name" xml:space="preserve">
+    <value>hlAddDestination</value>
+  </data>
+  <data name="&gt;&gt;hlAddDestination.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.HyperLinkEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;hlAddDestination.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;hlAddDestination.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="sbRunNow.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="sbRunNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 512</value>
+  </data>
+  <data name="sbRunNow.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 10, 0</value>
+  </data>
+  <data name="sbRunNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 38</value>
+  </data>
+  <data name="sbRunNow.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="sbRunNow.Text" xml:space="preserve">
+    <value>Run now</value>
+  </data>
+  <data name="&gt;&gt;sbRunNow.Name" xml:space="preserve">
+    <value>sbRunNow</value>
+  </data>
+  <data name="&gt;&gt;sbRunNow.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;sbRunNow.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;sbRunNow.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lbDatabases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 117</value>
+  </data>
+  <data name="lbDatabases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 394</value>
+  </data>
+  <data name="lbDatabases.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbDatabases.Name" xml:space="preserve">
+    <value>lbDatabases</value>
+  </data>
+  <data name="&gt;&gt;lbDatabases.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckedListBoxControl, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbDatabases.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;lbDatabases.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cbShowSystemDatabases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 94</value>
+  </data>
+  <data name="cbShowSystemDatabases.Properties.Caption" xml:space="preserve">
+    <value>Show System Databases</value>
+  </data>
+  <data name="cbShowSystemDatabases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 19</value>
+  </data>
+  <data name="cbShowSystemDatabases.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbShowSystemDatabases.Name" xml:space="preserve">
+    <value>cbShowSystemDatabases</value>
+  </data>
+  <data name="&gt;&gt;cbShowSystemDatabases.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbShowSystemDatabases.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;cbShowSystemDatabases.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="cbBackupAllNonSystemDBs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 71</value>
+  </data>
+  <data name="cbBackupAllNonSystemDBs.Properties.Caption" xml:space="preserve">
+    <value>Backup all non-system DBs</value>
+  </data>
+  <data name="cbBackupAllNonSystemDBs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 19</value>
+  </data>
+  <data name="cbBackupAllNonSystemDBs.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbBackupAllNonSystemDBs.Name" xml:space="preserve">
+    <value>cbBackupAllNonSystemDBs</value>
+  </data>
+  <data name="&gt;&gt;cbBackupAllNonSystemDBs.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbBackupAllNonSystemDBs.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;cbBackupAllNonSystemDBs.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="sbConnect.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="sbConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 29</value>
+  </data>
+  <data name="sbConnect.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 10, 0</value>
+  </data>
+  <data name="sbConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 38</value>
+  </data>
+  <data name="sbConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="sbConnect.Text" xml:space="preserve">
+    <value>Connect to SQL Sever / Azure</value>
+  </data>
+  <data name="&gt;&gt;sbConnect.Name" xml:space="preserve">
+    <value>sbConnect</value>
+  </data>
+  <data name="&gt;&gt;sbConnect.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;sbConnect.Parent" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;sbConnect.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lcMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lcMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lcgRoot.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lcgRoot.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lcMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>734, 562</value>
+  </data>
+  <data name="lcMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lcMain.Name" xml:space="preserve">
+    <value>lcMain</value>
+  </data>
+  <data name="&gt;&gt;lcMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lcMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lcgMain.CustomizationFormText" xml:space="preserve">
+    <value>lcgMain</value>
+  </data>
+  <data name="lciConnect.CustomizationFormText" xml:space="preserve">
+    <value>lciConnect</value>
+  </data>
+  <data name="lciBackupAllNonSystemDBs.CustomizationFormText" xml:space="preserve">
+    <value>lciBackupAllNonSystemDBs</value>
+  </data>
+  <data name="lciShowSystemDatabases.CustomizationFormText" xml:space="preserve">
+    <value>lciShowSystemDatabases</value>
+  </data>
+  <data name="lciDatabases.CustomizationFormText" xml:space="preserve">
+    <value>lciDatabases</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="lcgOptions.CustomizationFormText" xml:space="preserve">
+    <value>lcgOptions</value>
+  </data>
+  <data name="lcgDestinations.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lcgDestinations.CustomizationFormText" xml:space="preserve">
+    <value>Store backups in selected destinations</value>
+  </data>
+  <data name="lcgDestinations.Text" xml:space="preserve">
+    <value>Store backups in selected destinations</value>
+  </data>
+  <data name="lciAddDestination.CustomizationFormText" xml:space="preserve">
+    <value>lciAddDestination</value>
+  </data>
+  <data name="lciDestinations.CustomizationFormText" xml:space="preserve">
+    <value>lciDestinations</value>
+  </data>
+  <data name="emptySpaceItem2.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="lciRunNow.CustomizationFormText" xml:space="preserve">
+    <value> lciRunNow</value>
+  </data>
+  <data name="lciRunNow.Text" xml:space="preserve">
+    <value> lciRunNow</value>
+  </data>
+  <data name="lcgSendEmails.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lcgSendEmails.CustomizationFormText" xml:space="preserve">
+    <value>Send e-mails</value>
+  </data>
+  <data name="lcgSendEmails.Text" xml:space="preserve">
+    <value>Send e-mails</value>
+  </data>
+  <data name="lciSendEmails.CustomizationFormText" xml:space="preserve">
+    <value>lciSendEmails</value>
+  </data>
+  <data name="lciOnSuccessMailTo.CustomizationFormText" xml:space="preserve">
+    <value>On Success e-mail to:</value>
+  </data>
+  <data name="lciOnSuccessMailTo.Text" xml:space="preserve">
+    <value>On Success e-mail to:</value>
+  </data>
+  <data name="lciOnFailureMailTo.CustomizationFormText" xml:space="preserve">
+    <value>On Failure e-mail to:</value>
+  </data>
+  <data name="lciOnFailureMailTo.Text" xml:space="preserve">
+    <value>On Failure e-mail to:</value>
+  </data>
+  <data name="lciEmailSettings.CustomizationFormText" xml:space="preserve">
+    <value>lciEmailSettings</value>
+  </data>
+  <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="lcgSchedule.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lcgSchedule.CustomizationFormText" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="lcgSchedule.Text" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="lciScheduleThisJob.CustomizationFormText" xml:space="preserve">
+    <value>lciScheduleThisJob</value>
+  </data>
+  <data name="lciNextFullBackupStart.CustomizationFormText" xml:space="preserve">
+    <value>Start full backup daily at:</value>
+  </data>
+  <data name="lciNextFullBackupStart.Text" xml:space="preserve">
+    <value>Start full backup daily at:</value>
+  </data>
+  <data name="lciSchedulerSettings.CustomizationFormText" xml:space="preserve">
+    <value>lciSchedulerSettings</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru-RU</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>54</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>734, 562</value>
+  </data>
+  <data name="&gt;&gt;advMain.Name" xml:space="preserve">
+    <value>advMain</value>
+  </data>
+  <data name="&gt;&gt;advMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.AdvBandedGridView, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridBand1.Name" xml:space="preserve">
+    <value>gridBand1</value>
+  </data>
+  <data name="&gt;&gt;gridBand1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcDelete.Name" xml:space="preserve">
+    <value>gcDelete</value>
+  </data>
+  <data name="&gt;&gt;gcDelete.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;beDelete.Name" xml:space="preserve">
+    <value>beDelete</value>
+  </data>
+  <data name="&gt;&gt;beDelete.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridBand2.Name" xml:space="preserve">
+    <value>gridBand2</value>
+  </data>
+  <data name="&gt;&gt;gridBand2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcType.Name" xml:space="preserve">
+    <value>gcType</value>
+  </data>
+  <data name="&gt;&gt;gcType.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcPath.Name" xml:space="preserve">
+    <value>gcPath</value>
+  </data>
+  <data name="&gt;&gt;gcPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridBand3.Name" xml:space="preserve">
+    <value>gridBand3</value>
+  </data>
+  <data name="&gt;&gt;gridBand3.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcEdit.Name" xml:space="preserve">
+    <value>gcEdit</value>
+  </data>
+  <data name="&gt;&gt;gcEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;beEdit.Name" xml:space="preserve">
+    <value>beEdit</value>
+  </data>
+  <data name="&gt;&gt;beEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgRoot.Name" xml:space="preserve">
+    <value>lcgRoot</value>
+  </data>
+  <data name="&gt;&gt;lcgRoot.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgMain.Name" xml:space="preserve">
+    <value>lcgMain</value>
+  </data>
+  <data name="&gt;&gt;lcgMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciConnect.Name" xml:space="preserve">
+    <value>lciConnect</value>
+  </data>
+  <data name="&gt;&gt;lciConnect.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciBackupAllNonSystemDBs.Name" xml:space="preserve">
+    <value>lciBackupAllNonSystemDBs</value>
+  </data>
+  <data name="&gt;&gt;lciBackupAllNonSystemDBs.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciShowSystemDatabases.Name" xml:space="preserve">
+    <value>lciShowSystemDatabases</value>
+  </data>
+  <data name="&gt;&gt;lciShowSystemDatabases.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciDatabases.Name" xml:space="preserve">
+    <value>lciDatabases</value>
+  </data>
+  <data name="&gt;&gt;lciDatabases.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciCustomSQLScripts.Name" xml:space="preserve">
+    <value>lciCustomSQLScripts</value>
+  </data>
+  <data name="&gt;&gt;lciCustomSQLScripts.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgOptions.Name" xml:space="preserve">
+    <value>lcgOptions</value>
+  </data>
+  <data name="&gt;&gt;lcgOptions.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgDestinations.Name" xml:space="preserve">
+    <value>lcgDestinations</value>
+  </data>
+  <data name="&gt;&gt;lcgDestinations.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciAddDestination.Name" xml:space="preserve">
+    <value>lciAddDestination</value>
+  </data>
+  <data name="&gt;&gt;lciAddDestination.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciDestinations.Name" xml:space="preserve">
+    <value>lciDestinations</value>
+  </data>
+  <data name="&gt;&gt;lciDestinations.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Name" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciRunNow.Name" xml:space="preserve">
+    <value>lciRunNow</value>
+  </data>
+  <data name="&gt;&gt;lciRunNow.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgSendEmails.Name" xml:space="preserve">
+    <value>lcgSendEmails</value>
+  </data>
+  <data name="&gt;&gt;lcgSendEmails.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciSendEmails.Name" xml:space="preserve">
+    <value>lciSendEmails</value>
+  </data>
+  <data name="&gt;&gt;lciSendEmails.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciOnSuccessMailTo.Name" xml:space="preserve">
+    <value>lciOnSuccessMailTo</value>
+  </data>
+  <data name="&gt;&gt;lciOnSuccessMailTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciOnFailureMailTo.Name" xml:space="preserve">
+    <value>lciOnFailureMailTo</value>
+  </data>
+  <data name="&gt;&gt;lciOnFailureMailTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciEmailSettings.Name" xml:space="preserve">
+    <value>lciEmailSettings</value>
+  </data>
+  <data name="&gt;&gt;lciEmailSettings.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgSchedule.Name" xml:space="preserve">
+    <value>lcgSchedule</value>
+  </data>
+  <data name="&gt;&gt;lcgSchedule.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciScheduleThisJob.Name" xml:space="preserve">
+    <value>lciScheduleThisJob</value>
+  </data>
+  <data name="&gt;&gt;lciScheduleThisJob.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciNextFullBackupStart.Name" xml:space="preserve">
+    <value>lciNextFullBackupStart</value>
+  </data>
+  <data name="&gt;&gt;lciNextFullBackupStart.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciSchedulerSettings.Name" xml:space="preserve">
+    <value>lciSchedulerSettings</value>
+  </data>
+  <data name="&gt;&gt;lciSchedulerSettings.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>JobControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

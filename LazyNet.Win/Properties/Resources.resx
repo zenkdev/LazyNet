@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icon-card-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-card-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageMarginsModerate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PageMarginsModerate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code_Central" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Code_Central.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TableStyle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\TableStyle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MemoStyle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\MemoStyle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-repair-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-repair-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-nav-repair-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-repair-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_new_software_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-software-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-new-device-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-device-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-edit-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-edit-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-view-panel-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-view-panel-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_nav_software_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-software-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-list-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-list-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-panel-off-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-panel-off-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-panel-off-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-panel-off-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-nav-device-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-device-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-data-panel-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-data-panel-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-delete-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-delete-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperKind_Executive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PaperKind_Executive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-save-close-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-save-close-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_web_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-web-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-edit-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-edit-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_cmd_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-cmd-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_new_software_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-software-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Contact_Us" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Contact_Us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-print-42x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-print-42x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-save-close-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-save-close-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-nav-map-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-map-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-mail-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-mail-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_nav_software_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-software-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-close-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-close-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-close-all-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-close-all-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperKind_A3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PaperKind_A3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-card-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-card-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_mstsc_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-mstsc-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-video-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-video-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UISuperHero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UISuperHero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-message-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-message-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Online_Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Online_Help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-new-item-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-item-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperKind_Legal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PaperKind_Legal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-data-panel-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-data-panel-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageMarginsWide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PageMarginsWide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-network-find-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-network-find-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-phone-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-phone-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageMarginsNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PageMarginsNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-close-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-close-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-nav-device-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-device-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-nav-user-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-user-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-import-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-import-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperKind_A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PaperKind_A4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-navigate-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-navigate-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_romviewer_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-romviewer-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-save-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-save-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-close-all-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-close-all-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_romviewer_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-romviewer-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MultiplePagesLarge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\MultiplePagesLarge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-new-repair-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-repair-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayoutOptions_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayoutOptions_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-folder-panel-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-folder-panel-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-list-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-list-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-email-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-email-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-network-cancel-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-network-cancel-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-import-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-import-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-network-find-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-network-find-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-delete-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-delete-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-nav-map-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-map-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-getting-started-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-getting-started-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-save-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-save-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayoutOptions_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayoutOptions_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-print-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-print-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageOrientationLandscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PageOrientationLandscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-panel-right-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-panel-right-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-backg-pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-backg-pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-backg-normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-backg-normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_radmin_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-radmin-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-filter-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-filter-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-skype-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-skype-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-new-device-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-device-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_cmd_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-cmd-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperKind_A6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PaperKind_A6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageOrientationPortrait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PageOrientationPortrait.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperKind_Tabloid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PaperKind_Tabloid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-new-user-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-user-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_radmin_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-radmin-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-new-item-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-item-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageMarginsNarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PageMarginsNarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-nav-repair-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-repair-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-print-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-print-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperKind_A5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PaperKind_A5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-view-panel-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-view-panel-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-nav-user-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modules\icon-nav-user-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-normal-bottom-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-normal-bottom-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperKind_Letter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintControl\PaperKind_Letter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_mstsc_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-mstsc-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-mobile-phone-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-mobile-phone-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-panel-bottom-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-panel-bottom-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-getting-started-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-getting-started-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-folder-panel-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-folder-panel-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-navigate-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-navigate-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-network-cancel-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-network-cancel-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-web-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-web-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-control-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-control-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_connect_web_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-connect-web-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-filter-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-filter-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-home-phone-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-home-phone-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-panel-right-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-panel-right-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-mapit-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-mapit-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-new-repair-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-repair-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph-backg-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\glyph-backg-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-reading-bottom-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-reading-bottom-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-new-user-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-user-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-prefix-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-prefix-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-panel-bottom-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-panel-bottom-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

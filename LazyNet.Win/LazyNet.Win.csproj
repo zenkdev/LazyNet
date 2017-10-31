@@ -1,0 +1,1160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{569C519C-B301-4BD1-B9C0-18BBC815DB02}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dekart.LazyNet.Win</RootNamespace>
+    <AssemblyName>LazyNet.Win</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\td-dekart\dfs\deploy\lazynet 2016\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>ru-RU</TargetCulture>
+    <ProductName>LazyNet 2016</ProductName>
+    <PublisherName>Декарт</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>12</ApplicationRevision>
+    <ApplicationVersion>2.8.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4E156BEA39D6AA4C5483D98161D48E1D23603AF3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>codesign_2016.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>codesign_2016.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.BonusSkins.v16.1" />
+    <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v16.1" />
+    <Reference Include="DevExpress.DataAccess.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v16.1.UI, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.SpellChecker.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1" />
+    <Reference Include="DevExpress.Utils.v16.1.UI, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1" />
+    <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.UI, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.Wizard, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v16.1" />
+    <Reference Include="DevExpress.XtraGauges.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.1.Extensions, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1.Extensions, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="JetBrains.Annotations, Version=10.4.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\TaskScheduler.2.5.26\lib\net40\JetBrains.Annotations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.TaskScheduler, Version=2.5.26.0, Culture=neutral, PublicKeyToken=0d013ddd5178a2ae, processorArchitecture=MSIL">
+      <HintPath>..\packages\TaskScheduler.2.5.26\lib\net40\Microsoft.Win32.TaskScheduler.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinSCPnet, Version=1.3.7.7441, Culture=neutral, PublicKeyToken=2271ec4a3c56d0bf, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinSCP.5.9.5\lib\WinSCPnet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\SystemInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SystemInfoForm.designer.cs">
+      <DependentUpon>SystemInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TaskSchedulerAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TaskSchedulerAccountForm.designer.cs">
+      <DependentUpon>TaskSchedulerAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickReports\Devices\PrintingCosts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QuickReports\Devices\PrintingCosts.Designer.cs">
+      <DependentUpon>PrintingCosts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AboutControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AboutControl.Designer.cs">
+      <DependentUpon>AboutControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ExportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ExportControl.designer.cs">
+      <DependentUpon>ExportControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\HelpControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\HelpControl.designer.cs">
+      <DependentUpon>HelpControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SchedulerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SchedulerControl.Designer.cs">
+      <DependentUpon>SchedulerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\FilterCriteriaManager.cs" />
+    <Compile Include="Utils\FindControlManager.cs" />
+    <Compile Include="Forms\FilterFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FilterFormBase.Designer.cs">
+      <DependentUpon>FilterFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Maps\MapsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Maps\MapsControl.designer.cs">
+      <DependentUpon>MapsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ImportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ImportControl.designer.cs">
+      <DependentUpon>ImportControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MovementsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MovementsControl.Designer.cs">
+      <DependentUpon>MovementsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PrintControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PrintControl.designer.cs">
+      <DependentUpon>PrintControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RepairsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\RepairsControl.Designer.cs">
+      <DependentUpon>RepairsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DataPaneManager.cs" />
+    <Compile Include="Utils\DeviceActions.cs" />
+    <Compile Include="Utils\FilterColumnCollectionBuilder.cs" />
+    <Compile Include="Modules\Repairs\RepairsFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Repairs\RepairsFilter.designer.cs">
+      <DependentUpon>RepairsFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Repairs\RepairFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Repairs\RepairDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Repairs\RepairDetail.designer.cs">
+      <DependentUpon>RepairDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Software\AddSoftware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Software\AddSoftware.Designer.cs">
+      <DependentUpon>AddSoftware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Software\SoftwareFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Software\SoftwareFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Software\SoftwareFilter.designer.cs">
+      <DependentUpon>SoftwareFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Software\SoftwareDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Software\SoftwareDetail.Designer.cs">
+      <DependentUpon>SoftwareDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Users\UserFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Users\UsersFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Users\UsersFilter.designer.cs">
+      <DependentUpon>UsersFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WfMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WfMain.designer.cs">
+      <DependentUpon>WfMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\FilterColumnsManager.cs" />
+    <Compile Include="Utils\FilterTreeListManager.cs" />
+    <Compile Include="Utils\JobRunner.cs" />
+    <Compile Include="Utils\LabelTabController.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\ModulesNavigator.cs" />
+    <Compile Include="Utils\SilentUpdater.cs" />
+    <Compile Include="Utils\TransitionService.cs" />
+    <Compile Include="QuickReports\Devices\InventoryCards.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QuickReports\Devices\InventoryCards.Designer.cs">
+      <DependentUpon>InventoryCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickReports\Devices\Labels.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QuickReports\Devices\Labels.Designer.cs">
+      <DependentUpon>Labels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Devices\DevicesTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Devices\DevicesTree.designer.cs">
+      <DependentUpon>DevicesTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Devices\DeviceView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Devices\DeviceView.designer.cs">
+      <DependentUpon>DeviceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Users\UserView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Users\UserView.designer.cs">
+      <DependentUpon>UserView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddPhotoLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddPhotoLibrary.Designer.cs">
+      <DependentUpon>AddPhotoLibrary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddMovement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddMovement.Designer.cs">
+      <DependentUpon>AddMovement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Repairs\AddRepair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Repairs\AddRepair.Designer.cs">
+      <DependentUpon>AddRepair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddAccountForm.Designer.cs">
+      <DependentUpon>AddAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Devices\DeviceDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Devices\DeviceDetail.Designer.cs">
+      <DependentUpon>DeviceDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MoveFolderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MoveFolderForm.Designer.cs">
+      <DependentUpon>MoveFolderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FindDevices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FindDevices.Designer.cs">
+      <DependentUpon>FindDevices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReportDesignerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReportDesignerForm.Designer.cs">
+      <DependentUpon>ReportDesignerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReportViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReportViewForm.Designer.cs">
+      <DependentUpon>ReportViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Users\UserDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Users\UserDetail.designer.cs">
+      <DependentUpon>UserDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LayoutOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LayoutOptions.Designer.cs">
+      <DependentUpon>LayoutOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Software\Software.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Software\Software.designer.cs">
+      <DependentUpon>Software.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Repairs\Repairs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Repairs\Repairs.designer.cs">
+      <DependentUpon>Repairs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Users\Users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Users\Users.designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Maps\Maps.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Maps\Maps.designer.cs">
+      <DependentUpon>Maps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Devices\Devices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Devices\Devices.designer.cs">
+      <DependentUpon>Devices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SsMain.designer.cs">
+      <DependentUpon>SsMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\ZoomManager.cs" />
+    <Compile Include="QuickReports\ReportsManager.cs" />
+    <EmbeddedResource Include="Forms\SystemInfoForm.resx">
+      <DependentUpon>SystemInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TaskSchedulerAccountForm.resx">
+      <DependentUpon>TaskSchedulerAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="QuickReports\Devices\PrintingCosts.resx">
+      <DependentUpon>PrintingCosts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AboutControl.resx">
+      <DependentUpon>AboutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ExportControl.resx">
+      <DependentUpon>ExportControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\HelpControl.resx">
+      <DependentUpon>HelpControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FilterFormBase.resx">
+      <DependentUpon>FilterFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Maps\MapsControl.resx">
+      <DependentUpon>MapsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ImportControl.resx">
+      <DependentUpon>ImportControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SchedulerControl.resx">
+      <DependentUpon>SchedulerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MovementsControl.resx">
+      <DependentUpon>MovementsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PrintControl.resx">
+      <DependentUpon>PrintControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\RepairsControl.resx">
+      <DependentUpon>RepairsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Repairs\RepairsFilter.resx">
+      <DependentUpon>RepairsFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Repairs\RepairDetail.resx">
+      <DependentUpon>RepairDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Software\AddSoftware.resx">
+      <DependentUpon>AddSoftware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Software\SoftwareFilter.resx">
+      <DependentUpon>SoftwareFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Software\SoftwareDetail.resx">
+      <DependentUpon>SoftwareDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Users\UsersFilter.resx">
+      <DependentUpon>UsersFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickReports\Devices\InventoryCards.resx">
+      <DependentUpon>InventoryCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickReports\Devices\Labels.resx">
+      <DependentUpon>Labels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Devices\DevicesTree.resx">
+      <DependentUpon>DevicesTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Devices\DeviceView.resx">
+      <DependentUpon>DeviceView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Users\UserView.resx">
+      <DependentUpon>UserView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReportDesignerForm.resx">
+      <DependentUpon>ReportDesignerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReportViewForm.resx">
+      <DependentUpon>ReportViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Repairs\Repairs.resx">
+      <DependentUpon>Repairs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SsMain.resx">
+      <DependentUpon>SsMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddPhotoLibrary.resx">
+      <DependentUpon>AddPhotoLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddMovement.resx">
+      <DependentUpon>AddMovement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Repairs\AddRepair.resx">
+      <DependentUpon>AddRepair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddAccountForm.resx">
+      <DependentUpon>AddAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Devices\DeviceDetail.resx">
+      <DependentUpon>DeviceDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MoveFolderForm.resx">
+      <DependentUpon>MoveFolderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FindDevices.resx">
+      <DependentUpon>FindDevices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Users\UserDetail.resx">
+      <DependentUpon>UserDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LayoutOptions.resx">
+      <DependentUpon>LayoutOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Software\Software.resx">
+      <DependentUpon>Software.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Users\Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Maps\Maps.resx">
+      <DependentUpon>Maps.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Devices\Devices.resx">
+      <DependentUpon>Devices.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LazyNet\LazyNet.csproj">
+      <Project>{151f6a53-25e8-416b-b37c-ccc7ab4bce65}</Project>
+      <Name>LazyNet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DevExpress.BonusSkins.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Charts.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.CodeParser.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Data.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.DataAccess.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.DataAccess.v16.1.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Images.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Office.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.PivotGrid.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Printing.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.RichEdit.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Sparkline.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.SpellChecker.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Utils.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Utils.v16.1.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Xpo.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraBars.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v16.1.Extensions">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v16.1.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v16.1.Wizard">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraEditors.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGauges.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGrid.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraLayout.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraNavBar.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraPivotGrid.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraPrinting.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraReports.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraReports.v16.1.Extensions">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraRichEdit.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraRichEdit.v16.1.Extensions">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraSpellChecker.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraTreeList.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraVerticalGrid.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="codesign_2016.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\Online_Help.png" />
+    <None Include="Resources\icon-normal-bottom-16.png" />
+    <None Include="Resources\icon-reading-bottom-16.png" />
+    <None Include="Resources\icon-list-16.png" />
+    <None Include="Resources\icon-list-32.png" />
+    <None Include="Resources\icon-card-16.png" />
+    <None Include="Resources\icon-card-32.png" />
+    <None Include="Resources\icon-navigate-16.png" />
+    <None Include="Resources\icon-navigate-32.png" />
+    <None Include="Resources\icon-edit-16.png" />
+    <None Include="Resources\icon-edit-32.png" />
+    <None Include="Resources\icon-delete-16.png" />
+    <None Include="Resources\icon-delete-32.png" />
+    <None Include="Resources\icon-print-16.png" />
+    <None Include="Resources\icon-print-32.png" />
+    <None Include="Resources\icon-print-42x40.png" />
+    <None Include="Resources\icon-new-device-16.png" />
+    <None Include="Resources\icon-new-device-32.png" />
+    <None Include="Resources\icon-network-find-16.png" />
+    <None Include="Resources\icon-network-find-32.png" />
+    <None Include="Resources\icon-new-user-16.png" />
+    <None Include="Resources\icon-new-user-32.png" />
+    <None Include="Resources\icon-new-repair-16.png" />
+    <None Include="Resources\icon-new-repair-32.png" />
+    <None Include="Resources\Modules\icon-nav-device-16.png" />
+    <None Include="Resources\Modules\icon-nav-device-32.png" />
+    <None Include="Resources\Modules\icon-nav-repair-16.png" />
+    <None Include="Resources\Modules\icon-nav-repair-32.png" />
+    <None Include="Resources\icon-folder-panel-16.png" />
+    <None Include="Resources\icon-folder-panel-32.png" />
+    <None Include="Resources\icon-prefix-16.png" />
+    <None Include="Resources\Buttons\glyph-backg-hover.png" />
+    <None Include="Resources\Buttons\glyph-backg-normal.png" />
+    <None Include="Resources\Buttons\glyph-backg-pressed.png" />
+    <None Include="Resources\Buttons\glyph-mail-16.png" />
+    <None Include="Resources\Buttons\glyph-message-16.png" />
+    <None Include="Resources\Buttons\glyph-phone-16.png" />
+    <None Include="Resources\Buttons\glyph-video-16.png" />
+    <None Include="Resources\icon-email-16.png" />
+    <None Include="Resources\icon-home-phone-16.png" />
+    <None Include="Resources\icon-mobile-phone-16.png" />
+    <None Include="Resources\icon-skype-16.png" />
+    <None Include="Resources\icon-close-16.png" />
+    <None Include="Resources\icon-close-32.png" />
+    <None Include="Resources\icon-getting-started-16.png" />
+    <None Include="Resources\icon-getting-started-32.png" />
+    <None Include="Resources\icon-save-16.png" />
+    <None Include="Resources\icon-save-32.png" />
+    <None Include="Resources\icon-save-close-16.png" />
+    <None Include="Resources\icon-save-close-32.png" />
+    <None Include="Resources\icon-import-16.png" />
+    <None Include="Resources\icon-import-32.png" />
+    <None Include="Resources\icon-data-panel-16.png" />
+    <None Include="Resources\icon-data-panel-32.png" />
+    <None Include="Resources\icon-panel-bottom-16.png" />
+    <None Include="Resources\icon-panel-bottom-32.png" />
+    <None Include="Resources\icon-panel-off-16.png" />
+    <None Include="Resources\icon-panel-off-32.png" />
+    <None Include="Resources\icon-panel-right-16.png" />
+    <None Include="Resources\icon-panel-right-32.png" />
+    <None Include="Resources\Modules\icon-nav-user-16.png" />
+    <None Include="Resources\Modules\icon-nav-user-32.png" />
+    <None Include="Resources\Code_Central.png" />
+    <None Include="Resources\Contact_Us.png" />
+    <None Include="Resources\LayoutOptions_32x32.png" />
+    <None Include="Resources\LayoutOptions_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buttons\glyph-control-16.png" />
+    <None Include="Resources\Buttons\glyph-mapit-16.png" />
+    <None Include="Resources\Buttons\glyph-repair-16.png" />
+    <None Include="Resources\Buttons\glyph-web-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-view-panel-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-view-panel-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-item-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-item-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modules\icon-nav-map-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modules\icon-nav-map-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-close-all-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-close-all-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-network-cancel-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-network-cancel-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-filter-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintControl\MemoStyle.png" />
+    <None Include="Resources\PrintControl\MultiplePagesLarge.png" />
+    <None Include="Resources\PrintControl\PageMarginsModerate.png" />
+    <None Include="Resources\PrintControl\PageMarginsNarrow.png" />
+    <None Include="Resources\PrintControl\PageMarginsNormal.png" />
+    <None Include="Resources\PrintControl\PageMarginsWide.png" />
+    <None Include="Resources\PrintControl\PageOrientationLandscape.png" />
+    <None Include="Resources\PrintControl\PageOrientationPortrait.png" />
+    <None Include="Resources\PrintControl\PaperKind_A3.png" />
+    <None Include="Resources\PrintControl\PaperKind_A4.png" />
+    <None Include="Resources\PrintControl\PaperKind_A5.png" />
+    <None Include="Resources\PrintControl\PaperKind_A6.png" />
+    <None Include="Resources\PrintControl\PaperKind_Executive.png" />
+    <None Include="Resources\PrintControl\PaperKind_Legal.png" />
+    <None Include="Resources\PrintControl\PaperKind_Letter.png" />
+    <None Include="Resources\PrintControl\PaperKind_Tabloid.png" />
+    <None Include="Resources\PrintControl\TableStyle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-filter-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modules\icon-nav-software-16.png" />
+    <None Include="Resources\Modules\icon-nav-software-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-software-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-software-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppIcon.ico" />
+    <Content Include="WinSCP.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\info_32x32.png" />
+    <None Include="Resources\icon-connect-web-32.png" />
+    <None Include="Resources\icon-connect-web-16.png" />
+    <None Include="Resources\icon-connect-romviewer-32.png" />
+    <None Include="Resources\icon-connect-romviewer-16.png" />
+    <None Include="Resources\icon-connect-radmin-32.png" />
+    <None Include="Resources\icon-connect-radmin-16.png" />
+    <None Include="Resources\icon-connect-mstsc-32.png" />
+    <None Include="Resources\icon-connect-mstsc-16.png" />
+    <None Include="Resources\icon-connect-cmd-32.png" />
+    <None Include="Resources\icon-connect-cmd-16.png" />
+    <None Include="Resources\UISuperHero.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>rem "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Bin\signtool.exe" sign /f $(ProjectDir)codesign.pfx /p 1 /v $(ProjectDir)obj\$(ConfigurationName)\$(TargetFileName)</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{151F6A53-25E8-416B-B37C-CCC7AB4BCE65}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dekart.LazyNet</RootNamespace>
+    <AssemblyName>LazyNet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>codesign_2016.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.SpellChecker.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.Wizard, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1.UI, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.1.Extensions, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\AddFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\AddFormBase.designer.cs">
+      <DependentUpon>AddFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\ControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\DetailBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\DetailBase.designer.cs">
+      <DependentUpon>DetailBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\DetailsCollection.cs" />
+    <Compile Include="Base\FilterControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\ModuleBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BackstageViewLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawingBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawingBoard.Designer.cs">
+      <DependentUpon>DrawingBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GridEditBarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GridEditBarControl.Designer.cs">
+      <DependentUpon>GridEditBarControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DrawingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawingControl.Designer.cs">
+      <DependentUpon>DrawingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IPAddressEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RibbonApplicationUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RibbonApplicationUserControl.designer.cs">
+      <DependentUpon>RibbonApplicationUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchLookUpEditWithGlyph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\DeviceStateEnum.cs" />
+    <Compile Include="Data\DeviceTypeEnum.cs" />
+    <Compile Include="Data\PrinterCounter.cs" />
+    <Compile Include="ElementLoader.cs" />
+    <Compile Include="Filters\FilterInfo.cs" />
+    <Compile Include="Filters\FilterItem.cs" />
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="Filters\FilterTreeSettings.cs" />
+    <Compile Include="Helpers\ColorHelper.cs" />
+    <Compile Include="Helpers\CryptoHelper.cs" />
+    <Compile Include="Helpers\EditorsHelpers.cs" />
+    <Compile Include="Helpers\ExceptionProcesser.cs" />
+    <Compile Include="Helpers\FormLayoutManager.cs" />
+    <Compile Include="Helpers\GridHelper.cs" />
+    <Compile Include="Helpers\LogHelper.cs" />
+    <Compile Include="Helpers\ObjectHelper.cs" />
+    <Compile Include="Helpers\WinFormProperties.cs" />
+    <Compile Include="Data\SoftwareObject.cs" />
+    <Compile Include="Data\WinFormSetting.cs" />
+    <Compile Include="Helpers\StringsHelper.cs" />
+    <Compile Include="Helpers\DictionaryHelper.cs" />
+    <Compile Include="Helpers\ImagesHelper.cs" />
+    <Compile Include="PrintRibbonControllerResources.Designer.cs">
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyVersion.cs" />
+    <Compile Include="ConstStrings.Designer.cs">
+      <DependentUpon>ConstStrings.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Drawing\DrawableDevice.cs" />
+    <Compile Include="Drawing\DrawableRectangle.cs" />
+    <Compile Include="Drawing\DrawableEllipse.cs" />
+    <Compile Include="Drawing\DrawableLine.cs" />
+    <Compile Include="Drawing\Geometry.cs" />
+    <Compile Include="Drawing\DrawableStar.cs" />
+    <Compile Include="Drawing\Drawable.cs" />
+    <Compile Include="Drawing\DrawableImage.cs" />
+    <Compile Include="Drawing\DrawablePicture.cs" />
+    <Compile Include="Drawing\DrawableHelper.cs" />
+    <Compile Include="Interfaces.cs" />
+    <Compile Include="Data\Account.cs" />
+    <Compile Include="Data\XPBaseObjects.cs" />
+    <Compile Include="DataHelper.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Data\Device.cs" />
+    <Compile Include="Data\Map.cs" />
+    <Compile Include="Data\Movement.cs" />
+    <Compile Include="Data\PhotoLibrary.cs" />
+    <Compile Include="Data\Repair.cs" />
+    <Compile Include="Data\Manufacturer.cs" />
+    <Compile Include="Data\Room.cs" />
+    <Compile Include="Data\User.cs" />
+    <Compile Include="Data\WinFormLayout.cs" />
+    <Compile Include="Data\WinFormProperty.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources.cs" />
+    <Compile Include="Helpers\AdHelper.cs" />
+    <Compile Include="Helpers\SessionHelper.cs" />
+    <Compile Include="Helpers\FileDownloader.cs" />
+    <Compile Include="Helpers\NetHelper.cs" />
+    <Compile Include="Data\Converters\MemoryStreamValueConverter.cs" />
+    <Compile Include="Data\Converters\RectangleValueConverter.cs" />
+    <Compile Include="Helpers\TreeListViewState.cs" />
+    <Compile Include="Helpers\WinHelper.cs" />
+    <Compile Include="Helpers\XpoSettingsProvider.cs" />
+    <Compile Include="XRDesignRibbonControllerResources.Designer.cs">
+      <DependentUpon>XRDesignRibbonControllerResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base\AddFormBase.resx">
+      <DependentUpon>AddFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\DetailBase.resx">
+      <DependentUpon>DetailBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConstStrings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConstStrings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GridEditBarControl.resx">
+      <DependentUpon>GridEditBarControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DrawingControl.resx">
+      <DependentUpon>DrawingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RibbonApplicationUserControl.resx">
+      <DependentUpon>RibbonApplicationUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRDesignRibbonControllerResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>XRDesignRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dictionaries\default.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\PhotoLibrary.sql" />
+    <None Include="codesign_2016.pfx" />
+    <None Include="packages.config" />
+    <None Include="Resources\icon-save-close-32.png" />
+    <None Include="Resources\icon-save-close-16.png" />
+    <None Include="Resources\icon-save-32.png" />
+    <None Include="Resources\icon-save-16.png" />
+    <None Include="Resources\icon-close-32.png" />
+    <None Include="Resources\icon-close-16.png" />
+    <None Include="Resources\Ms.png" />
+    <None Include="Resources\Mr.png" />
+    <EmbeddedResource Include="Resources\Unknown-device.png" />
+    <EmbeddedResource Include="Resources\Unknown-user.png" />
+    <EmbeddedResource Include="AppIcon.ico" />
+    <EmbeddedResource Include="Resources\Images\icon-device-16.png" />
+    <EmbeddedResource Include="Resources\Images\icon-device-32.png" />
+    <EmbeddedResource Include="Resources\Images\BarImages.png" />
+    <EmbeddedResource Include="Resources\Cursors\move.ico" />
+    <EmbeddedResource Include="Resources\Cursors\device.ico" />
+    <EmbeddedResource Include="Resources\Cursors\device.cur" />
+    <EmbeddedResource Include="Resources\Cursors\delete.ico" />
+    <EmbeddedResource Include="Resources\Cursors\copy.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

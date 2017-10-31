@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Dekart.LazyNet.Win.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LazyNet_Win_publish_url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\td-dekart\dfs\deploy</Value>
+    </Setting>
+    <Setting Name="LazyNet_Win_standards_url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://standards-oui.ieee.org/oui.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

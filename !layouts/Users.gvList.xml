@@ -1,0 +1,190 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="FocusRectStyle">RowFullFocus</property>
+  <property name="BorderStyle">Default</property>
+  <property name="GroupFormat">[#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="ViewCaption" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="Columns" iskey="true" value="10">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Width">47</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName">riGender</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Name">colGender</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ShowCaption">false</property>
+        <property name="AllowMove">false</property>
+        <property name="AllowSize">false</property>
+        <property name="AllowFocus">false</property>
+        <property name="FixedWidth">true</property>
+      </property>
+      <property name="Caption">ПОЛ</property>
+      <property name="ImageAlignment">Center</property>
+      <property name="FieldName">Gender</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">1</property>
+      <property name="Name">colDepartment</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">ОТДЕЛ</property>
+      <property name="FieldName">Department</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Width">108</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">1</property>
+      <property name="Name">colFullName</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">ИМЯ</property>
+      <property name="FieldName">FullName</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Visible">true</property>
+      <property name="ColumnEditName">riIsAdmin</property>
+      <property name="VisibleIndex">2</property>
+      <property name="Name">colIsAdmin</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">АДМИНИСТРАТОР</property>
+      <property name="FieldName">IsAdmin</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Width">89</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">3</property>
+      <property name="Name">colTitle</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">ДОЛЖНОСТЬ</property>
+      <property name="FieldName">Title</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Width">89</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">4</property>
+      <property name="Name">colWorkPhone</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">РАБОЧИЙ ТЕЛЕФОН</property>
+      <property name="FieldName">WorkPhone</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Width">140</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">5</property>
+      <property name="Name">colEmail</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">ЭЛЕКТРОННАЯ ПОЧТА</property>
+      <property name="FieldName">Email</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">d</property>
+        <property name="FormatType">DateTime</property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="Name">colBirthDate</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">ДАТА РОЖДЕНИЯ</property>
+      <property name="FieldName">BirthDate</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">d</property>
+        <property name="FormatType">DateTime</property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="Name">colHireDate</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">ДАТА НАЙМА</property>
+      <property name="FieldName">HireDate</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Name">colMobilePhone1</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowFocus">false</property>
+      </property>
+      <property name="Caption">МОБИЛЬНЫЙ ТЕЛЕФОН</property>
+      <property name="FieldName">MobilePhone</property>
+    </property>
+  </property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="HorzScrollStep">3</property>
+  <property name="RowHeight">-1</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="DetailHeight">350</property>
+  <property name="Name">gvList</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="Editable">false</property>
+    <property name="AutoExpandAllGroups">true</property>
+  </property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="ShowCheckBoxSelectorInColumnHeader">True</property>
+    <property name="ShowCheckBoxSelectorInGroupRow">False</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ShowVerticalLines">False</property>
+    <property name="ShowIndicator">false</property>
+  </property>
+  <property name="OptionsFind" isnull="true" iskey="true">
+    <property name="ShowFindButton">false</property>
+    <property name="ShowClearButton">false</property>
+    <property name="AlwaysVisible">true</property>
+    <property name="FindNullPrompt">Поиск людей (Ctrl + F)</property>
+  </property>
+  <property name="SynchronizeClones">true</property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="SortInfo">~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFHcmlkLnYxNC4yLCBWZXJzaW9uPTE0LjIuNC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAADhEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvQ29sbGVjdGlvbgQAAAAKZ3JvdXBDb3VudAVjbG9uZQ9jbG9uZUdyb3VwQ291bnQTQ29sbGVjdGlvbkJhc2UrbGlzdAADAAMIsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjE0LjIsIFZlcnNpb249MTQuMi40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dCBxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AgAAAAEAAAAJAwAAAAAAAAAJBAAAAAQDAAAAsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjE0LjIsIFZlcnNpb249MTQuMi40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAwRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb1tdAgAAAAgICQUAAAAAAAAAAAAAAAQEAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QDAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQYAAAABAAAABAAAAAcFAAAAAAEAAAAAAAAABC5EZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvAgAAABAGAAAABAAAAAkHAAAADQMMCAAAABlEZXZFeHByZXNzLlh0cmFHcmlkLnYxNC4yBQcAAAAuRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mbwIAAAAJU29ydE9yZGVyCkNvbHVtbk5hbWUAAQgIAAAAAQAAAAYJAAAADWNvbERlcGFydG1lbnQL</property>
+  <property name="FormatRules" iskey="true" value="0" />
+  <property name="GroupSummary" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="ShowInGroupColumnFooterName" />
+      <property name="Tag" isnull="true" />
+      <property name="FieldName">Id</property>
+      <property name="SummaryType">Count</property>
+      <property name="DisplayFormat" />
+    </property>
+  </property>
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

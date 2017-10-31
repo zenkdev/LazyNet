@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActiveDirectoryReadError" xml:space="preserve">
+    <value>Ошибка чтения свойств из Active Directory</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="ClearImage" xml:space="preserve">
+    <value>Очистить изображение</value>
+  </data>
+  <data name="CloseAllOpenDetailViews" xml:space="preserve">
+    <value>Закрыть все открытые окна свойств</value>
+  </data>
+  <data name="CloseCancelFormsWarning" xml:space="preserve">
+    <value>Некоторые формы содержат изменения. Хотите закрыть эти формы?</value>
+  </data>
+  <data name="CloseCancelFormWarning" xml:space="preserve">
+    <value>Вы хотите сохранить изменения?</value>
+  </data>
+  <data name="DeleteButtonHint" xml:space="preserve">
+    <value>Удалить выделенные записи</value>
+  </data>
+  <data name="DeleteQuestion" xml:space="preserve">
+    <value>Вы действительно хотите удалить {0}?</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="EditButtonHint" xml:space="preserve">
+    <value>Редактировать выделенный {0}</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="ExportButtonHint" xml:space="preserve">
+    <value>Экспортировать отчет {0}</value>
+  </data>
+  <data name="ExportButtonHintDefault" xml:space="preserve">
+    <value>Экспорт отчета</value>
+  </data>
+  <data name="ExportDescription" xml:space="preserve">
+    <value>Экспорт данных в различные форматы файлов</value>
+  </data>
+  <data name="ExportError" xml:space="preserve">
+    <value>Произошла ошибка при экспорте</value>
+  </data>
+  <data name="ExportFileOpen" xml:space="preserve">
+    <value>Вы хотите открыть этот файл?</value>
+  </data>
+  <data name="ExportToHTML" xml:space="preserve">
+    <value>Экспорт в HTML</value>
+  </data>
+  <data name="ExportToImage" xml:space="preserve">
+    <value>Экспорт в Image</value>
+  </data>
+  <data name="ExportToMHT" xml:space="preserve">
+    <value>Экспорт в MHT</value>
+  </data>
+  <data name="ExportToPDF" xml:space="preserve">
+    <value>Экспорт в PDF</value>
+  </data>
+  <data name="ExportToRTF" xml:space="preserve">
+    <value>Экспорт в RTF</value>
+  </data>
+  <data name="ExportToText" xml:space="preserve">
+    <value>Экспорт в текст</value>
+  </data>
+  <data name="ExportToXLS" xml:space="preserve">
+    <value>Экспорт в XLS</value>
+  </data>
+  <data name="ExportToXLSX" xml:space="preserve">
+    <value>Экспорт в XLSX</value>
+  </data>
+  <data name="ExportToXML" xml:space="preserve">
+    <value>Экспорт в XML</value>
+  </data>
+  <data name="HTMLOpenFileFilter" xml:space="preserve">
+    <value>HTML Документ (*.html)|*.html</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="InvalidPropertyError" xml:space="preserve">
+    <value>{0} - Not valid property.</value>
+  </data>
+  <data name="LockingExceptionError" xml:space="preserve">
+    <value>Объект нельзя сохранить. Он был изменен или удален (очищен) другим приложением.</value>
+  </data>
+  <data name="MHTOpenFileFilter" xml:space="preserve">
+    <value>MHT Документ (*.mht)|*.mht</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="NewUser" xml:space="preserve">
+    <value>Новый сотрудник</value>
+  </data>
+  <data name="ObjectCanNotBeDeleted" xml:space="preserve">
+    <value>Этот объект не может быть удален</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PDFOpenFileFilter" xml:space="preserve">
+    <value>PDF Документ (*.pdf)|*.pdf</value>
+  </data>
+  <data name="PNGOpenFileFilter" xml:space="preserve">
+    <value>PNG Изображение (*.png)|*.png</value>
+  </data>
+  <data name="PrintPreviewButtonHint" xml:space="preserve">
+    <value>Сформировать отчет {0}</value>
+  </data>
+  <data name="PrintPreviewDescription" xml:space="preserve">
+    <value>Предварительный просмотр отчета ...</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Вопрос</value>
+  </data>
+  <data name="ResourceImageNotFoundError" xml:space="preserve">
+    <value>{0} - Изображение не найдено в ресурсах.</value>
+  </data>
+  <data name="SaveCancelFormWarning" xml:space="preserve">
+    <value>Необходимо сохранить изменения! Продолжить?</value>
+  </data>
+  <data name="Starting" xml:space="preserve">
+    <value>Запуск приложения</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="UserTerminatedError" xml:space="preserve">
+    <value>{0} - Пользователь уволен.</value>
+  </data>
+  <data name="UserInvalidPasswordError" xml:space="preserve">
+    <value>Неверный пароль. Проверьте регистр клавиатуры и попробуйте еще раз.</value>
+  </data>
+  <data name="UserNameEmptyError" xml:space="preserve">
+    <value>Не указано имя пользователя.</value>
+  </data>
+  <data name="UserNotFoundError" xml:space="preserve">
+    <value>{0} - Пользователь не зарегистрирован.</value>
+  </data>
+  <data name="UserPasswordEmptyError" xml:space="preserve">
+    <value>Не указан пароль.</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Люди</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="XLSFilter" xml:space="preserve">
+    <value>XLS Документ (*.xls)|*.xls</value>
+  </data>
+  <data name="XLSXFilter" xml:space="preserve">
+    <value>XLSX Документ (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="AllFilesFilter" xml:space="preserve">
+    <value>All files (*.*)|*.*</value>
+  </data>
+  <data name="Collated" xml:space="preserve">
+    <value>Разобрать по копиям</value>
+  </data>
+  <data name="CollatedDescription" xml:space="preserve">
+    <value>1,2,3   1,2,3  1,2,3</value>
+  </data>
+  <data name="CSVFilter" xml:space="preserve">
+    <value>CSV files (*.csv)|*.csv</value>
+  </data>
+  <data name="HTMLFilter" xml:space="preserve">
+    <value>HTML files (*.html)|*.html</value>
+  </data>
+  <data name="ImageFilter" xml:space="preserve">
+    <value>BMP files (*.bmp)|*.bmp|Gif files (*.gif)|*.gif|Jpeg files (*.jpeg)|*.jpeg|PNG files (*.png)|*.png|Tiff files (*.tiff)|*.tiff|EMF files (*.emf)|.emf|WMF files (*.wmf)|*.wmf</value>
+  </data>
+  <data name="LandscapeOrientation" xml:space="preserve">
+    <value>Альбомная ориентация</value>
+  </data>
+  <data name="MarginsModerate" xml:space="preserve">
+    <value>Умеренные поля</value>
+  </data>
+  <data name="MarginsModerateDescription" xml:space="preserve">
+    <value>Верх:	25 mm	Низ:	25 mm
+Лево:	19 mm	Право:	19 mm</value>
+  </data>
+  <data name="MarginsNarrow" xml:space="preserve">
+    <value>Узкие поля</value>
+  </data>
+  <data name="MarginsNarrowDescription" xml:space="preserve">
+    <value>Верх:	12 mm	Низ:	12 mm
+Лево:	12 mm	Право:	12 mm</value>
+  </data>
+  <data name="MarginsNormal" xml:space="preserve">
+    <value>Нормальные поля</value>
+  </data>
+  <data name="MarginsNormalDescription" xml:space="preserve">
+    <value>Верх:	25 mm	Низ:	25 mm
+Лево:	25 mm	Право:	25 mm</value>
+  </data>
+  <data name="MarginsWide" xml:space="preserve">
+    <value>Широкие поля</value>
+  </data>
+  <data name="MarginsWideDescription" xml:space="preserve">
+    <value>Верх:	25 mm	Низ:	25 mm
+Лево:	50 mm	Право:	50 mm</value>
+  </data>
+  <data name="MemoStyleString" xml:space="preserve">
+    <value>Заметка</value>
+  </data>
+  <data name="MHTFilter" xml:space="preserve">
+    <value>MHT files (*.mht)|*.mht</value>
+  </data>
+  <data name="OneSide" xml:space="preserve">
+    <value>Односторонняя печать</value>
+  </data>
+  <data name="OneSideDescription" xml:space="preserve">
+    <value>Печатать только на одной стороне страницы</value>
+  </data>
+  <data name="PageInfo" xml:space="preserve">
+    <value>Стр. {0} из </value>
+  </data>
+  <data name="PaperKindA3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="PaperKindA3Description" xml:space="preserve">
+    <value>296 mm x 420 mm</value>
+  </data>
+  <data name="PaperKindA4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="PaperKindA4Description" xml:space="preserve">
+    <value>210 mm x 296 mm</value>
+  </data>
+  <data name="PaperKindA5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="PaperKindA5Description" xml:space="preserve">
+    <value>148 mm x 210 mm</value>
+  </data>
+  <data name="PaperKindA6" xml:space="preserve">
+    <value>A6</value>
+  </data>
+  <data name="PaperKindA6Description" xml:space="preserve">
+    <value>105 mm x 148 mm</value>
+  </data>
+  <data name="PaperKindExecutive" xml:space="preserve">
+    <value>Executive</value>
+  </data>
+  <data name="PaperKindExecutiveDescription" xml:space="preserve">
+    <value>184 mm x 266 mm</value>
+  </data>
+  <data name="PaperKindLegal" xml:space="preserve">
+    <value>Legal</value>
+  </data>
+  <data name="PaperKindLegalDescription" xml:space="preserve">
+    <value>215 mm x 355 mm</value>
+  </data>
+  <data name="PaperKindLetter" xml:space="preserve">
+    <value>Letter</value>
+  </data>
+  <data name="PaperKindLetterDescription" xml:space="preserve">
+    <value>215 mm x 279 mm</value>
+  </data>
+  <data name="PaperKindTabloid" xml:space="preserve">
+    <value>Tabloid</value>
+  </data>
+  <data name="PaperKindTabloidDescription" xml:space="preserve">
+    <value>279 mm x 431 mm</value>
+  </data>
+  <data name="PDFFilter" xml:space="preserve">
+    <value>PDF files (*.pdf)|*.pdf</value>
+  </data>
+  <data name="PortraitOrientation" xml:space="preserve">
+    <value>Книжная ориентация</value>
+  </data>
+  <data name="RTFFilter" xml:space="preserve">
+    <value>RTF files (*.rtf)|*.rtf</value>
+  </data>
+  <data name="TableStyleString" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="TextFilter" xml:space="preserve">
+    <value>Text files (*.txt)|*.txt</value>
+  </data>
+  <data name="TwoSide" xml:space="preserve">
+    <value>Печать вручную на обеих сторонах</value>
+  </data>
+  <data name="TwoSideDescription" xml:space="preserve">
+    <value>Загрузите бумагу, когда система предложит напечатать вторую сторону</value>
+  </data>
+  <data name="Uncollated" xml:space="preserve">
+    <value>Обычный порядок</value>
+  </data>
+  <data name="UncollatedDescription" xml:space="preserve">
+    <value>1,1,1  2,2,2  3,3,3</value>
+  </data>
+  <data name="ProgressPanelCaption" xml:space="preserve">
+    <value>Подождите</value>
+  </data>
+  <data name="ProgressPanelDescription" xml:space="preserve">
+    <value>Выполняется загрузка ...</value>
+  </data>
+  <data name="AddressHtml" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;Address: &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="BirthDateHtml" xml:space="preserve">
+    <value>&lt;br&gt;Birth Date: &lt;b&gt;{0:d}&lt;/b&gt;</value>
+  </data>
+  <data name="EmailHtml" xml:space="preserve">
+    <value>&lt;br&gt;Email: &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="NewFirstName" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="NewLastName" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="PhoneHtml" xml:space="preserve">
+    <value>&lt;br&gt;Phone: &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>ОБЪЕКТОВ: {0}</value>
+  </data>
+  <data name="Accounts" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="Software" xml:space="preserve">
+    <value>Программное обеспечение</value>
+  </data>
+  <data name="Repairs" xml:space="preserve">
+    <value>Ремонты и обслуживания</value>
+  </data>
+  <data name="NetError" xml:space="preserve">
+    <value>Failed because:</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Устройства</value>
+  </data>
+  <data name="Maps" xml:space="preserve">
+    <value>Планы</value>
+  </data>
+  <data name="InternalError" xml:space="preserve">
+    <value>Внутрення ошибка</value>
+  </data>
+  <data name="LoadError" xml:space="preserve">
+    <value>Ошибка загрузки</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Ошибка сохранения</value>
+  </data>
+  <data name="NewRoom" xml:space="preserve">
+    <value>Новое помещение</value>
+  </data>
+  <data name="NewMap" xml:space="preserve">
+    <value>Новая карта</value>
+  </data>
+  <data name="SearchString" xml:space="preserve">
+    <value>Поиск в папке "{0}" (Ctrl +E)</value>
+  </data>
+  <data name="CloseSearchDescription" xml:space="preserve">
+    <value>Закрыть текущий поиск.</value>
+  </data>
+  <data name="NavigationDescription" xml:space="preserve">
+    <value>Переключение между модулями.</value>
+  </data>
+  <data name="SearchClearDescription" xml:space="preserve">
+    <value>Очистить фильтр.</value>
+  </data>
+  <data name="SearchCloseDescription" xml:space="preserve">
+    <value>Закрыть закладку поиска.</value>
+  </data>
+  <data name="SearchColumnsDescription" xml:space="preserve">
+    <value>Выберите колонки, по которым будет производиться поиск.</value>
+  </data>
+  <data name="SearchResetDescription" xml:space="preserve">
+    <value>Возврат к стандартному списку колонок для поиска.</value>
+  </data>
+  <data name="FindButtonCaption" xml:space="preserve">
+    <value>Найти устройства</value>
+  </data>
+  <data name="FindButtonCaptionStop" xml:space="preserve">
+    <value>Остановить поиск</value>
+  </data>
+  <data name="FindButtonCaptionStopPending" xml:space="preserve">
+    <value>Поиск останавливается</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>[Все]</value>
+  </data>
+  <data name="IsEarlierThisMonth" xml:space="preserve">
+    <value>Ранее в этом месяце</value>
+  </data>
+  <data name="IsEarlierThisWeek" xml:space="preserve">
+    <value>Ранее на этой неделе</value>
+  </data>
+  <data name="IsEarlierThisYear" xml:space="preserve">
+    <value>Ранее в этом году</value>
+  </data>
+  <data name="IsLastWeek" xml:space="preserve">
+    <value>На прошлой неделе</value>
+  </data>
+  <data name="IsToday" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="IsYesterday" xml:space="preserve">
+    <value>Вчера</value>
+  </data>
+  <data name="SearchCreatedDescription" xml:space="preserve">
+    <value>Фильтровать устройства по дате покупки</value>
+  </data>
+  <data name="CreatedOnCaption" xml:space="preserve">
+    <value>ДОБАВЛЕНО: {0:g}</value>
+  </data>
+  <data name="UpdatedOnCaption" xml:space="preserve">
+    <value>ОБНОВЛЕНО: {0:g}</value>
+  </data>
+  <data name="MoveDeviceQuestion" xml:space="preserve">
+    <value>Переместить устройство из {0} в {1}?</value>
+  </data>
+  <data name="Movements" xml:space="preserve">
+    <value>Перемещения</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Женский</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Мужской</value>
+  </data>
+  <data name="ReportFilter" xml:space="preserve">
+    <value>Файлы отчетов (*.repx)|*.repx|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="HomePageText" xml:space="preserve">
+    <value>ГЛАВНАЯ</value>
+  </data>
+  <data name="BytesDownloadedText" xml:space="preserve">
+    <value>ЗАГРУЖЕНО {0:n0} ИЗ {1:n0} БАЙТ</value>
+  </data>
+  <data name="DeviceCountText" xml:space="preserve">
+    <value>УСТРОЙСТВ:{0:n0}</value>
+  </data>
+  <data name="DeviceFindText" xml:space="preserve">
+    <value>ПРОСКАНИРОВАНО:{0:n0} ИЗ {1:n0}</value>
+  </data>
+  <data name="ManufacturersImportedText" xml:space="preserve">
+    <value>ОБРАБОТАНО ПРОИЗВОДИТЕЛЕЙ {0:n0} ИЗ {1:n0}</value>
+  </data>
+  <data name="AddDeviceText" xml:space="preserve">
+    <value>ДОБАВЛЕНО:{0:n0} ИЗ {1:n0}</value>
+  </data>
+  <data name="WarmingUpText" xml:space="preserve">
+    <value>ЗАПУСКАЕТСЯ</value>
+  </data>
+  <data name="RuleIsNotBlankWarning" xml:space="preserve">
+    <value>Это значение не может быть пустым</value>
+  </data>
+  <data name="RuleUniqueIPAddressWarning" xml:space="preserve">
+    <value>IP адрес {0} уже назначен устройству {1}</value>
+  </data>
+  <data name="RuleUniqueNamesWarning" xml:space="preserve">
+    <value>Это значение должно быть уникальным и не пустым</value>
+  </data>
+  <data name="RuleUniqueSerialWarning" xml:space="preserve">
+    <value>Серийный номер {0} уже назначен устройству {1}</value>
+  </data>
+  <data name="RuleUniqueSKUWarning" xml:space="preserve">
+    <value>Инвентарный номер {0} уже назначен устройству {1}</value>
+  </data>
+  <data name="AccessControl" xml:space="preserve">
+    <value>Контроль доступа</value>
+  </data>
+  <data name="Computer" xml:space="preserve">
+    <value>Компьютер</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Мобильное устройство</value>
+  </data>
+  <data name="Monitor" xml:space="preserve">
+    <value>Монитор</value>
+  </data>
+  <data name="Networking" xml:space="preserve">
+    <value>Сетевое оборудование</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Printer" xml:space="preserve">
+    <value>Принтер</value>
+  </data>
+  <data name="VideoSurveillance" xml:space="preserve">
+    <value>Видеонаблюдение</value>
+  </data>
+  <data name="CustomFiltersName" xml:space="preserve">
+    <value>Пользовательские</value>
+  </data>
+  <data name="GroupFiltersName" xml:space="preserve">
+    <value>Группы</value>
+  </data>
+  <data name="StaticFiltersName" xml:space="preserve">
+    <value>Избранное</value>
+  </data>
+  <data name="DeleteFilter" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="EditFilter" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="NewFilter" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="NewSoftware" xml:space="preserve">
+    <value>Новое программное обеспечение</value>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>&lt;image=#UISuperHero&gt;&lt;br&gt;&lt;color=#{0:x6}&gt;&lt;size=+24&gt;Стань Супергероем офиса&lt;br&gt;&lt;color=#{0:x6}&gt;&lt;size=-18&gt;Посмотри сколько полезных программ мы для тебя сделали&lt;br&gt;</value>
+  </data>
+  <data name="NotificationBody" xml:space="preserve">
+    <value>Доступна новая версия: {0}
+Текущая версия: {1}</value>
+  </data>
+  <data name="NotificationBody2" xml:space="preserve">
+    <value>Нажмите для установки</value>
+  </data>
+  <data name="ManufacturerUnknown" xml:space="preserve">
+    <value>НЕИЗВЕСТНЫЙ ПРОИЗВОДИТЕЛЬ</value>
+  </data>
+  <data name="QuickReports" xml:space="preserve">
+    <value>Quick Reports</value>
+  </data>
+  <data name="RunJobFailure" xml:space="preserve">
+    <value>run job failure</value>
+  </data>
+</root>

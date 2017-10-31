@@ -1,0 +1,2321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="biExit.Caption" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bvItemSaveAs.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>Recent Documents:</value>
+  </data>
+  <data name="bvItemSave.AppearanceDisabled.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bvItemOpen.AppearanceDisabled.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="biOpen.Description" xml:space="preserve">
+    <value>Opens a job.</value>
+  </data>
+  <data name="pccAppMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 162</value>
+  </data>
+  <data name="pmMain.MenuAppearance.HeaderItemAppearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;biSaveAs.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="biJobs.Caption" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="bvItemOpen.AppearanceDisabled.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="biExit.Description" xml:space="preserve">
+    <value>Closes this program after prompting you to save unsaved document.</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v16.1" name="DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="imageCollection.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v16.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxNi4xLCBWZXJzaW9uPTE2LjEu
+        Ni4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFFT
+        eXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+        a2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAChEZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0
+        cmVhbWVyAgAAAAlJbWFnZVNpemUERGF0YQQHE1N5c3RlbS5EcmF3aW5nLlNpemUDAAAAAgIAAAAF/P//
+        /xNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAwAAAA8AAAAPAAAACQUAAAAP
+        BQAAADsDAAAC4gEAAIlQTkcNChoKAAAADUlIRFIAAAAPAAAADwgGAAAAO9aVSgAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAAVhJREFUOE+dkDFrwkAYhv0Z/oWMGW+9retBhw6dgkMJHeToEEK30EGc5CYRh8J1ENJB
+        0EHIVNChYAchi6CDg4ODgz/g7X0fpEZMSunwcEnufd77cg0A/6byI7HZbTBYDBC+hwjfQnSnXeTb3G2d
+        MxcCkX1l0EPNgl1bzE9z2J2Fnmkko8RFamQWxxr5KefVHiwXmJVB8pFARtLFamQ6kU4xawPVVyyy/Gmg
+        RxriUbhYjSyfJZ8mOxLqRSLoByzRKts+4l7sYjWyeBIwO8Ny8BpAtAW8Ow/erQfZkshXv1xY2Av5Ykj0
+        H3xGdRT/axAFLnLOEhcvk8XEjatYoFGLcUVLIB2n2G/3LlYjE+k0hYoUmjdNRt5LxJ0Yy8WSxy4XXMm0
+        ScF0lML0zA92aJHNsouCK5koCihMJSQS9FwuqJQJ2qQQURQR5fErxTIUKijK6Pl4OFYLfwONb+X9jnPu
+        vBhlAAAAAElFTkSuQmCCUQEAAIlQTkcNChoKAAAADUlIRFIAAAAPAAAADwgGAAAAO9aVSgAAAARnQU1B
+        AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
+        AAAK9gAACvYBwq9wAwAAAMdJREFUOE+dj7EKwjAQhvvwxUGCg3SS4CM4COkgZBLiAwh1EOKYwaGDD3DN
+        f0mgtFcIDh+l/3f/hWuI6G/EsBYxrEUM9VkTGJ5D/F37ghh2J03jd+QFSwfgwUoUiXJZoPNwAfl2+dhR
+        CIHCJzH+4qKMf3nOMNPYmyVgekPmmoDwb88327ubEWd7y3l3iGXpZRVFKualBSy/GM7VXm2Uo3APxwW1
+        U0w7Azm+YhkCp6C0dCAtadciyZaLuHvp5ohhLWJYixjWQc0E2nqnVlSRSB8AAAAASUVORK5CYIIL
+</value>
+  </data>
+  <data name="biStyle.Hint" xml:space="preserve">
+    <value>Ribbon Style</value>
+  </data>
+  <data name="iPaintStyle.Caption" xml:space="preserve">
+    <value>Paint style</value>
+  </data>
+  <data name="helpControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sbExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 21</value>
+  </data>
+  <assembly alias="DevExpress.XtraBars.v16.1" name="DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rcMain.Categories" type="DevExpress.XtraBars.BarManagerCategory, DevExpress.XtraBars.v16.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFCYXJzLnYxNi4xLCBWZXJzaW9uPTE2
+        LjEuNi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAA
+        ACZEZXZFeHByZXNzLlh0cmFCYXJzLkJhck1hbmFnZXJDYXRlZ29yeQMAAAAETmFtZQRHdWlkB1Zpc2li
+        bGUBAwALU3lzdGVtLkd1aWQBAgAAAAYDAAAABEZpbGUE/P///wtTeXN0ZW0uR3VpZAsAAAACX2ECX2IC
+        X2MCX2QCX2UCX2YCX2cCX2gCX2kCX2oCX2sAAAAAAAAAAAAAAAgHBwICAgICAgICFxNRS4TXukK07Q0q
+        dG1sHwEL
+</value>
+  </data>
+  <data name="pccBottom.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="bvItemOpen.AppearancePressed.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pccBottom.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvItemSaveAs.AppearanceHover.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;bvItemSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Hovered.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Hovered.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;biSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemSaveAs.AppearancePressed.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;rpgFile.Name" xml:space="preserve">
+    <value>rpgFile</value>
+  </data>
+  <data name="&gt;&gt;pccAppMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupControlContainer, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;beScheme.Name" xml:space="preserve">
+    <value>beScheme</value>
+  </data>
+  <data name="&gt;&gt;sbExit.Name" xml:space="preserve">
+    <value>sbExit</value>
+  </data>
+  <data name="&gt;&gt;riicStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pccAppMenu.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;defaultLookAndFeel.Name" xml:space="preserve">
+    <value>defaultLookAndFeel</value>
+  </data>
+  <data name="bvItemExit.AppearanceHover.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="biSaveAs.Description" xml:space="preserve">
+    <value>Saves the active document with a different file name.</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Pressed.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pccBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 527</value>
+  </data>
+  <data name="bvItemExit.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="pccAppMenu.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvTabRecent.AppearanceSelected.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="pmAppMain.MenuAppearance.HeaderItemAppearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemSaveAs.AppearanceDisabled.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="iPaintStyle.Description" xml:space="preserve">
+    <value>Select a paint scheme</value>
+  </data>
+  <data name="&gt;&gt;pccBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupControlContainer, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="biStyle.EditWidth" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;pccAppMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;thumbButtonNew.Name" xml:space="preserve">
+    <value>thumbButtonNew</value>
+  </data>
+  <data name="labelControl1.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;iPaintStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;helpControl1.Parent" xml:space="preserve">
+    <value>backstageViewClientControl6</value>
+  </data>
+  <data name="bvTabHelp.Caption" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="biSaveAs.Caption" xml:space="preserve">
+    <value>Save &amp;As...</value>
+  </data>
+  <data name="&gt;&gt;rpHome.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemSaveAs.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 627</value>
+  </data>
+  <data name="backstageViewClientControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 71</value>
+  </data>
+  <data name="&gt;&gt;riicStyle.Name" xml:space="preserve">
+    <value>riicStyle</value>
+  </data>
+  <data name="bvTabHelp.AppearanceHover.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pmMain.MenuAppearance.HeaderItemAppearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="riicStyle.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v16.1">
+    <value>Combo</value>
+  </data>
+  <data name="pmAppMain.MenuAppearance.HeaderItemAppearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvItemExit.Caption" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="bvItemSaveAs.AppearancePressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bvItemSaveAs.Caption" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="helpControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="biLog.Caption" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="&gt;&gt;biSaveAs.Name" xml:space="preserve">
+    <value>biSaveAs</value>
+  </data>
+  <data name="bvItemExit.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="bvItemSaveAs.AppearanceHover.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemExit.AppearanceHover.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 162</value>
+  </data>
+  <data name="&gt;&gt;backstageViewControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewControl, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pccAppMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="recentItemsControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;rpgSkins.Name" xml:space="preserve">
+    <value>rpgSkins</value>
+  </data>
+  <data name="&gt;&gt;rpView.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemSave.AppearanceHover.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Hovered.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;thumbButtonExit.Name" xml:space="preserve">
+    <value>thumbButtonExit</value>
+  </data>
+  <data name="rcMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 147</value>
+  </data>
+  <data name="labelControl1.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;recentItemsControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bvItemSave.AppearanceDisabled.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;rpgSkins.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Name" xml:space="preserve">
+    <value>repositoryItemComboBox1</value>
+  </data>
+  <data name="bvItemSaveAs.AppearanceHover.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="bvTabHelp.AppearanceDisabled.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="bvItemSaveAs.AppearanceDisabled.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="recentItemsControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 343</value>
+  </data>
+  <data name="&gt;&gt;sbExit.Parent" xml:space="preserve">
+    <value>pccBottom</value>
+  </data>
+  <data name="&gt;&gt;biAbout.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>pccAppMenu</value>
+  </data>
+  <data name="pccBottom.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="jobControl.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 19</value>
+  </data>
+  <data name="backstageViewControl1.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;biExit.Name" xml:space="preserve">
+    <value>biExit</value>
+  </data>
+  <data name="rpgExit.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v16.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxNi4xLCBWZXJzaW9uPTE2LjEu
+        Ni4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjE2LjEsIFZlcnNpb249MTYuMS42LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAUU3lzdGVtLkRyYXdpbmcuSW1hZ2UJAAAAJkRldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAH2/////P///wIAAAAK
+        CgX1////JkRldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgC
+        AAAAAAAAAP////8OAAAAAAAAADwBAAAABgwAAAAQU2F2ZSBGaWxlIERpYWxvZwUIAAAAHERldkV4cHJl
+        c3MuVXRpbHMuVG9vbFRpcEl0ZW0KAAAADUFsbG93SHRtbFRleHQESWNvbgVJbWFnZQpJbWFnZUFsaWdu
+        CkltYWdlSW5kZXgTSW1hZ2VUb1RleHREaXN0YW5jZQpMZWZ0SW5kZW50CE1heFdpZHRoEk93bmVyQWxs
+        b3dIdG1sVGV4dARUZXh0BAQEBAAAAAAAAR9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAwAA
+        ABNTeXN0ZW0uRHJhd2luZy5JY29uCQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXAJAAAAJkRldkV4cHJl
+        c3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAHz/////P///wIAAAAKCQ4A
+        AAAB8f////X///8AAAAA/////w4AAAAAAAAAPAEAAAAGEAAAAB1TaG93IHRoZSBTYXZlIGZpbGUgZGlh
+        bG9nIGJveAUOAAAAFVN5c3RlbS5EcmF3aW5nLkJpdG1hcAEAAAAERGF0YQcCCQAAAAkRAAAADxEAAAC5
+        JwAAAolQTkcNChoKAAAADUlIRFIAAABaAAAAQggGAAAA1y3B9AAAAARnQU1BAACxjwv8YQUAAAAgY0hS
+        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
+</value>
+  </data>
+  <data name="bvTabRecent.Caption" xml:space="preserve">
+    <value>Recent</value>
+  </data>
+  <data name="biLog.Description" xml:space="preserve">
+    <value>Show log file</value>
+  </data>
+  <data name="sbExit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rpgTools.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="bvTabHelp.AppearanceHover.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="bvItemOpen.AppearancePressed.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;rcMain.Name" xml:space="preserve">
+    <value>rcMain</value>
+  </data>
+  <data name="bvTabRecent.AppearanceHover.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="pccBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="bvItemSave.AppearanceHover.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="bvTabHelp.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvItemExit.AppearanceHover.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sbiSave.MenuAppearance.HeaderItemAppearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="backstageViewClientControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pmMain.Name" xml:space="preserve">
+    <value>pmMain</value>
+  </data>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 14</value>
+  </data>
+  <data name="biJobs.Hint" xml:space="preserve">
+    <value>View all scheduled jobs</value>
+  </data>
+  <data name="pccBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 28</value>
+  </data>
+  <data name="&gt;&gt;sbiSave.Name" xml:space="preserve">
+    <value>sbiSave</value>
+  </data>
+  <data name="rpgFile.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v16.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxNi4xLCBWZXJzaW9uPTE2LjEu
+        Ni4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjE2LjEsIFZlcnNpb249MTYuMS42LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwCwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQlpdGVtVHlwZTIFaXRlbTIJaXRlbVR5cGUzBWl0ZW0zBAAABAQE
+        BAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAABCCVEZXZFeHByZXNzLlV0aWxz
+        LlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0C
+        AAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRlbVR5cGUCAAAAHERldkV4cHJlc3MuVXRp
+        bHMuVG9vbFRpcEl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRlbVR5cGUCAAAA
+        JURldkV4cHJlc3MuVXRpbHMuVG9vbFRpcFNlcGFyYXRvckl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMu
+        U3VwZXJUb29sVGlwSXRlbVR5cGUCAAAAIURldkV4cHJlc3MuVXRpbHMuVG9vbFRpcFRpdGxlSXRlbQIA
+        AAACAAAABfz///8fRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVhbgEAAAAHdmFsdWVfXwAIAwAA
+        AAIAAAAABAAAAAX7////JURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRlbVR5cGUBAAAAB3Zh
+        bHVlX18ACAIAAAABAAAACQYAAAAB+f////v///8AAAAACQgAAAAB9/////v///8CAAAACQoAAAAB9f//
+        //v///8BAAAACQwAAAAMDQAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFBgAAACFEZXZFeHByZXNzLlV0
+        aWxzLlRvb2xUaXBUaXRsZUl0ZW0KAAAADUFsbG93SHRtbFRleHQESWNvbgVJbWFnZQpJbWFnZUFsaWdu
+        CkltYWdlSW5kZXgTSW1hZ2VUb1RleHREaXN0YW5jZQpMZWZ0SW5kZW50CE1heFdpZHRoEk93bmVyQWxs
+        b3dIdG1sVGV4dARUZXh0BAQEBAAAAAAAAR9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAwAA
+        ABNTeXN0ZW0uRHJhd2luZy5JY29uDQAAABRTeXN0ZW0uRHJhd2luZy5JbWFnZQ0AAAAmRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQCAAAACAgICAECAAAAAfL////8////AgAAAAoKBfH/
+        //8mRGV2RXhwcmVzcy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAA
+        AAAA/////w4AAAAAAAAAPAEAAAAGEAAAABBPcGVuIEZpbGUgRGlhbG9nBQgAAAAcRGV2RXhwcmVzcy5V
+        dGlscy5Ub29sVGlwSXRlbQoAAAANQWxsb3dIdG1sVGV4dARJY29uBUltYWdlCkltYWdlQWxpZ24KSW1h
+        Z2VJbmRleBNJbWFnZVRvVGV4dERpc3RhbmNlCkxlZnRJbmRlbnQITWF4V2lkdGgST3duZXJBbGxvd0h0
+        bWxUZXh0BFRleHQEBAQEAAAAAAABH0RldkV4cHJlc3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4DAAAAE1N5
+        c3RlbS5EcmF3aW5nLkljb24NAAAAFVN5c3RlbS5EcmF3aW5nLkJpdG1hcA0AAAAmRGV2RXhwcmVzcy5V
+        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
+        f/2i/x3oLfdOlNugD/FwAAAAAElFTkSuQmCCCw==
+</value>
+  </data>
+  <data name="biNew.Caption" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="bvItemOpen.AppearancePressed.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pccAppMenu.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="bvItemSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="bvItemSaveAs.AppearancePressed.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvItemExit.AppearanceHover.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Pressed.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="pccBottom.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="&gt;&gt;backstageViewControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelControl1.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;biNew.Name" xml:space="preserve">
+    <value>biNew</value>
+  </data>
+  <data name="biDownload.Description" xml:space="preserve">
+    <value>Download and restore backups</value>
+  </data>
+  <data name="pcAppMenuFileLabels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="helpControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;biOpen.Name" xml:space="preserve">
+    <value>biOpen</value>
+  </data>
+  <data name="bvItemSave.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="riicStyle.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 6.75pt</value>
+  </data>
+  <data name="&gt;&gt;biExit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="&gt;&gt;rpgFile.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;recentItemsControl1.Parent" xml:space="preserve">
+    <value>backstageViewClientControl2</value>
+  </data>
+  <data name="rcMain.Categories3" type="DevExpress.XtraBars.BarManagerCategory, DevExpress.XtraBars.v16.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFCYXJzLnYxNi4xLCBWZXJzaW9uPTE2
+        LjEuNi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAA
+        ACZEZXZFeHByZXNzLlh0cmFCYXJzLkJhck1hbmFnZXJDYXRlZ29yeQMAAAAETmFtZQRHdWlkB1Zpc2li
+        bGUBAwALU3lzdGVtLkd1aWQBAgAAAAYDAAAABVRvb2xzBPz///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9i
+        Al9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAjxWQo7/DU5DqtNm
+        1zS84sgBCw==
+</value>
+  </data>
+  <data name="&gt;&gt;siDocName.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;biNew.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pmAppMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.ApplicationMenu, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemExit.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvTabHelp.AppearanceDisabled.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvItemExit.AppearancePressed.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;bvItemSaveAs.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="biNew.Hint" xml:space="preserve">
+    <value>Creates a new, blank job</value>
+  </data>
+  <data name="riicStyle.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl2.Parent" xml:space="preserve">
+    <value>backstageViewControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl2.Name" xml:space="preserve">
+    <value>backstageViewClientControl2</value>
+  </data>
+  <data name="biOpen.Caption" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="bvItemSave.AppearanceDisabled.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pcAppMenuFileLabels.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;sbExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="recentItemsControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="bvTabHelp.AppearanceSelected.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="biAbout.Description" xml:space="preserve">
+    <value>Displays the description of this program.</value>
+  </data>
+  <data name="&gt;&gt;pccBottom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bvTabRecent.AppearanceHover.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;thumbButtonNew.Type" xml:space="preserve">
+    <value>DevExpress.Utils.Taskbar.ThumbnailButton, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;siModified.Name" xml:space="preserve">
+    <value>siModified</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Pressed.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rpgSkins.Text" xml:space="preserve">
+    <value>Skins</value>
+  </data>
+  <data name="&gt;&gt;backstageViewControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="biExit.Hint" xml:space="preserve">
+    <value>Closes this program after prompting you to save unsaved document.</value>
+  </data>
+  <data name="&gt;&gt;jobControl.Name" xml:space="preserve">
+    <value>jobControl</value>
+  </data>
+  <data name="bvItemSave.AppearancePressed.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;recentItemsControl1.Type" xml:space="preserve">
+    <value>Dekart.LazyNet.SQLBackup2Remote.Controls.RecentItemsControl, LazySQLBackup2Remote, Version=2016.8.0.0, Culture=neutral, PublicKeyToken=9949f7f45b446de1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemPictureEdit1.Name" xml:space="preserve">
+    <value>repositoryItemPictureEdit1</value>
+  </data>
+  <data name="bvItemOpen.AppearanceDisabled.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;rgbiSkins.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.RibbonGalleryBarItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bvTabRecent.Name" xml:space="preserve">
+    <value>bvTabRecent</value>
+  </data>
+  <data name="&gt;&gt;sbExit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="biSaveAs.Hint" xml:space="preserve">
+    <value>Saves the active document with a different file name</value>
+  </data>
+  <data name="bvTabHelp.AppearanceSelected.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="backstageViewControl1.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="pcAppMenuFileLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 143</value>
+  </data>
+  <data name="backstageViewControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="sbExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;biOpen.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvTabHelp.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="bvItemSave.AppearancePressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;biStyle.Name" xml:space="preserve">
+    <value>biStyle</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewClientControl, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvTabRecent.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="bvItemSave.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="repositoryItemComboBox1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v16.1">
+    <value>Combo</value>
+  </data>
+  <data name="bvTabHelp.AppearanceHover.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;imageCollection.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;imageCollection.Name" xml:space="preserve">
+    <value>imageCollection</value>
+  </data>
+  <data name="bvItemSaveAs.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Pressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="riicStyle.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="sbiSave.MenuAppearance.HeaderItemAppearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemOpen.AppearanceDisabled.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;biJobs.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="helpControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 343</value>
+  </data>
+  <data name="&gt;&gt;rcMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pccAppMenu.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemExit.AppearancePressed.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="beScheme.EditWidth" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;pmMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemExit.AppearanceDisabled.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="bvTabRecent.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;thumbButtonRun.Name" xml:space="preserve">
+    <value>thumbButtonRun</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAwAMDAQAAEABABoBgAAxgAAACAgEAABAAQA6AIAAC4HAAAYGBAAAQAEAOgBAAAWCgAAEBAQAAEA
+        BAAoAQAA/gsAADAwAAABAAgAqA4AACYNAAAgIAAAAQAIAKgIAADOGwAAGBgAAAEACADIBgAAdiQAABAQ
+        AAABAAgAaAUAAD4rAAAwMAAAAQAgAKglAACmMAAAICAAAAEAIACoEAAATlYAABgYAAABACAAiAkAAPZm
+        AAAQEAAAAQAgAGgEAAB+cAAAKAAAADAAAABgAAAAAQAEAAAAAACABAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACAAAAAAIAAAICAAAAAAIAAgACAAACAgADAwMAAgICAAP8AAAAA/wAA//8AAAAA/wD/AP8AAP//AP//
+        /wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIAAAAAAAAAAAAAAAAAAAAAAAAiAIQ
+        ICAgAhQlJYiIiIiIgAAAAAAAAAAIAlhoWIWIhDYWFjQ2U2U2WAAAAAAAAAiCh3d3d4d3d3d3d3d3d3d3
+        d4AAAAAAAAioh/d3f393f39/f39/f39/f3AAAAAAAIqKj3//d/f/9/f393h/f39393AAAAAAADioj394
+        MDh3/3gwOBCPNTQ4N3AAAAAAAIpyd/8wCAAH9zBDAAj3AANAh3AAAAAAAIqKf/cAf3gI+AB4BAD/AHd3
+        f3AAAAAAAIqDd/eI/3gIcwf3fwB/AP///3AAAAAAAIqKf///eEAHdA///4B/AP///3AAAAAAAIqIj/9w
+        AAOPc0f//zCPAH///3AAAAAAAIqKf/8ACHf/8A///0B/AP///3AAAAAAAIqIj/8A//gH+Ah/+AD/AP//
+        /3AAAAAAAIiqf/8AiIAP9wCIgAj/AH///3AAAAAAAKiDj/94AAh//3gAA4//gP///3AAAAAAAIqKj3//
+        d3f///d3d///d///f3AAAAAAAIqKd//3//9/9/////////9//4AAAAAAAIioh/9/9/f3/39/f39/f3/3
+        93AAAAAAAKiop4iIiIiIiIiIiIiIh3h3dwAAAAAAAIinioqKenp6eoqKioqAAAAAAAAAAAAAAIqKioin
+        qKeop6enp6iAAAAAAAAAAAAAAIqKenqKenp6eoqKioqAAAAAAAAAAAAAAIqIqKenp6eop6enp4ggAAAA
+        AAAAAAAAAIioinqKeop6eop6iqiAAAAAAAAAAAAAAKiop6iKenp6iKeoiIqAAAAAAAAAAAAAAIinqKen
+        p6enp6iKioqAAAAAAAAAAAAAAIqKiKioqKeoqKeop6gwAAAAAAAAAAAAAIqIp6enp6enp6inqIqAAAAA
+        AAAAAAAAAIqKinp6enp6enp6ioigAAAAAAAAAAAAAIqHp6iIp6enp6eninqAAAAAAAAAAAAAAIiopzin
+        uIiIinN6iogwAAAAAAAAAAAAAKinOIuIp6ent6enp6igAAAAAAAAAAAAAIioiIiHh7eIp3uHuKiAAAAA
+        AAAAAAAAADh6enp6enp4eoinp4qAAAAAAAAAAAAAAIp4h4eHh4end4eIincwAAAAAAAAAAAAAIeniKen
+        qKenqnp4d6eAAAAAAAAAAAAAAIh6enp6enp6enp6iHqAAAAAAAAAAAAAAIiIp6eop6inp6enqIeAAAAA
+        AAAAAAAAAIp6enp6enp6enqKenpwAAAAAAAAAAAAAAeHiKeoqKeoqKeneIcAAAAAAAAAAAAAAAB6eHh4
+        eIp4eHh6enAAAAAAAAAAAAAAAAAAenp6eHeIp6enAAAAAAAAAAAAAAAAAAAAAAB3inp4dwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///////8AAP///D///wAA//wAAAAHAAD/+AAAAAMAAP/gAAAAAQAA/+AAAAAB
+        AAD/wAAAAAEAAP/AAAAAAQAA/8AAAAABAAD/wAAAAAEAAP/AAAAAAQAA/8AAAAABAAD/wAAAAAEAAP/A
+        AAAAAQAA/8AAAAABAAD/wAAAAAEAAP/AAAAAAQAA/8AAAAABAAD/wAAAAAEAAP/AAAAAAQAA/8AAAAAD
+        AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/A
+        AAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/
+        AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/AAAAH/wAA/+AAAA//AAD/8AAAH/8AAP/8
+        AAD//wAA///AD///AAD///////8AAP///////wAA////////AAAoAAAAIAAAAEAAAAABAAQAAAAAAAAC
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAgIAAAAAAgACAAIAAAICAAMDAwACAgIAA/wAAAAD/
+        AAD//wAAAAD/AP8A/wAA//8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgICAgIKIAAAAAAAAAAAIKI
+        iIiIiFiIiIiIgAAAAAiId3d3d3d3d3d3d3AAAAADqH93d/9/d3h/d39wAAAACKj/gACPcgABeAAScAAA
+        AAiI9wf4DzVzYPgP//AAAAAKp/93cDcI/3B4P//wAAAACIj/gAh/B/9weE//8AAAAAqK/wj3j0j/gPgP
+        //AAAAAIp/8III9wCAj4H/9wAAAACIh/+If/94h/93//8AAAAAqo////f//////3/3AAAAAIinh4eHh4
+        eHiId3dwAAAACoioqKeoqKiogAAAAAAAAAiop6enp6eoioAAAAAAAAAIp6inqKeoioqAAAAAAAAACKiK
+        enp6eop4gAAAAAAAAAiop6inqKeoqoAAAAAAAAAIp6iIp6eoingwAAAAAAAACop6inp6enqKgAAAAAAA
+        AAiIp6eIp6enqIAAAAAAAAAKint6e3h7ioqAAAAAAAAACIenp6enp4eHMAAAAAAAAAineHd4eHp6eoAA
+        AAAAAAAHenqoqoqIh4eAAAAAAAAACnp6eninqKp6cAAAAAAAAAeHp6eoinp3pwAAAAAAAAAAenh6eIen
+        iHAAAAAAAAAAAAAHd6endwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////A
+        Af//AAAB/gAAAf4AAAH+AAAB/gAAAf4AAAH+AAAB/gAAAf4AAAH+AAAB/gAAAf4AAAH+AAB//gAAf/4A
+        AH/+AAB//gAAf/4AAH/+AAB//gAAf/4AAH/+AAB//gAAf/4AAH/+AAB//gAA//8AAf//4A//////////
+        //8oAAAAGAAAADAAAAABAAQAAAAAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAgIAAAAAA
+        gACAAIAAAICAAMDAwACAgIAA/wAAAAD/AAD//wAAAAD/AP8A/wAA//8A////AAAAAAAAAAAAAAAAAAAA
+        AAgDQhYICIiIgAAACDj3f3d393d3eAAACKd3iP94iHiIdwAACKfwiIcIAPCIdwAACIf3eAiP8PD/9wAA
+        Cof4CPiP8PD/9wAACKfweIcHgPD/+AAACKf3iH94j/j/9wAACIf39//39/9/dwAACoqIiIqIiIAAAAAA
+        CKioqKeoqDAAAAAACKenp6enqIAAAAAACKinp6ioqIAAAAAACKeop6enqIAAAAAACKiIinp6eoAAAAAA
+        CKenp4iLaIAAAAAACKe4enunqIAAAAAACHiIh6d4enAAAAAACKeqinqnp4AAAAAAB4p4p6eniAAAAAAA
+        AHeneneKcAAAAAAAAAAAD3AAAAAAAAAAAAAAAAAAAAAAAP///wD+AAEA+AAAAPgAAAD4AAAA+AAAAPgA
+        AAD4AAAA+AAAAPgAAAD4AB8A+AAfAPgAHwD4AB8A+AAfAPgAHwD4AB8A+AAfAPgAHwD4AB8A+AA/APwA
+        fwD/5/8A////ACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACA
+        AACAgAAAAACAAIAAgAAAgIAAwMDAAICAgAD/AAAAAP8AAP//AAAAAP8A/wD/AAD//wD///8AAAAACIAA
+        AAAAAIh4eHh4eAAIh4h3iIiHAAiviINwePcACI+IePiH9wAIr4h4iHf3AAiHd3d3d3cACKinqKgAAAAI
+        inp6egAAAAinqKeoAAAACIp6enoAAAAIp3h4iAAAAAd6eop6AAAACIp6encAAAAAB3p3cAAAAAAAAAAA
+        AAD+fwAA8AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4A8AAOAPAADgDwAA4A8AAOAPAADgDwAA4A8AAPgf
+        AAD//wAAKAAAADAAAABgAAAAAQAIAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQUACAgHABAP
+        DwAUExMAHRwcACIhIQAjLyIAKSkpACguKAAsLCwAJzEmACE4IAAtMywAMTExADU1NAA4ODcAOTk4AD08
+        PAA0QjMAPUc9AEJCQgBGRkYAQU1BAElJSQBMSkkATExLAEJRQQBDWEIARVpEAFJSUgBaWloAYGBfAGJi
+        YQBqaWkAbW1tAHVzcQB1dXUAfX19AIB9egA+oT4AQpA7AESjPQBIoz0ARKo+AE6KTgBThU0AUopNAFif
+        TwBQilAAZZdeAECkQABSq0sAWK5LAEezRwBXsUoAV7xPAFu7TQBTolIAW6NSAFqoUgBQtlAAUblQAFy8
+        XQBnql0AaYZoAHiLeAB7k3sAfJx9AG+mbABvsGcAbr5uAHGrcAB9on4AeLl6AEzBTQBUw08AXcNOAFvJ
+        TwBPwlAAWsdTAFLLUwBU01YAXNRVAF/YVgBV1FkAVdxZAFjdWQBkwFYAY81RAGnNUABqwl0AY81bAGbU
+        UwBs0FEAY9pWAGjbVgBx1FIAc9xVAHvYWQBW5FwAWOJdAFfoXgBb6F4AYONaAGnjWQBq6FsAdeRaAHfq
+        XABt0mwAZNxoAGjdbAB51mcAc9RsAHrUbgB822wAcs5yAH3McABs3nAAc9V0AHnTcQBy2nQAe9tyAHrU
+        ewBy2XgAW+NhAFvpYgBh6WYAY+RpAGrnbgBh6WgAZvJtAGnwbwBx43YAcex0AHnhfABy7HkAeOh+AGzz
+        cwB28HkAe/R+AHf4fACA3V4AgttrAIrebQCE4WQAhuVpAIzjbACJ6m0Af9yAAH7jgQB76YIAfvWBAHz6
+        gQCFhIMAhIuDAIuIhgCNjIwAgpyCAJSRjgCUlJQAnZ2dAIighgCLo4sAkaeOAJWrkwCgtZ0ApKSjAKyr
+        qwC5tbQAv7q2ALy8uwCG1YYAi9eLAIneiwCPx5EAmdyZAIHihQCD7IYAhuKKAInjjQCG7ogAgfiFAIbz
+        iQCf4qAAq+OrAMXCwADIw8AAyMfGAM7KxQDKysoA0s3MANDQzwDU1NQA2tXSANzY1QDb29oA3d3dAOHc
+        1wDl3tkA5eDcAOXk4wDu6eYA7OrqAPDr5wDx7+4A8/HuAPn18gD7+PUA+Pb4AAAAAAAcgzgAEAqoALHg
+        NQAYAAAAAQAAAPKZr5qZr5ryr5rymZryma/yma+ama+a8pryma+vmvKZxgAAAMYAAAAQC6gAjAqoAIfh
+        NQDAazsAxgAAABALqADGAAAAAAAzAAAAMwAAADMAvPkWALz5FgC8+RYAvPkWAKj5FgBE+RYARPkWAKj5
+        FgCoYjsAICM1AKhgOwABAAAAr5rymbAKqAC8PU0AyAIAAOCY4ADGAAAAvAqoAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        JiYmJgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUYDw0LCwsMDAwLDAsHBwkPDxYe
+        ISMlJSUlJSUlJSUAAAAAAAAAAAAAAAAAAAAAIxMUGxsbHBwcHBwdHBwcGxsXGxUWGB4fHx8fHx8fHx8h
+        AAAAAAAAAAAAAAAAAJsuKUGpu7u7u7u7u7u7u7u7u7u6u7u7u7u7u7u7u7u7u7u7oAAAAAAAAAAAAAAA
+        ADA5KkO/x8fHx8fHx8fHx8fHx8fHx8fHx8rHx8fHx8fHx8fHpwAAAAAAAAAAAAAAPDlOLJ7Dx8rHysbC
+        xsfKx8rHysrGw8PKvSeqysfHx8fHx8fKqAAAAAAAAAAAAAAAN01OKqLHysrHnBIPER+/ysrKx58VDxIg
+        D9Ikyh8ZGBgYGCHDqAAAAAAAAAAAAAAANU1OKqTJzs4Y0gYRCQIGu87JENIGDwLS0iLOzgbSBg0JChjG
+        qwAAAAAAAAAAAAAANU5MKqTN0b8BBLvJwR7Sm9Cc0gm+JAMF0g/P0QXSqcHDwcbLqwAAAAAAAAAAAAAA
+        NTlPK6bP0b4goNHRySPSJskQBKjRq6fNBdK60QbSwdHR0dHRvAAAAAAAAAAAAAAANUxMK6bP0dHR0asl
+        FAMDp8EJCMHR0dHRHtKn0QbSwdHR0dHRvgAAAAAAAAAAAAAAND1MKqbR0dGrDdLSAwmhz8EGCcTR0dHR
+        IdKh0QfSxNHR0dHRwAAAAAAAAAAAAAAAOj5PKqbR0dES0gklqcHR0cgPBbvR0dHRENKp0QbSwdHR0dHR
+        wAAAAAAAAAAAAAAAOkxMKKXR0dEDBMvRyyAWvNEh0h/P0dGo0gTJ0QbSxNHR0dHRvgAAAAAAAAAAAAAA
+        Oj1PKKTP0dEN0iWcIAMIwNHAAwEemiMG0ibR0QfSwdHR0dHRuwAAAAAAAAAAAAAAOkxPKKPL0dG+GAQE
+        BA6r0dHRuxoFAwQJoM/R0RYGxNHR0dHRqwAAAAAAAAAAAAAAOj1PM57L0NDQyqupq8TR0NDQ0curqavB
+        0dDQ0MbAz9DQ0dDQqAAAAAAAAAAAAAAAOkxPNp7H0dHPztDRz9HPz9HP0c7Rz9HP0c/P0c7PztDQz9DP
+        pwAAAAAAAAAAAAAAOj1PS0m+zMzMzMrKyszMzMzKzMzMysrKzMrKzMzKzMrMzMrKoQAAAAAAAAAAAAAA
+        OkxPTz9JRElESUlJSUlJSUlJSURERERERERCJ52nqKioqKioAAAAAAAAAAAAAAAAOj1PUVFRUVJSVVdl
+        ZGRkZFdVUlJRUU9PTDctAAAAAAAAAAAAAAAAAAAAAAAAAAAAOkxPT1FRUlJVVWVlZGdlZVZWUlJSUVFP
+        T0wtAAAAAAAAAAAAAAAAAAAAAAAAAAAAOj1PUVFRUlJVVlZmZWZmZWVWUlJRUVFPTz0tAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAOkxPT1FRUVJVVlZmZmZlZVZWUlJSUVFRTz0xAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        Oj1PUU9RUlJVVmVWZmZmZWVVVVVSUU9PUD0tAAAAAAAAAAAAAAAAAAAAAAAAAAAAOkxPT1FRUlJVVlZm
+        ZmZmZVZWVVVSUVFRT0wtAAAAAAAAAAAAAAAAAAAAAAAAAAAAOj1PUVFRUlJVVlZmZmZlZVZWVlJRUVFP
+        Tz0tAAAAAAAAAAAAAAAAAAAAAAAAAAAAOkxPT1BRUlJVVlZkZmZmVmRWVVJSUU9RTz0xAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAOj1PUFFRU1JXV2RkZGdnVmRVVVJSUFFQT0wtAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        OkxPUFBTUFRUX2hoampnamRoX1NTU05PTz0uAAAAAAAAAAAAAAAAAAAAAAAAAAAAOj1QUFlUXl9gYGlp
+        ampqaGlgX11aWlBZTzgxAAAAAAAAAAAAAAAAAAAAAAAAAAAAO0xPUFpaYWFiYmtrbGxsa2tiYmFhXVpQ
+        TzguAAAAAAAAAAAAAAAAAAAAAAAAAAAAOzhQTlphY46RkZSUlJSUlJKRkY5iYVpOUDgxAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAOzlQXHCPkJOTk5SUlJSUlJSTk5OTkHBcUDgvAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        O1htcXOPj49zc3p6enp6enNzko+PcHJxcVsvAAAAAAAAAAAAAAAAAAAAAAAAAAAAQHVycXyVlZW0rrS0
+        s7OztLS0rpWVlXFxeHUyAAAAAAAAAAAAAAAAAAAAAAAAAAAARniVlbSzsYd5dm9ubm5ub29veYextLSV
+        eXVFAAAAAAAAAAAAAAAAAAAAAAAAAAAAR5a0l3aCfX19ZFd9VmRXZH19fX19gIWytIdIAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAfJeEgn5+ZGRkfWVlZmVlZWVlZH1+Z36CiIlKAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        lnaKg35lZ2VnZWZmZWZlZmVmZWZlZX6KinavAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHmJto2DfWRWZVZW
+        VlZWVlZWZWR/ipm2hXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACucZa1t7aMi4SEgYCEhIaLmLa1tnl7
+        uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALh7bXmHlrKztLW0trGWh3ltewAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAC5sKx7cXd0e62wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///////8AAP///D///wAA//wAAAAHAAD/+AAAAAMAAP/gAAAAAQAA/+AAAAAB
+        AAD/wAAAAAEAAP/AAAAAAQAA/8AAAAABAAD/wAAAAAEAAP/AAAAAAQAA/8AAAAABAAD/wAAAAAEAAP/A
+        AAAAAQAA/8AAAAABAAD/wAAAAAEAAP/AAAAAAQAA/8AAAAABAAD/wAAAAAEAAP/AAAAAAQAA/8AAAAAD
+        AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/A
+        AAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/
+        AAD/wAAAB/8AAP/AAAAH/wAA/8AAAAf/AAD/wAAAB/8AAP/AAAAH/wAA/+AAAA//AAD/8AAAH/8AAP/8
+        AAD//wAA///AD///AAD///////8AAP///////wAA////////AAAoAAAAIAAAAEAAAAABAAgAAAAAAAAE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODgASEREAFRUVAB0dHQAlJCQALy4uADIyMQA5OTkAQD8/ADZD
+        NQA4RDcAO0Q6AEBAQABCSEEAREhEAEtKSgBEWkIAT1JPAFNTUwBWVlYAWllZAGFfXgBaf1oAXX9aAGZl
+        ZQBoZ2cAY2liAGhsZwBqamkAcG9uAGhxZgBqdmgAa3hpAHV0cwB5eXkAf39/AF6AWgBUrUkATLxMAFC1
+        TwBUtU8AWLZPAFC8TABauk0AULVQAFC6UABeuV4AYLhRAGeMYwBrjGgAZJFiAGqcaQB6g3kAd5t2AGul
+        awBzoW8Ac6JzAHymdAB+q3sAT8JPAFfCSwBRxVEAWMdRAFHIUgBcy1IAVNFWAF/QUwBV1lkAVNlYAFjf
+        WgBZ3l4Aac5VAGjEXABr0VEAb9ZSAGHaVgBu0VkAetZcAH7ZXwBV4FsAVuVcAFjiXQBY5V0AV+hdAFro
+        XQBi4FkAZOlcAHPnWwBz6lwAXN5hAHfGawB7zm8AatBlAG/SawB62G0Af99vAHXWdAB413IAcN51AHnW
+        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
+        AAH+AAAB/gAAAf4AAAH+AAAB/gAAAf4AAH/+AAB//gAAf/4AAH/+AAB//gAAf/4AAH/+AAB//gAAf/4A
+        AH/+AAB//gAAf/4AAH/+AAD//wAB///gD////////////ygAAAAYAAAAMAAAAAEACAAAAAAAQAIAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAEBAQABUVFQAaGhkAJSUlACgnJwAyPjIAODw4ADdANgAzSDEARkZGAEhN
+        SABXV1cAXFtZAGJgXgBjY2MAbW1tAHZ1dAB4eHgAf39/AIB/fwBLmkQAR7JHAE21RgBPuEYASLNIAE2/
+        TQBVtU0AWrZNAFu4TQBSrlEAV65RAFC9UABUvlAAXrxfAG2EbQBwgXAAeY93AGeqZwBosGgAaLVpAGq7
+        bABqvm0Acb1oAFHGUQBZx1AAVMtTAF7NUgBU1FYAVNlYAGDKUABsz1EAZcVbAGLVVABk21YActNUAHfY
+        VgB721oAVuVcAFjhWwBl5lsAZulcAHzgXQBnz2IAcdRpAH7ZawB62XcAdt15AHzbfAB8338AWuRgAF7p
+        ZABh5mcAZO5qAH7jYQB/52MAb+N1AGvocgB06XoAeep8AHH0dgBz8XkAgOxlAIPhbgCE4W0AguNwAHvn
+        gQCEg4IAhoaGAIuIhQCOiogAhZWDAJaTkACal5QAnJiVAJClkACdp5kApKOjAKiopwCsu6kAsbuuALGx
+        sQC8u7kAw767AILfhACI5YwAmuGbALrEuAC/ybwAr+ewAMnJyQDRzMkAxdDFAMnTxwDL1ssA1tDMANjS
+        zQDX1tQA2NfXAN3d3QDg3twAxOvEAMjsyADl4NwA5OPjAOvm4gDs6ecA6unpAPPu6wDx7+4A9fPxAPv4
+        9gD5+fgA/Pv6AA0NDQC2sq4AsLCwALu2swC/urcAuri4AMC8uADAvr0Ag92EAI/bkACT3ZQAg+SHAIHw
+        hACe4Z8Aq+OrAMbBvgDBwcEAxsbGAMnFwQDMyMQAysnJAM3NzADSzckA1tDNANbW1QDb19QA3NzbAN3d
+        3QDh2tUA4d3ZAODg3wDn4t4A4uLhAOnk4ADq6OYA6+vqAPHv7QD38u8A8vLxAPb29gD7+PUA+fj4APz7
+        +wAHBwcAg+yGAIbiigCJ440Ahu6IAIH4hQCG84kAn+KgAKvjqwDFwsAAyMPAAMjHxgDOysUAysrKANLN
+        zADQ0M8A1NTUANrV0gDc2NUA29vaAN3d3QDh3NcA5d7ZAOXg3ADl5OMA7unmAOzq6gDw6+cA8e/uAPPx
+        7gD59fIA+/j1APj2+AAAAAAAHIM4ABAKqACx4DUAGAAAAAEAAADyma+ama+a8q+a8pma8pmv8pmvmpmv
+        mvKa8pmvr5rymcYAAADGAAAAEAuoAIwKqACH4TUAwGs7AMYAAAAQC6gAxgAAAAAAMwAAADMAAAAzALz5
+        FgC8+RYAvPkWALz5FgCo+RYARPkWAET5FgCo+RYAqGI7ACAjNQCoYDsAAQAAAK+a8pmwCqgAvD1NAMgC
+        AADgmOAAxgAAALwKqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsICAkJCQgGBwoM
+        Dw8PDxAAAAAAAABbFWBzc3Nzc3Nzc3N0dHR0dHNhAAAAAAAcGGR9b1lce31vWl0OZ15dXGdiAAAAAAAd
+        F2x+AxQMDXUDD4YFggERE2ZiAAAAAAAbF3GBZm4PC1gQgXwDdgF/hYVlAAAAAAAbFnKFCgURfFcShYUE
+        dQGBhYVlAAAAAAAeFnCFAmYQE24DZVoEhIZ/hYVlAAAAAAAeGWuDZg8SgYNmEBF4g1eBhYViAAAAAAAe
+        GmOBgYGBgIGBgYGBgYGBgYFiAAAAAAAeLCIoKSoqKiopJycmJAAAAAAAAAAAAAAeLC4wMTs6OjswLiwh
+        IwAAAAAAAAAAAAAeLC4wMTs6OjExLiwaIwAAAAAAAAAAAAAeLC4uMTs6OjswMCwgIwAAAAAAAAAAAAAe
+        LC4wMTs6OjswLi4gIwAAAAAAAAAAAAAeLC81Njw9PTY1NS0gIwAAAAAAAAAAAAAfLTM4PktSUko5NzIg
+        JAAAAAAAAAAAAAAfP0FBVFNVVVNBQUA0JAAAAAAAAAAAAAArQmhoRUVDQ0VoaERBJQAAAAAAAAAAAABD
+        Tkg7Ozs7Ozs6R01WXwAAAAAAAAAAAABpUUlGOzs7Ozs7R1BMAAAAAAAAAAAAAAAAbWhPT1FRT1FWRWoA
+        AAAAAAAAAAAAAAAAAAAAAAB5egAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AP4A
+        AQD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAHwD4AB8A+AAfAPgAHwD4AB8A+AAfAPgA
+        HwD4AB8A+AAfAPgAHwD4AD8A/AB/AP/n/wD///8AKAAAABAAAAAgAAAAAQAIAAAAAAAAAQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABMTEwAUFBQAFxaWABYflQAaWdlAG1raQB6d3UAfXx7AF6tXgBauVoAYrBcAH2B
+        fQByn3EAc6JsAGayYgB5oHQAUMBRAFHHUgBayFEAU9BVAFTVWABV2lkAY85SAGLHWgBozl4AZtNTAGne
+        VwBW5V0AWOZdAGvoWwBs3m8AetdkAHDfcwB833wAWuZgAGDrZgBr7nEAcOl2AHbgeAB54XsAgdtlAITi
+        bACF5nAAiIWDAJCQjwCSkZEAnZybAIWqggCgoZoApaieAKGhoAClo6AAr66tALSxrgC6ubkAvLu7AL6+
+        vQCXx5kAgeOCAIrljACb5psAp+eoAMbPwQDJyMQAz8vHAMvJyADOzs4AzNXHANTRzgDY1tUA3d3dAOnl
+        4gDu7e0A9/X0APr6+gBCQkIAa+hyAHTpegB56nwAcfR2AHPxeQCA7GUAg+FuAIThbQCC43AAe+eBAISD
+        ggCGhoYAi4iFAI6KiACFlYMAlpOQAJqXlACcmJUAkKWQAJ2nmQCko6MAqKinAKy7qQCxu64AsbGxALy7
+        uQDDvrsAgt+EAIjljACa4ZsAusS4AL/JvACv57AAycnJANHMyQDF0MUAydPHAMvWywDW0MwA2NLNANfW
+        1ADY19cA3d3dAODe3ADE68QAyOzIAOXg3ADk4+MA6+biAOzp5wDq6ekA8+7rAPHv7gD18/EA+/j2APn5
+        +AD8+/oADQ0NALayrgCwsLAAu7azAL+6twC6uLgAwLy4AMC+vQCD3YQAj9uQAJPdlACD5IcAgfCEAJ7h
+        nwCr46sAxsG+AMHBwQDGxsYAycXBAMzIxADKyckAzc3MANLNyQDW0M0A1tbVANvX1ADc3NsA3d3dAOHa
+        1QDh3dkA4ODfAOfi3gDi4uEA6eTgAOro5gDr6+oA8e/tAPfy7wDy8vEA9vb2APv49QD5+PgA/Pv7AAcH
+        BwCD7IYAhuKKAInjjQCG7ogAgfiFAIbziQCf4qAAq+OrAMXCwADIw8AAyMfGAM7KxQDKysoA0s3MANDQ
+        zwDU1NQA2tXSANzY1QDb29oA3d3dAOHc1wDl3tkA5eDcAOXk4wDu6eYA7OrqAPDr5wDx7+4A8/HuAPn1
+        8gD7+PUA+Pb4AAAAAAAcgzgAEAqoALHgNQAYAAAAAQAAAPKZr5qZr5ryr5rymZryma/yma+ama+a8pry
+        ma+vmvKZxgAAAMYAAAAQC6gAjAqoAIfhNQDAazsAxgAAABALqADGAAAAAAAzAAAAMwAAADMAvPkWALz5
+        FgC8+RYAvPkWAKj5FgBE+RYARPkWAKj5FgCoYjsAICM1AKhgOwABAAAAr5rymbAKqAC8PU0AyAIAAOCY
+        4ADGAAAAvAqoAAAAAAAAAAAAAAAADAwAAAAAAAAAAAAAAAQxMjIyMTE0NDQ0LwAAAA4LSCwGQTYFAzYG
+        BzUAAAAOD0kvLQgCOAE0Lkk4AAAADQ9LTAhDAksDMy9LOQAAAA0JSggFRjQGLkI4SzcAAAANCj9ERERE
+        RERARUU1AAAADRIUFhwcFRQRAAAAAAAAAA0SFBYcHBUUEQAAAAAAAAANEhQWHRwUFBEAAAAAAAAADRMa
+        Gx4eGhcRAAAAAAAAABAZKSorKiogGAAAAAAAAAAwIichHx8hKCIAAAAAAAAAOiUjHBwcHCQmAAAAAAAA
+        AAAAPTsnIjw+AAAAAAAAAAAAAAAAAAAAAAAAAAAA/n8AAPAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAP
+        AADgDwAA4A8AAOAPAADgDwAA4A8AAOAPAAD4HwAA//8AACgAAAAwAAAAYAAAAAEAIAAAAAAAgCUAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAIAAAAFAAAACQAAAAwAAAASAAAAFwAAAB0AAAAgAAAAIwAAACQAAAAkAAAAIwAA
+        ACAAAAAcAAAAFgAAABAAAAALAAAACAAAAAYAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAA
+        AAQAAAAEAAAABAAAAAQAAAADAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAACAAAAA5AAAATQAAAFkAAABmAAAAcAAAAHkAAAB9AAAAgQAA
+        AIMAAACCAAAAgQAAAH0AAAB3AAAAbQAAAGMAAABVAAAASQAAADwAAAAyAAAALAAAACoAAAApAAAAKQAA
+        ACkAAAApAAAAKQAAACkAAAApAAAAKQAAACgAAAAhAAAADQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAcAAAAdAAAARQAAAIsAAAC1AAMAygIJAdMFEQTcCBgH4gwf
+        CuYOJAzoDycO6g8oDusPJg7qDiMM6AscCeYIFgfjBA4D3QEIAdcAAgDPAAAAxgAAALkAAACtAAAAnQAA
+        AJIAAACLAAAAiQAAAIkAAACJAAAAiQAAAIkAAACJAAAAiQAAAIgAAAB3AAAAPAAAAA8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAACkAAABcBAoElhEiENkyPTLxPUo9+D9Q
+        P/tCVkH+Q1hC/kRZQ/9FWkT/RVtE/0VbRP9FW0T/RVpD/0RZQv9DWEL+QVRB/T9PPvs8Rzz4OkA69DY2
+        Nu42NjbpNjY24TY2Nto2NjbSNjY2zzY2Ns82NjbPNjY2zzY2Ns82NjbPNjY2zzY2Ns42NjbFERERawAA
+        ABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEAOAwbCoEybivVPY02+GmG
+        aP+5tbT/yMPB/8fCwP/HwsD/x8LA/8fCwP/HwsD/x8LA/8fCwP/HwsD/x8LA/8fCwP/HwsD/x8LA/8fC
+        wP/HwsD/yMPA/8nEwf/JxMH/ycTB/8nEwf/JxMH/ycTB/8nEwf/JxcH/ycTB/8nEwf/JxMH/ycTB/8nE
+        wf/Hw8D/fX18zhAQEC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAUEywRfkSU
+        OuNZu0z/RaE+/3uTe//Wz83/5t/Z/+bf2f/m39n/5d/Z/+Xf2f/l39n/5t/Z/+bf2f/m39n/5t/Z/+bf
+        2f/m39n/5d/Z/+bf2f/m39n/5t/Z/+bf2f/m39n/5t/Z/+vk3v/n4dv/5t7Z/+Xf2f/m39n/5d/Z/+bf
+        2f/m39n/5t/Z/+bf2f/l39n/l5aV3RsbGzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAMCBAElSZ9A5l2+Tf9cx07/RKo+/4Gbgf/c1tT/6eTf/+nj3//q5eD/6+Xh/9/Z1f/Z1ND/3dfT/+fh
+        3f/s5uL/6ePf/+nj3//p49//6uXg/+zm4v/h3Nf/2tXR/97Z1f/o49//zsrF/4B9ev+/urb/6+Xh/+Tf
+        2v/j3tn/5N7a/+Te2v/k3tr/5N7a/+Tf2v/o497/n56e3h0dHTgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAIGDgUzVbBI+1/ETv9byU//Qqc//4ighv/h3Nv/7ejl/+3o5f/k4N3/i4iG/z89
+        PP83NTT/Ozo5/1tZWP/Qzcn/7+vn/+3o5f/t6eX/5eHd/5SRjv9DQkH/OTc2/z49PP9jYmD/NjU0/wUE
+        BP91c3H/7enm/19dW/9KSEf/TEpJ/0xKSf9MSkn/TEpJ/2NhYP/a1tP/pqWl3h4eHjgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIHDwY0WK9J/F/DT/9Xxk//Q6U+/5Gnjv/o5eT/8u/t//Tx
+        7v9KSkn/AAAA/x8fHv86OTn/LCwr/wgIB/8iIiH/xcPA//Tx7//m4+H/ODg3/wAAAP8jIiL/NjU1/wcH
+        B/8AAAD/AQEB/2hmZv/08u//9PHu/x8eHv8AAAD/JCQj/ysqKv8qKir/Kyoq/0xLSv/a2NX/r6+v3iAg
+        ITgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIHDwY0V65J/FzBT/9UxFD/RqQ9/5es
+        k//t6ur/+Pb1/9DPzv8FBQX/FBQU/8LBwf/k4+L/1NTT/1VVVf8CAgL/hYSD//r5+P+KiYj/AAAA/y0t
+        LP/JyMj/eXh3/wsLCv8fHh7/AAAA/zY1Nf/z8vH/+ff1/x8fH/8AAAD/tLOz/9XU1P/U1NT/1dTU/9nY
+        1//y8O7/tra23iIiIjgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIHDgY0U6xJ/Fe/
+        T/9Tw0//SKM9/52ymP/z8PL/+/v6/8rKyf9gYF//k5OS//39/f/6+vn/5OTk/2loaP8AAAD/eXh4/+Pi
+        4v85ODj/Dw8P/6+vr//+/f3/tbW0/6WlpP/u7e3/HBwc/wAAAP/BwMD//f38/yAgIP8AAAD/1NPT//z7
+        +//6+fj/+vn5//r5+f/6+fj/vb293iQkJDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAIGDwY0UatJ/FS+UP9Tw0//R6M9/6C1nP/29Pb//fz8//39/f/7+/v/9PTz/7e3t/92dnb/PDw8/wsL
+        C/8NDQ3/qqmp/9TU1P8qKir/KCgo/9LS0v/9/Pz//Pz7//39/f/+/v7/UVFR/wAAAP+jo6P///7+/yAg
+        IP8AAAD/1dXV//39/f/9/fz//fz8//39/P/9/Pz/wsLC3iQkJDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEGDgYwTqpK+1K8UP9Tw0//RKI9/6C2nv/49/j///////////+5ubn/LCws/wAA
+        AP8AAAD/Dw8P/ywsLP+dnZ3/+Pj4/9HR0f8nJyf/LCws/9bW1v//////////////////////XFxc/wAA
+        AP+dnZ3//////yAgIP8AAAD/1tbW////////////////////////////xMTE3iUlJTgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECBQIiR59F71G6UP9Sw1D/QaE9/561nf/49vj///////39
+        /f83Nzf/AAAA/yoqKv9xcXH/tbW1/9bW1v/9/f3//////9zc3P8yMjL/Gxsb/8XFxf//////////////
+        ////////NDQ0/wAAAP+xsbH//////yAgIP8AAAD/1tbW////////////////////////////w8PD3iUl
+        JTgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAaQ5lD6FG6Uf9QwlD/PqE+/5mx
+        mf/29PX///7+//Dw8P8LCwv/FRQU//Dv7///////5+fn/19fX/9DQ0P/xcXF//b29v9kZGT/AAAA/1hY
+        WP/x8fH///////j4+P+qqan/AAAA/xEREf/o6Oj//////yAgIP8AAAD/1tbW///+/v///v7///7+///+
+        /v///v7/vr6+3iQkJDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5lC6FG6
+        UP9PwlD/PqE+/5Ork//z8fH//v38//v6+v8uLi7/BgYG/2tra/+Ojo7/XV1d/w0NDf8oKCj/0tHR//79
+        /f/Ozc3/Dg4O/wUFBf9UVFT/f39//2ZmZv8eHh3/BgYG/3p6ef///v7///79/yAgIP8AAAD/1tXU//79
+        /P/+/fv//vz7//79+//+/fv/t7e33iIiIjgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAEAAAAbQ5lC6FC6UP9QwlD/P6I//4uji//u6+v//Pr4//37+v/Ix8b/SUlI/xYVFf8QDw//FhUV/zIy
+        Mf+7urn//fv6//z5+P/9+/r/v769/0xMS/8YGBj/EA8P/xQUFP8tLSz/lpWV//Tz8v/8+vj//vv5/0JB
+        Qf8mJiX/29rY//37+f/8+vj//Pr4//z6+P/8+vj/rKyr3h8fHzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAbQ5lC6FC6UP9QwlD/QKRA/4SdhP/p5eX/+vf0//r29P/7+PX/5uXk/7++
+        vP+3tLL/v768/9zb2v/7+fb/+vf0//r39P/69/T/+/j2/+rp5//CwcD/t7Sy/728uv/X19b/+/j2//r3
+        9f/69vT/+vf1/9bV1f/Q0M//9PHv//r39P/69vT/+vf0//r39P/69/T/oqKi3h0dHTcAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5pC6FG6UP9QxFD/R7NH/3+ef//k397/+fTx//n0
+        8f/59PH/+fTx//n18f/69fL/+fXx//n08f/59PH/+fTx//n08f/59PH/+fTx//n08f/59PH/+vXy//n1
+        8f/49PH/+fTx//n08f/59PH/+fTx//n08f/59PH/+fXx//n08f/59PH/+fTx//n08f/59PH/lpaV2xoa
+        GjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5pC6FG6UP9RxVH/TMFN/3qi
+        ev/Sy8z/8Ovn/+/q5v/v6ub/7+nm/+/p5v/v6eb/7+nm/+/p5v/v6eb/7+nm/+/q5v/v6eb/7+rm/+/q
+        5v/v6ub/7+rm/+/q5v/v6ub/7+rm/+/q5v/v6uf/8Ovn/+/r5//v6ub/7+rm/+/q5v/v6ub/7+rm/+/q
+        5v/r5uL/iIiI0BcXFyYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5pC6FG6
+        UP9RxlH/UcdS/1y8Xf92oHf/fZ5+/32ffv99oH7/faJ+/32jf/9+pH//fqV//36lgP9+pX//fqR//32j
+        f/99oX7/faB+/32ffv99nn3/fZ19/3ycff98nHz/fJt8/3yYfP90h3T2Z2hm1WloaL2CgoK4jIyMuIyM
+        i7iMjIu4jIyMuIyMi7iOjo63RUVFWQICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAEAAAAbQ5lD6FG6Uf9RxlH/UcZS/1HJU/9Ty1X/Vc1W/1XQV/9W1Fn/Vtha/1fcXP9X313/WONe/1jl
+        X/9Y4l7/V+Bd/1fbW/9W11r/VdNY/1XQV/9UzFb/VMlV/1PFVP9Tw1P/UsFS/1G1Uf83ejffCg4KbAkJ
+        CRsyMjIOiYmJDomJiQ6IiIgOiIiIDoiIiA6Ojo4NLi4uAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAbQ5lC6FG6UP9RxlH/UcZS/1LJU/9SzFT/U9BV/1TTVv9U11f/VdtZ/1bg
+        W/9W41v/V+Zd/1foXv9W5l3/VuNc/1XfWv9V21n/VNZX/1TTVv9Tz1X/U8xU/1LIU/9SxlL/UcRQ/1C3
+        UP80eTTeAwgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5pC6FG6UP9RxVH/UcZS/1LJU/9SzFT/U9BV/1TT
+        Vv9U11f/VdtZ/1bgWv9W41z/V+Zd/1foXv9X5l3/VuNc/1XfWv9V21n/VNZX/1TTVv9Tz1X/U8xU/1LI
+        U/9SxlL/UcRR/1C3UP80eTTeAwgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5pD6FG6UP9RxlH/UcZS/1LJ
+        U/9TzFT/U9BV/1TTVv9U11f/VdtZ/1bgWv9W41v/V+dd/1fpXv9W5l3/VuNc/1XfWv9V21n/VNZX/1TT
+        Vv9Tz1X/U8xU/1LIU/9RxlL/UcRR/1C4UP81eTTeAwgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5pC6FG6
+        UP9RxlH/UcZS/1LJU/9TzFT/U9BV/1TTVv9U11f/VdtZ/1bgW/9W41z/V+Zd/1foXv9W5l3/VuNc/1Xf
+        Wv9V21n/VNZX/1TTVv9Tz1X/U8xU/1LIU/9RxlL/UcRR/1C3UP80eTTeAwgDZwAAABEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAEAAAAbQ5pC6FC6UP9RxlH/UcZS/1LJU/9TzFT/U9BV/1TTVv9U11f/VdtY/1bgW/9W41z/V+Zd/1fo
+        Xv9X5l3/VuNc/1XfWv9V21n/VNZX/1TTVv9Tz1X/U8xU/1LIUv9RxlL/UcRR/1C4UP81eTTeAwgDZwAA
+        ABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAbQ5pC6FC6UP9RxlH/UcZS/1LJU/9TzFT/U9BV/1TTVv9U11f/VdtZ/1bg
+        W/9W41z/V+Zd/1foXv9W5l3/VuNc/1XfWv9V21n/VNZX/1PTVv9Tz1X/U8xU/1LIU/9RxlL/UcNR/1C4
+        UP80eTTeAwgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5pC6FC6UP9RxVH/UsZS/1LJU/9TzFT/VNBV/1TT
+        Vv9V11f/VdtZ/1bgWv9W41v/V+Zd/1foXv9X5l3/VuNc/1bfWv9V21n/VdZX/1TTVv9Tz1X/U8xU/1LI
+        Uv9SxlL/UcNQ/1C3UP80eTTeAwgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbQ5pC6FC6UP9SxVH/VMdS/1XJ
+        U/9WzVT/V9FV/1fUVv9Y11f/WdtY/1ngWv9a41v/WuZd/1voXv9a5l3/WuNb/1nfWv9Z21j/WNdW/1fT
+        Vv9X0FT/Vs1U/1TJU/9TxlL/UcRR/1C3UP80eTTeAwgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbRZpC6FG6
+        UP9TxlH/V8dR/1rLUv9czlP/XtJU/1/UVf9f2Fb/YNxX/2DhWv9h5Fv/Yudc/2LpXP9h51v/YeRb/2Dg
+        Wf9g3Fj/X9dW/17VVf9d0VP/XM5T/1rJUv9Xx1H/UsRR/1G3UP81eTTeAwgDZwAAABEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAEAAAAbRppC6FK6UP9UxlH/WshR/2DLUv9jz1L/ZtNT/2fWVP9o2VX/aN1X/2nhWP9p5Vr/auhb/2rq
+        XP9q6Fv/aeVa/2nhWP9o3Vf/Z9lV/2fWVP9l0lP/Y89S/1/KUv9ax1H/U8RR/1K4UP83eTTeAwgDZwAA
+        ABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAbSJpC6FS7UP9VxlH/XclR/2fNUf9s0FH/cNVR/3LXUv9z21T/dN9W/3Xj
+        Wf925lv/d+pc/3frXf936Vz/d+Zb/3XjWf9131f/c9pU/3LXUv9w1FH/bNBR/2TMUf9cyFH/U8RR/1S4
+        UP84eTPeAwgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbSptC6Fe7UP9UxlH/XMhQ/2nNUP9y0lL/e9hZ/4Dd
+        Xv+D4GP/huRn/4joav+I6m3/iuxu/4rub/+J7G7/iept/4fna/+G5Gj/hOBk/4HdYP972Fn/ctJU/2bM
+        Uf9byFD/U8RQ/1e5T/86ejPeBAgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbTZtB6Fy7Tv9YyFP/Y81b/3nW
+        Z/+E22z/i99t/43hbf+N5G3/jOZt/4vobf+K6W3/iett/4nsbv+J6m3/iult/4vnbP+M5Wz/jeNt/43h
+        bf+J3m3/hNtt/3bWaf9lzmD/W8dV/1u6T/88ejPeBAgDZwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAbTppB6GTA
+        Vv9v0mn/ctRv/3vYbv+A2mz/gd1q/3/dav983G3/e9xv/3vccf973HP/e9t0/3zbdf973HT/e9xz/3vc
+        cP973G7/fd1s/3/dav+B3Gr/ftpr/3fWbv9y1G//c9Jq/2rCXf88ejPeAwgDZwAAABEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAEAAAAbWKJN6HvNbv951nD/c9Zw/3bZdP9823v/gd2C/4bdiP+K3oz/i9+M/4rfjP+J34r/h9+J/4fg
+        if+H34n/id+L/4rfjP+K34z/id6L/4Xdh/9/3ID/e9p6/3TYcv9x1m7/etRu/33McP9PiUjfBgsGZwAA
+        ABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAaYalZ6HrRcv9523j/hN6G/4rhjf+G44r/fuKC/3fhe/9w33T/bN5w/2jd
+        bP9m3Wr/ZNxo/2PcaP9k3Gj/Zt1q/2ndbf9t33D/c+B2/3nhfP+B4oX/h+KL/4rhjf+B3YP/d9lz/3jN
+        b/9enFrjEBgQawAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUYLhg53/jg/+I543/e+iB/2vmcf9j5Gn/XuJj/1vh
+        Yf9a4V//WeBe/1jgXv9Y313/V99d/1ffXP9X313/WOBd/1jgXv9Z4F7/WuFg/1zhYf9f42X/ZORq/3Dn
+        dv9/6YX/h+aM/3vhfv9YnFfYCxILVQAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGDQYVa9dx8nnqgP9r63P/Yelo/1vo
+        Yv9Z52D/V+Ze/1fmXv9X5l3/V+Zd/1bmXf9W5l3/VuZd/1bmXf9W5l3/VuZd/1fmXf9X5l3/V+Ze/1fm
+        Xv9Y51//Wedg/13oZP9i6Wn/cux5/3jofv9TplbIBw4HLQAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMGQ0LbN5x4W3k
+        c/9v9XX/ZvJt/1rpYP9W5l3/VuVd/1blXf9W5V3/VuVd/1blXf9W5V3/VuVd/1blXf9W5Vz/VuVd/1bl
+        Xf9W5V3/VuVd/1blXP9W5Vz/VuZd/1zrY/9p9HD/b/F2/2zkc/9SqValCBAIDAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAceN1a2fYa+135nv/gPiF/3f4fP9p8G//XeZi/1jhXf9V3lr/VN1Z/1TcWf9U3Fn/VNxZ/1Tc
+        Wf9U3Fn/VNxZ/1TcWf9U3Vn/Vt9b/1nhXv9h6Wb/bPJx/3z6gf+B9Yb/cN91/2bYauhYsFs0AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAc+R3AWTTZjhf0GG7aNNq63nifP+D74f/hfaJ/4L3hf979H7/dvB5/3Ds
+        c/9s6nD/auhu/2rnbv9r6G7/bepx/3Ltdf938Xr/fvWB/4P4hv+G9In/g+2G/3Pcdv1l0WjlX9BhmGXU
+        ZyYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiz2MVYM1hR1/MYJtiz2PZatRr+3La
+        dP964Hz/f+WB/4Prhf+F7Yf/hu+I/4fwif+G7oj/he2H/4LphP9+5YD/eN56/3DYcv9n0Wj0Yc5i01/M
+        X35gzWE+Y9BkCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABizGEBYMtfHl7KXU1cyVyDW8dboFvHW7xcyFzQXMhc3F3HXN5cyFzaXMhczVrHWrNbyFucXclcdF/K
+        XkVhzGARYsxiAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMrtygHJ7ckLyezJFMnsyB/I7MgpyOzIMsjsyDTI7MgwyOzIKMns
+        yRvJ7MkTyu3JB8rtygEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//AAAAAEAAP/4
+        AAAAAAAA/8AAAAAAAAD/wAAAAAAAAP+AAAAAAAAA/wAAAAAAAAD/AAAAAAAAAP8AAAAAAAAA/wAAAAAA
+        AAD/AAAAAAAAAP8AAAAAAAAA/wAAAAAAAAD/AAAAAAAAAP8AAAAAAAAA/wAAAAAAAAD/AAAAAAAAAP8A
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;pmAppMain.Name" xml:space="preserve">
+    <value>pmAppMain</value>
+  </data>
+  <data name="backstageViewControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 155</value>
+  </data>
+  <data name="&gt;&gt;jobControl.Type" xml:space="preserve">
+    <value>Dekart.LazyNet.SQLBackup2Remote.Controls.JobControl, LazySQLBackup2Remote, Version=2016.8.0.0, Culture=neutral, PublicKeyToken=9949f7f45b446de1</value>
+  </data>
+  <data name="pcAppMenuFileLabels.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="sbiSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="bvTabRecent.AppearanceHover.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;beScheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvTabRecent.AppearanceDisabled.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pmMain.MenuAppearance.HeaderItemAppearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;rcMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="bvTabHelp.AppearanceSelected.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;biSave.Name" xml:space="preserve">
+    <value>biSave</value>
+  </data>
+  <data name="backstageViewControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 415</value>
+  </data>
+  <data name="backstageViewControl1.Text" xml:space="preserve">
+    <value>backstageViewControl1</value>
+  </data>
+  <data name="labelControl1.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Normal.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;pccAppMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bvItemSave.AppearancePressed.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pccAppMenu.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;bvItemExit.Name" xml:space="preserve">
+    <value>bvItemExit</value>
+  </data>
+  <data name="pccAppMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 359</value>
+  </data>
+  <data name="&gt;&gt;beLogo.Name" xml:space="preserve">
+    <value>beLogo</value>
+  </data>
+  <data name="rpHome.Text" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="riicStyle.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvItemSave.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="pmAppMain.MenuAppearance.HeaderItemAppearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ribbonStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 23</value>
+  </data>
+  <data name="biNew.Description" xml:space="preserve">
+    <value>Creates a new, blank job.</value>
+  </data>
+  <data name="biLog.Hint" xml:space="preserve">
+    <value>Show log file</value>
+  </data>
+  <data name="bvTabRecent.AppearanceHover.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rgbiSkins.Name" xml:space="preserve">
+    <value>rgbiSkins</value>
+  </data>
+  <data name="biJobs.Description" xml:space="preserve">
+    <value>View all scheduled jobs</value>
+  </data>
+  <data name="backstageViewClientControl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 71</value>
+  </data>
+  <data name="&gt;&gt;siDocName.Name" xml:space="preserve">
+    <value>siDocName</value>
+  </data>
+  <data name="bvItemExit.AppearanceDisabled.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewClientControl, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pmMain.MenuAppearance.HeaderItemAppearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvTabRecent.AppearanceDisabled.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="bvTabRecent.AppearanceSelected.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemOpen.AppearancePressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="repositoryItemComboBox1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="sbiSave.Description" xml:space="preserve">
+    <value>Saves the active document</value>
+  </data>
+  <data name="&gt;&gt;biLog.Name" xml:space="preserve">
+    <value>biLog</value>
+  </data>
+  <data name="rpgFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="bvItemSaveAs.AppearanceDisabled.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvTabRecent.AppearanceSelected.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;biLog.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemExit.AppearanceDisabled.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemOpen.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;jobControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="jobControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 147</value>
+  </data>
+  <data name="&gt;&gt;rpgExit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;recentItemsControl1.Name" xml:space="preserve">
+    <value>recentItemsControl1</value>
+  </data>
+  <data name="sbiSave.Hint" xml:space="preserve">
+    <value>Saves the active document</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v16.1" name="DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="labelControl1.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AppMainForm</value>
+  </data>
+  <data name="biDownload.Caption" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="backstageViewClientControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 343</value>
+  </data>
+  <data name="&gt;&gt;rpgExit.Name" xml:space="preserve">
+    <value>rpgExit</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Hovered.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.Name" xml:space="preserve">
+    <value>ribbonStatusBar1</value>
+  </data>
+  <data name="bvItemSaveAs.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;rpHome.Name" xml:space="preserve">
+    <value>rpHome</value>
+  </data>
+  <data name="bvTabHelp.AppearanceDisabled.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;sbiSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bvItemOpen.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pcAppMenuFileLabels.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="backstageViewControl1.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rpgExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="bvItemOpen.AppearanceHover.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="iPaintStyle.Hint" xml:space="preserve">
+    <value>Select a paint scheme</value>
+  </data>
+  <data name="rcMain.Categories1" type="DevExpress.XtraBars.BarManagerCategory, DevExpress.XtraBars.v16.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFCYXJzLnYxNi4xLCBWZXJzaW9uPTE2
+        LjEuNi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAA
+        ACZEZXZFeHByZXNzLlh0cmFCYXJzLkJhck1hbmFnZXJDYXRlZ29yeQMAAAAETmFtZQRHdWlkB1Zpc2li
+        bGUBAwALU3lzdGVtLkd1aWQBAgAAAAYDAAAABEhlbHAE/P///wtTeXN0ZW0uR3VpZAsAAAACX2ECX2IC
+        X2MCX2QCX2UCX2YCX2cCX2gCX2kCX2oCX2sAAAAAAAAAAAAAAAgHBwICAgICAgICJEx64Kxm5k27y8C2
+        z6d5iwEL
+</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Normal.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemSave.AppearanceHover.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Normal.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pccAppMenu.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl6.Name" xml:space="preserve">
+    <value>backstageViewClientControl6</value>
+  </data>
+  <data name="backstageViewClientControl6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;bvItemSave.Name" xml:space="preserve">
+    <value>bvItemSave</value>
+  </data>
+  <data name="bvItemSaveAs.AppearanceDisabled.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="bvTabRecent.AppearanceSelected.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="biSave.Caption" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="&gt;&gt;biDownload.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;defaultLookAndFeel.Type" xml:space="preserve">
+    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvTabRecent.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvTabRecent.AppearanceDisabled.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="bvTabRecent.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;beLogo.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="sbiSave.MenuAppearance.HeaderItemAppearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="jobControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 480</value>
+  </data>
+  <data name="&gt;&gt;helpControl1.Type" xml:space="preserve">
+    <value>Dekart.LazyNet.SQLBackup2Remote.Controls.HelpControl, LazySQLBackup2Remote, Version=2016.8.0.0, Culture=neutral, PublicKeyToken=9949f7f45b446de1</value>
+  </data>
+  <data name="sbiSave.MenuAppearance.HeaderItemAppearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;backstageViewClientControl6.Parent" xml:space="preserve">
+    <value>backstageViewControl1</value>
+  </data>
+  <data name="&gt;&gt;biAbout.Name" xml:space="preserve">
+    <value>biAbout</value>
+  </data>
+  <data name="&gt;&gt;pcAppMenuFileLabels.Name" xml:space="preserve">
+    <value>pcAppMenuFileLabels</value>
+  </data>
+  <data name="biDownload.Hint" xml:space="preserve">
+    <value>Download and restore backups</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="bvTabHelp.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="rpView.Text" xml:space="preserve">
+    <value>VIEW</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemPictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;biJobs.Name" xml:space="preserve">
+    <value>biJobs</value>
+  </data>
+  <data name="&gt;&gt;bvItemOpen.Name" xml:space="preserve">
+    <value>bvItemOpen</value>
+  </data>
+  <data name="biAbout.Caption" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="&gt;&gt;helpControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rcMain.Categories2" type="DevExpress.XtraBars.BarManagerCategory, DevExpress.XtraBars.v16.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFCYXJzLnYxNi4xLCBWZXJzaW9uPTE2
+        LjEuNi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAA
+        ACZEZXZFeHByZXNzLlh0cmFCYXJzLkJhck1hbmFnZXJDYXRlZ29yeQMAAAAETmFtZQRHdWlkB1Zpc2li
+        bGUBAwALU3lzdGVtLkd1aWQBAgAAAAYDAAAABlN0YXR1cwT8////C1N5c3RlbS5HdWlkCwAAAAJfYQJf
+        YgJfYwJfZAJfZQJfZgJfZwJfaAJfaQJfagJfawAAAAAAAAAAAAAACAcHAgICAgICAgK3W3l3xZvSTaKX
+        zHWGguI9AQs=
+</value>
+  </data>
+  <data name="backstageViewClientControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 343</value>
+  </data>
+  <data name="bvItemSave.AppearancePressed.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pccBottom.Name" xml:space="preserve">
+    <value>pccBottom</value>
+  </data>
+  <data name="bvItemSave.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pmAppMain.MenuAppearance.HeaderItemAppearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="bvItemExit.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemOpen.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvItemOpen.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;taskbarAssistant.Type" xml:space="preserve">
+    <value>DevExpress.Utils.Taskbar.TaskbarAssistant, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="biOpen.Hint" xml:space="preserve">
+    <value>Open a job</value>
+  </data>
+  <data name="bvTabHelp.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="riicStyle.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rcMain.ApplicationButtonText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rgbiSkins.Caption" xml:space="preserve">
+    <value>Skins</value>
+  </data>
+  <data name="bvItemOpen.AppearanceHover.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvTabRecent.AppearanceDisabled.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemOpen.AppearanceHover.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="backstageViewControl1.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="biSave.Description" xml:space="preserve">
+    <value>Saves the active document with its current file name.</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bvTabHelp.Name" xml:space="preserve">
+    <value>bvTabHelp</value>
+  </data>
+  <data name="imageCollection.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;biStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>794, 650</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="pccBottom.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="beLogo.EditWidth" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="&gt;&gt;bvTabHelp.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewTabItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Lazy SQL Backup 2 Remote</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="biAbout.Hint" xml:space="preserve">
+    <value>Displays the About dialog</value>
+  </data>
+  <data name="bvTabHelp.AppearanceDisabled.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="bvItemOpen.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;biDownload.Name" xml:space="preserve">
+    <value>biDownload</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;pcAppMenuFileLabels.Parent" xml:space="preserve">
+    <value>pccAppMenu</value>
+  </data>
+  <data name="recentItemsControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;bvTabRecent.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewTabItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemSave.AppearanceHover.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bvItemExit.AppearancePressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;pccBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="bvTabHelp.AppearanceHover.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgbiSkins.Gallery.Appearance.ItemCaptionAppearance.Normal.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;thumbButtonExit.Type" xml:space="preserve">
+    <value>DevExpress.Utils.Taskbar.ThumbnailButton, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rcMain.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pccAppMenu.Name" xml:space="preserve">
+    <value>pccAppMenu</value>
+  </data>
+  <data name="&gt;&gt;pcAppMenuFileLabels.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pccBottom.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;thumbButtonRun.Type" xml:space="preserve">
+    <value>DevExpress.Utils.Taskbar.ThumbnailButton, DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemExit.AppearancePressed.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvTabHelp.AppearanceSelected.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bvItemExit.AppearanceDisabled.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="jobControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;rpView.Name" xml:space="preserve">
+    <value>rpView</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>pccAppMenu</value>
+  </data>
+  <data name="&gt;&gt;rpgTools.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;siModified.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bvItemSaveAs.AppearancePressed.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="biSave.Hint" xml:space="preserve">
+    <value>Saves the active document with its current file name</value>
+  </data>
+  <data name="bvItemOpen.AppearanceHover.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;jobControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bvItemOpen.Caption" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="bvItemSaveAs.AppearanceHover.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;iPaintStyle.Name" xml:space="preserve">
+    <value>iPaintStyle</value>
+  </data>
+  <data name="&gt;&gt;backstageViewControl1.Name" xml:space="preserve">
+    <value>backstageViewControl1</value>
+  </data>
+  <data name="&gt;&gt;bvItemSaveAs.Name" xml:space="preserve">
+    <value>bvItemSaveAs</value>
+  </data>
+  <data name="&gt;&gt;bvItemExit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.BackstageViewButtonItem, DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpgTools.Name" xml:space="preserve">
+    <value>rpgTools</value>
+  </data>
+  <data name="&gt;&gt;helpControl1.Name" xml:space="preserve">
+    <value>helpControl1</value>
+  </data>
+  <data name="riicStyle.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rcMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="sbExit.Text" xml:space="preserve">
+    <value>E&amp;xit Application</value>
+  </data>
+  <data name="&gt;&gt;taskbarAssistant.Name" xml:space="preserve">
+    <value>taskbarAssistant</value>
+  </data>
+  <data name="bvItemSave.AppearanceDisabled.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <metadata name="defaultLookAndFeel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imageCollection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>400, 17</value>
+  </metadata>
+  <metadata name="pmAppMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>281, 17</value>
+  </metadata>
+  <metadata name="taskbarAssistant.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>546, 17</value>
+  </metadata>
+  <metadata name="pmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>184, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru-RU</value>
+  </metadata>
+</root>

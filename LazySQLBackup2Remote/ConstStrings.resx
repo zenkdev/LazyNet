@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterBackup" xml:space="preserve">
+    <value>after backup</value>
+  </data>
+  <data name="AfterBackupSqlScriptCaption" xml:space="preserve">
+    <value>Custom SQL script to run AFTER backup</value>
+  </data>
+  <data name="ApplicationCaption" xml:space="preserve">
+    <value>Lazy SQL Backup 2 Remote</value>
+  </data>
+  <data name="AtDaysMonths" xml:space="preserve">
+    <value>at {0} day of month {1}</value>
+  </data>
+  <data name="AtTime" xml:space="preserve">
+    <value>At {0:T}</value>
+  </data>
+  <data name="BeforeBackup" xml:space="preserve">
+    <value>before backup</value>
+  </data>
+  <data name="BeforeBackupSqlScriptCaption" xml:space="preserve">
+    <value>Custom SQL script to run BEFORE backup</value>
+  </data>
+  <data name="Cleaning" xml:space="preserve">
+    <value>{0:G} Cleaning '{1}'</value>
+  </data>
+  <data name="Compressing" xml:space="preserve">
+    <value>{0:G} Compressing '{1}' to '{2}'</value>
+  </data>
+  <data name="CompressionCompleted" xml:space="preserve">
+    <value>{0:G} Compression completed (archive: '{1}', size: {2:fs})</value>
+  </data>
+  <data name="ConnectingTo" xml:space="preserve">
+    <value>{0:G} Connecting to '{1}'</value>
+  </data>
+  <data name="ConnectingToSql" xml:space="preserve">
+    <value>{0:G} Connecting to SQL Server {1}</value>
+  </data>
+  <data name="CreatingBackup" xml:space="preserve">
+    <value>{0:G} Creating backup of [{1}] in '{2}' ({3})</value>
+  </data>
+  <data name="CreatingRemoteFolder" xml:space="preserve">
+    <value>{0:G} Creating remote folder '{1}'</value>
+  </data>
+  <data name="RemoteFolderNotFound" xml:space="preserve">
+    <value>{0:G} Remote folder '{1}' not found</value>
+  </data>
+  <data name="DatabaseFail" xml:space="preserve">
+    <value>Database {0}: Fail</value>
+  </data>
+  <data name="DatabaseSuccess" xml:space="preserve">
+    <value>Database {0}: Success</value>
+  </data>
+  <data name="DeleteScheduledJob" xml:space="preserve">
+    <value>Delete scheduled job {0}?</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>DETAILS:</value>
+  </data>
+  <data name="DisconnectingFrom" xml:space="preserve">
+    <value>{0:G} Disconnecting from '{1}'</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>This test e-mail confirms that your e-mail settings are set correctly</value>
+  </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>A test e-mail has been sent to your mailboxes.
+Please verify if you have receive it!</value>
+  </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>{0} test e-mail</value>
+  </data>
+  <data name="EmailSubjectFail" xml:space="preserve">
+    <value>{0}: job {1} on machine {2} completed with errors</value>
+  </data>
+  <data name="EmailSubjectSuccess" xml:space="preserve">
+    <value>{0}: job {1} on machine {2} completed successfully</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="EveryDay" xml:space="preserve">
+    <value>every day</value>
+  </data>
+  <data name="EveryDays" xml:space="preserve">
+    <value>every {0} day</value>
+  </data>
+  <data name="EveryWeek" xml:space="preserve">
+    <value>every week</value>
+  </data>
+  <data name="EveryWeeks" xml:space="preserve">
+    <value>every {0} week</value>
+  </data>
+  <data name="FailReportNotSent" xml:space="preserve">
+    <value>Fail report was not send to {0} ({1})</value>
+  </data>
+  <data name="FailReportSent" xml:space="preserve">
+    <value>Fail report was send to {0} ({1})</value>
+  </data>
+  <data name="JobFilesFilter" xml:space="preserve">
+    <value>Job Files (*.jobx)|*.jobx</value>
+  </data>
+  <data name="JobFinished" xml:space="preserve">
+    <value>{0:G} Job finished</value>
+  </data>
+  <data name="JobName" xml:space="preserve">
+    <value>Job name: {0}</value>
+  </data>
+  <data name="MacOffice" xml:space="preserve">
+    <value>MacOffice</value>
+  </data>
+  <data name="Office2007" xml:space="preserve">
+    <value>Office 2007</value>
+  </data>
+  <data name="Office2010" xml:space="preserve">
+    <value>Office 2010</value>
+  </data>
+  <data name="Office2013" xml:space="preserve">
+    <value>Office 2013</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>on</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="RemoteFileVerified" xml:space="preserve">
+    <value>{0:G} Remote file size has been verified</value>
+  </data>
+  <data name="RemovingFrom" xml:space="preserve">
+    <value>{0:G} Removing '{1}' from '{2}'</value>
+  </data>
+  <data name="RemovingJunkBackup" xml:space="preserve">
+    <value>{0:G} Removing junk backup '{1}'</value>
+  </data>
+  <data name="RunJobFailure" xml:space="preserve">
+    <value>run job failure</value>
+  </data>
+  <data name="RunningCustomSqlScript" xml:space="preserve">
+    <value>{0:G} Running custom SQL script {1}</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="StartBoundary" xml:space="preserve">
+    <value>start at {0:d}</value>
+  </data>
+  <data name="StartJob" xml:space="preserve">
+    <value>&gt;&gt;&gt; start job {0:G}</value>
+  </data>
+  <data name="SuccessReportNotSent" xml:space="preserve">
+    <value>Success report was not send to {0} ({1})</value>
+  </data>
+  <data name="SuccessReportSent" xml:space="preserve">
+    <value>Success report was send to {0}  ({1})</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>SUMMARY:</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>{0:G} Uploading '{1}' to '{2}' ({3})</value>
+  </data>
+  <data name="Extracting" xml:space="preserve">
+    <value>{0:G} Extracting '{1}' to '{2}'</value>
+  </data>
+  <data name="ExtractionCompleted" xml:space="preserve">
+    <value>{0:G} Extraction completed (backup: '{1}', size: {2:fs})</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0:G} Downloading '{1}' to '{2}' ({3})</value>
+  </data>
+  <data name="DownloadAndRestoreStarting" xml:space="preserve">
+    <value>Download &amp; Restore starting...</value>
+  </data>
+  <data name="StartDownloadAndRestore" xml:space="preserve">
+    <value>&gt;&gt;&gt; start download and restore {0:G}</value>
+  </data>
+  <data name="DownloadAndRestoreFinished" xml:space="preserve">
+    <value>{0:G} Download and restore finished</value>
+  </data>
+  <data name="DownloadingFileProgress" xml:space="preserve">
+    <value>Downloading {0}... {1}%</value>
+  </data>
+  <data name="ExtractingFileProgress" xml:space="preserve">
+    <value>Extracting {0}... {1:fs} of {2:fs}</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="RestoringDatabase" xml:space="preserve">
+    <value>{0:G} Restoring database '{1}'</value>
+  </data>
+  <data name="RestoringDatabaseProgress" xml:space="preserve">
+    <value>Restoring database {0}... {1}</value>
+  </data>
+  <data name="Starting" xml:space="preserve">
+    <value>Starting...</value>
+  </data>
+  <data name="LocalFileVerified" xml:space="preserve">
+    <value>{0:G} Local file has been found and verified</value>
+  </data>
+  <data name="RemoteFileNotFound" xml:space="preserve">
+    <value>{0:G} Remote file '{1}' not found</value>
+  </data>
+  <data name="ZipFileNotFound" xml:space="preserve">
+    <value>{0:G} Zip file '{1}' not found</value>
+  </data>
+  <data name="NoRecoveryArchiveSelected" xml:space="preserve">
+    <value>No recovery archive selected!</value>
+  </data>
+</root>

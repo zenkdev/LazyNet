@@ -63,6 +63,7 @@
             // 
             // logo
             // 
+            this.logo.Cursor = System.Windows.Forms.Cursors.Default;
             this.logo.EditValue = ((object)(resources.GetObject("logo.EditValue")));
             this.logo.Location = new System.Drawing.Point(12, 382);
             this.logo.MinimumSize = new System.Drawing.Size(0, 81);
@@ -73,6 +74,7 @@
             this.logo.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.logo.Properties.PictureAlignment = System.Drawing.ContentAlignment.BottomRight;
             this.logo.Properties.ShowMenu = false;
+            this.logo.Properties.ZoomAccelerationFactor = 1D;
             this.logo.Size = new System.Drawing.Size(868, 81);
             this.logo.StyleController = this.layoutControl1;
             this.logo.TabIndex = 19;
@@ -87,12 +89,11 @@
             this.buttonsPanel.AppearanceButton.Pressed.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.buttonsPanel.AppearanceButton.Pressed.Options.UseFont = true;
             this.buttonsPanel.Buttons.AddRange(new DevExpress.XtraEditors.ButtonPanel.IBaseButton[] {
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "ProCom 2016", -1, false, false),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons1"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "ProDox 2015", -1, false, false),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons2"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "ProStore 2015", -1, false, false),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons3"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "Protect 2015", -1, false, false),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons4"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "Provizor", -1, false, false),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons5"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "ZebriNet 2015", -1, false, false)});
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "ProCom 2018", -1, false, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons1"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "ProStore 2015", -1, false, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons2"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "Protect 2015", -1, false, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons3"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "Provizor", -1, false, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Button", ((System.Drawing.Image)(resources.GetObject("buttonsPanel.Buttons4"))), -1, DevExpress.XtraBars.Docking2010.ImageLocation.Default, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", false, -1, true, null, true, false, true, null, "ZebriNet 2015", -1, false, false)});
             this.buttonsPanel.Location = new System.Drawing.Point(12, 210);
             this.buttonsPanel.MaximumSize = new System.Drawing.Size(0, 128);
             this.buttonsPanel.MinimumSize = new System.Drawing.Size(0, 168);
@@ -107,6 +108,9 @@
             this.descriptionLabel.AllowHtmlString = true;
             this.descriptionLabel.Appearance.Font = new System.Drawing.Font("Segoe UI Light", 18F);
             this.descriptionLabel.Appearance.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.descriptionLabel.Appearance.Options.UseFont = true;
+            this.descriptionLabel.Appearance.Options.UseImageAlign = true;
+            this.descriptionLabel.Appearance.Options.UseTextOptions = true;
             this.descriptionLabel.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.descriptionLabel.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.descriptionLabel.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;

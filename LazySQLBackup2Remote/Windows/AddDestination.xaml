@@ -1,0 +1,38 @@
+﻿<Window x:Class="Dekart.LazyNet.SQLBackup2Remote.Windows.AddDestination"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Add destination" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded" SizeToContent="WidthAndHeight">
+    <StackPanel Margin="5">
+        <TextBlock FontWeight="Bold">Select where to store the backups</TextBlock>
+        <Button x:Name="FtpButton" Margin="0,10,0,0" Click="FtpButton_Click">
+            <StackPanel Orientation="Horizontal" Width="260">
+                <Image Source="..\Images\network_folder.png" Width="32"/>
+                <StackPanel Margin="10,0,0,0">
+                    <TextBlock Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" TextDecorations="Underline" FontSize="14" HorizontalAlignment="Left">
+                        FTP Server
+                    </TextBlock>
+                    <TextBlock Foreground="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}">
+                        FTP/SFTP server
+                    </TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </Button>
+        <Button x:Name="FolderButton" Margin="0,10,0,0" Click="FolderButton_Click">
+            <StackPanel Orientation="Horizontal" Width="260">
+                <Image Source="..\Images\network_drive.png"/>
+                <StackPanel Margin="10,0,0,0">
+                    <TextBlock Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" TextDecorations="Underline" FontSize="14">
+                        Local/Network Folder
+                    </TextBlock>
+                    <TextBlock Foreground="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}">
+                        Local/Network folder/External HDD/NAS
+                    </TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </Button>
+    </StackPanel>
+</Window>

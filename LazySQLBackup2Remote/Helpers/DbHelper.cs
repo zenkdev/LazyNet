@@ -1,11 +1,10 @@
+﻿using Dapper;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.Sql;
 using System.Data.SqlClient;
-using Dapper;
-using Dekart.LazyNet.SQLBackup2Remote.Models;
+using System.Threading.Tasks;
 
 namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
 {
@@ -13,8 +12,15 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
     {
         public static List<string> GetDataSources()
         {
+            var task = GetDataSourcesAsync();
+            task.RunSynchronously();
+            return task.Result;
+        }
+
+        public static async Task<List<string>> GetDataSourcesAsync()
+        {
             var dataSources = new List<string>();
-            var dataTable = SqlDataSourceEnumerator.Instance.GetDataSources();
+            var dataTable = await Task.Factory.StartNew(() => SqlDataSourceEnumerator.Instance.GetDataSources());
             foreach (DataRow row in dataTable.Rows)
             {
                 var dataSource = row["ServerName"].ToString();
@@ -45,6 +51,25 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
             return conn;
         }
 
+        public static async Task<SqlConnection> GetNewOpenConnectionAsync(JobData job)
+        {
+            return await GetNewOpenConnectionAsync(job.ServerName, job.IntegratedSecurity, job.UserName, job.Password);
+        }
+
+        public static async Task<SqlConnection> GetNewOpenConnectionAsync(string serverName, bool integratedSecurity, string userName, string password)
+        {
+            var builder = new SqlConnectionStringBuilder();
+            if (serverName != null) builder.DataSource = serverName;
+            builder.IntegratedSecurity = integratedSecurity;
+            if (userName != null) builder.UserID = userName;
+            if (password != null) builder.Password = password;
+            builder.ApplicationName = ConstStrings.ApplicationCaption;
+
+            var conn = new SqlConnection(builder.ConnectionString);
+            await conn.OpenAsync();
+            return conn;
+        }
+
         public static List<string> GetDatabaseNames(bool showSystemDatabases, SqlConnection cn)
         {
             var flag = cn.State == ConnectionState.Open;
@@ -56,6 +81,35 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
             var databases = new List<string>();
             var cmd = new SqlCommand("SELECT name FROM sys.databases", cn);
             var rdr = cmd.ExecuteReader();
+            while (rdr.Read())
+            {
+                var db = rdr.GetString(0);
+                if (showSystemDatabases || !db.IsSystemDatabase())
+                {
+                    databases.Add(db);
+                }
+            }
+            rdr.Close();
+
+            if (!flag)
+            {
+                cn.Close();
+            }
+
+            return databases;
+        }
+
+        public static async Task<List<string>> GetDatabaseNamesAsync(bool showSystemDatabases, SqlConnection cn)
+        {
+            var flag = cn.State == ConnectionState.Open;
+            if (!flag)
+            {
+                await cn.OpenAsync();
+            }
+
+            var databases = new List<string>();
+            var cmd = new SqlCommand("SELECT name FROM sys.databases", cn);
+            var rdr = await cmd.ExecuteReaderAsync();
             while (rdr.Read())
             {
                 var db = rdr.GetString(0);
@@ -100,7 +154,7 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
             return backupDirectory;
         }
 
-        public static ObservableCollection<BackupHistoryViewModel> GetBackupHistory(SqlConnection cn, string database)
+        public static async Task<List<BackupHistoryData>> GetBackupHistoryAsync(SqlConnection cn, string database)
         {
             var flag = cn.State == ConnectionState.Open;
             if (!flag)
@@ -108,7 +162,7 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
                 cn.Open();
             }
 
-            var backupHistory = cn.Query<BackupHistoryViewModel>(@"
+            var backupHistory = await cn.QueryAsync<BackupHistoryData>(@"
 --------------------------------------------------------------------------------- 
 --Database Backups for all databases For Previous Week 
 --------------------------------------------------------------------------------- 
@@ -136,17 +190,17 @@ WHERE msdb.dbo.backupset.database_name = @database --(CONVERT(datetime, msdb.dbo
 ORDER BY 
 msdb.dbo.backupset.database_name, 
 msdb.dbo.backupset.backup_finish_date
-", new { database }).ToObservableCollection();
+", new { database });
 
             if (!flag)
             {
                 cn.Close();
             }
 
-            return backupHistory;
+            return backupHistory.AsList();
         }
 
-        public static ObservableCollection<DatabaseFileViewModel> GetDatabaseFiles(SqlConnection cn, string database)
+        public static List<DatabaseFileData> GetDatabaseFiles(SqlConnection cn, string database)
         {
             var flag = cn.State == ConnectionState.Open;
             if (!flag)
@@ -154,14 +208,14 @@ msdb.dbo.backupset.backup_finish_date
                 cn.Open();
             }
 
-            var databaseFiles = cn.Query<DatabaseFileViewModel>($"select * from sys.master_files where database_id = DB_ID('{database}')", new { }).ToObservableCollection();
+            var databaseFiles = cn.Query<DatabaseFileData>($"select * from sys.master_files where database_id = DB_ID('{database}')", new { });
 
             if (!flag)
             {
                 cn.Close();
             }
 
-            return databaseFiles;
+            return databaseFiles.AsList();
         }
 
         public static bool IsSystemDatabase(this string name)
@@ -174,9 +228,6 @@ msdb.dbo.backupset.backup_finish_date
                    name.Equals("tempdb", StringComparison.InvariantCultureIgnoreCase);
         }
 
-        public static ObservableCollection<T> ToObservableCollection<T>(this IEnumerable<T> enumerable)
-        {
-            return new ObservableCollection<T>(enumerable);
-        }
     }
+
 }

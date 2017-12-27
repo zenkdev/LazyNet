@@ -1,33 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <ProjectType>Local</ProjectType>
-    <ProductVersion>9.0.30729</ProductVersion>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
-    <ProjectGuid>{18F0B3F6-59FD-4328-916C-A183EDD3B8F9}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
-    <AssemblyKeyContainerName>
-    </AssemblyKeyContainerName>
-    <AssemblyName>LazySQLBackup2Remote</AssemblyName>
-    <AssemblyOriginatorKeyFile>2017.pfx</AssemblyOriginatorKeyFile>
-    <DefaultClientScript>JScript</DefaultClientScript>
-    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
-    <DefaultTargetSchema>IE50</DefaultTargetSchema>
-    <DelaySign>false</DelaySign>
+    <ProjectGuid>{6BACF8C1-E0FA-4A47-9CDF-4A64D715CEB6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Dekart.LazyNet.SQLBackup2Remote</RootNamespace>
-    <StartupObject>
-    </StartupObject>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>3.5</OldToolsVersion>
-    <TargetFrameworkProfile />
+    <AssemblyName>LazySQLBackup2Remote</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>\\td-dekart\dfs\deploy\LazySQLBackup2Remote\</PublishUrl>
+    <PublishUrl>\\td-dekart\dfs\deploy\LazySQLBackup2RemoteWpf\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Unc</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -37,63 +26,50 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\td-dekart\dfs\deploy\LazySQLBackup2RemoteWpf\</UpdateUrl>
     <TargetCulture>ru-RU</TargetCulture>
-    <MinimumRequiredVersion>2016.11.0.0</MinimumRequiredVersion>
-    <WebPage>publish.htm</WebPage>
+    <ProductName>LazySQLBackup2Remote</ProductName>
+    <MinimumRequiredVersion>2018.0.1.0</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>2016.11.0.%2a</ApplicationVersion>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>2018.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>bin\Debug\</OutputPath>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <BaseAddress>0</BaseAddress>
-    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
-    <ConfigurationOverrideFile>
-    </ConfigurationOverrideFile>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DocumentationFile>
-    </DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
-    <FileAlignment>4096</FileAlignment>
-    <Optimize>false</Optimize>
-    <RegisterForComInterop>false</RegisterForComInterop>
-    <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <PlatformTarget>x86</PlatformTarget>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <WarningLevel>4</WarningLevel>
     <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>bin\Release\</OutputPath>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <BaseAddress>0</BaseAddress>
-    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
-    <ConfigurationOverrideFile>
-    </ConfigurationOverrideFile>
-    <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile>
-    </DocumentationFile>
-    <DebugSymbols>false</DebugSymbols>
-    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <RegisterForComInterop>false</RegisterForComInterop>
-    <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <PlatformTarget>x86</PlatformTarget>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <WarningLevel>4</WarningLevel>
-    <DebugType>none</DebugType>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>4FAD947DECAB0E934FF561C5E3AD4C9FF6B3CF02</ManifestCertificateThumbprint>
   </PropertyGroup>
@@ -103,94 +79,127 @@
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
-  <PropertyGroup>
-    <SignManifests>true</SignManifests>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
-  </PropertyGroup>
-  <PropertyGroup>
-    <TargetZone>LocalIntranet</TargetZone>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Dapper.StrongName, Version=1.50.4.0, Culture=neutral, PublicKeyToken=e3e8412083d25dd3, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.StrongName.1.50.4\lib\net451\Dapper.StrongName.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.BonusSkins.v16.1">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Images.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Mvvm.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Pdf.v16.1.Core">
-      <Name>DevExpress.Pdf.v16.1.Core</Name>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Printing.v16.1.Core">
-      <Name>DevExpress.Printing.v16.1.Core</Name>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Data.v16.1">
-      <Name>DevExpress.Data.v16.1</Name>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v16.1">
-      <Name>DevExpress.Utils.v16.1</Name>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.XtraBars.v16.1">
-      <Name>DevExpress.XtraBars.v16.1</Name>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.XtraEditors.v16.1">
-      <Name>DevExpress.XtraEditors.v16.1</Name>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.XtraLayout.v16.1">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Ionic.Zip.Reduced">
+    <Reference Include="Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
       <HintPath>..\packages\DotNetZip.Reduced.1.9.1.8\lib\net20\Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Win32.TaskScheduler, Version=2.7.2.0, Culture=neutral, PublicKeyToken=c416bc1b32d97233, processorArchitecture=MSIL">
-      <HintPath>..\packages\TaskScheduler.2.7.2\lib\net40\Microsoft.Win32.TaskScheduler.dll</HintPath>
+      <HintPath>..\packages\TaskScheduler.2.7.2\lib\net452\Microsoft.Win32.TaskScheduler.dll</HintPath>
     </Reference>
-    <Reference Include="System">
-      <Name>System</Name>
-      <Private>False</Private>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Data">
-      <Name>System.Data</Name>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Drawing">
-      <Name>System.Drawing</Name>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Windows.Forms">
-      <Name>System.Windows.Forms</Name>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Xml">
-      <Name>System.XML</Name>
-      <Private>False</Private>
-    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="WinSCPnet, Version=1.4.0.7781, Culture=neutral, PublicKeyToken=2271ec4a3c56d0bf, processorArchitecture=MSIL">
-      <HintPath>..\packages\WinSCP.5.11.2\lib\WinSCPnet.dll</HintPath>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WinSCPnet, Version=1.4.1.7995, Culture=neutral, PublicKeyToken=2271ec4a3c56d0bf, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinSCP.5.11.3\lib\WinSCPnet.dll</HintPath>
+    </Reference>
+    <Reference Include="WpfAnimatedGif, Version=1.4.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfAnimatedGif.1.4.15\lib\net\WpfAnimatedGif.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.2.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.2.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.2.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.2.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.2.0\lib\net40\Xceed.Wpf.DataGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=3.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.2.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Helpers\MruListBox.cs" />
+    <Compile Include="Windows\AddDestination.xaml.cs">
+      <DependentUpon>AddDestination.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddEmailSettings.xaml.cs">
+      <DependentUpon>AddEmailSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddFtpDestination.xaml.cs">
+      <DependentUpon>AddFtpDestination.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddFolderDestination.xaml.cs">
+      <DependentUpon>AddFolderDestination.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddSchedule.xaml.cs">
+      <DependentUpon>AddSchedule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DownloadAndRestore.xaml.cs">
+      <DependentUpon>DownloadAndRestore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\RunJob.xaml.cs">
+      <DependentUpon>RunJob.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ScheduledJobs.xaml.cs">
+      <DependentUpon>ScheduledJobs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ScheduleSettings.xaml.cs">
+      <DependentUpon>ScheduleSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\TaskSchedulerAccount.xaml.cs">
+      <DependentUpon>TaskSchedulerAccount.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Windows\AddConnection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddCustomSQLScript.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JobControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="CustomCommands.cs" />
+    <Compile Include="Windows\AddConnection.xaml.cs">
+      <DependentUpon>AddConnection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddCustomSQLScript.xaml.cs">
+      <DependentUpon>AddCustomSQLScript.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ConstStrings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -201,302 +210,183 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ConstStrings.ru-RU.resx</DependentUpon>
     </Compile>
-    <Compile Include="DxSplashScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DxSplashScreen.designer.cs">
-      <DependentUpon>DxSplashScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddCustomSQLScript.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddCustomSQLScript.Designer.cs">
-      <DependentUpon>AddCustomSQLScript.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Data.cs" />
     <Compile Include="Helpers\CryptoHelper.cs" />
     <Compile Include="Helpers\DbHelper.cs" />
     <Compile Include="Helpers\FileHelper.cs" />
     <Compile Include="Helpers\FileSizeFormatProvider.cs" />
     <Compile Include="Helpers\LogHelper.cs" />
-    <Compile Include="Helpers\MRUArrayList.cs" />
+    <Compile Include="Helpers\SendMail.cs" />
     <Compile Include="Helpers\TextHelper.cs" />
-    <Compile Include="Helpers\WinApiException.cs" />
     <Compile Include="Helpers\WinHelper.cs" />
     <Compile Include="Helpers\XCopy.cs" />
-    <Compile Include="Models\BackupHistoryViewModel.cs" />
-    <Compile Include="Models\DatabaseFileViewModel.cs" />
-    <Compile Include="Models\RestoreBackupViewModel.cs" />
-    <Compile Include="Views\RestoreBackupView.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Helpers\JobRunner.cs" />
+    <Compile Include="JobControl.xaml.cs">
+      <DependentUpon>JobControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\RestoreBackupView.Designer.cs">
-      <DependentUpon>RestoreBackupView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\ScheduledJobsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\ScheduledJobsForm.Designer.cs">
-      <DependentUpon>ScheduledJobsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddDestinationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddDestinationForm.Designer.cs">
-      <DependentUpon>AddDestinationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddEmailSettingsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddEmailSettingsForm.Designer.cs">
-      <DependentUpon>AddEmailSettingsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddFtpDestinationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddFtpDestinationForm.Designer.cs">
-      <DependentUpon>AddFtpDestinationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddScheduleForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddScheduleForm.Designer.cs">
-      <DependentUpon>AddScheduleForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddSchedulerSettingsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddSchedulerSettingsForm.Designer.cs">
-      <DependentUpon>AddSchedulerSettingsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\TaskSchedulerAccountForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\TaskSchedulerAccountForm.designer.cs">
-      <DependentUpon>TaskSchedulerAccountForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs">
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Controls\BackstageViewLabel.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Forms\AddFormBase.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddFormBase.Designer.cs">
-      <DependentUpon>AddFormBase.cs</DependentUpon>
+    <Page Include="Windows\AddDestination.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddEmailSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddFtpDestination.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Windows\AddFolderDestination.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddSchedule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DownloadAndRestore.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\RunJob.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ScheduledJobs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ScheduleSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\TaskSchedulerAccount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\RunJobForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\RunJobForm.Designer.cs">
-      <DependentUpon>RunJobForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Helpers\SendMail.cs" />
-    <Compile Include="Forms\AddConnectionForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddConnectionForm.Designer.cs">
-      <DependentUpon>AddConnectionForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AppMainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AppMainForm.Designer.cs">
-      <DependentUpon>AppMainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Data.cs" />
-    <Compile Include="Controls\JobControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\JobControl.Designer.cs">
-      <DependentUpon>JobControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\HelpControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\HelpControl.Designer.cs">
-      <DependentUpon>HelpControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Controls\RecentItemsControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\RecentItemsControl.Designer.cs">
-      <DependentUpon>RecentItemsControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\RibbonApplicationUserControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\RibbonApplicationUserControl.Designer.cs">
-      <DependentUpon>RibbonApplicationUserControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddFolderDestinationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddFolderDestinationForm.Designer.cs">
-      <DependentUpon>AddFolderDestinationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JobRunner.cs" />
-    <Compile Include="Models\WinFormData.cs" />
-    <Content Include="WinSCP.exe" />
-    <EmbeddedResource Include="Views\RestoreBackupView.ru-RU.resx">
-      <DependentUpon>RestoreBackupView.cs</DependentUpon>
-    </EmbeddedResource>
-    <None Include="2017.pfx" />
-    <None Include="Resources\download_16x16.png" />
-    <None Include="Resources\download_32x32.png" />
-    <None Include="Resources\refresh_32x32.png" />
-    <EmbeddedResource Include="AppMainForm.ru-RU.resx">
-      <DependentUpon>AppMainForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ConstStrings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ConstStrings.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="ConstStrings.ru-RU.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ConstStrings.ru-RU.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\JobControl.ru-RU.resx">
-      <DependentUpon>JobControl.cs</DependentUpon>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="DxSplashScreen.resx">
-      <DependentUpon>DxSplashScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddCustomSQLScript.resx">
-      <DependentUpon>AddCustomSQLScript.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\RestoreBackupView.resx">
-      <DependentUpon>RestoreBackupView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ScheduledJobsForm.resx">
-      <DependentUpon>ScheduledJobsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <None Include="Properties\app.manifest" />
+    <None Include="2017.pfx" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Resources\new_16x16.png" />
-    <None Include="Resources\new_32x32.png" />
-    <None Include="Resources\open_16x16.png" />
-    <None Include="Resources\open_32x32.png" />
-    <None Include="Resources\save_16x16.png" />
-    <None Include="Resources\save_32x32.png" />
-    <None Include="Resources\saveas_16x16.png" />
-    <None Include="Resources\saveas_32x32.png" />
-    <None Include="Resources\close_16x16.png" />
-    <None Include="Resources\close_32x32.png" />
-    <None Include="Resources\info_16x16.png" />
-    <None Include="Resources\info_32x32.png" />
-    <None Include="Resources\edit_16x16.png" />
-    <None Include="Resources\edit_32x32.png" />
-    <None Include="Resources\saveall_16x16.png" />
-    <None Include="Resources\saveall_32x32.png" />
-    <None Include="Resources\fillbackground_16x16.png" />
-    <None Include="Resources\fillbackground_32x32.png" />
-    <None Include="Resources\historyitem_16x16.png" />
-    <None Include="Resources\historyitem_32x32.png" />
-    <None Include="Resources\task_16x16.png" />
-    <None Include="Resources\task_32x32.png" />
-    <None Include="Resources\new_16x161.png" />
-    <None Include="Resources\next_16x16.png" />
-    <None Include="Resources\managedatasource_32x32.png" />
-    <None Include="Resources\task_32x321.png" />
-    <None Include="Resources\mail_32x32.png" />
-    <None Include="Resources\publish_32x32.png" />
-    <None Include="Resources\properties_32x32.png" />
-    <None Include="Resources\next_32x32.png" />
-    <None Include="Resources\delete_32x32.png" />
-    <EmbeddedResource Include="Forms\AddScheduleForm.resx">
-      <DependentUpon>AddScheduleForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddSchedulerSettingsForm.resx">
-      <DependentUpon>AddSchedulerSettingsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TaskSchedulerAccountForm.resx">
-      <DependentUpon>TaskSchedulerAccountForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\RunJobForm.resx">
-      <DependentUpon>RunJobForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddFormBase.resx">
-      <DependentUpon>AddFormBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddConnectionForm.resx">
-      <DependentUpon>AddConnectionForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AppMainForm.resx">
-      <DependentUpon>AppMainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddDestinationForm.resx">
-      <DependentUpon>AddDestinationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddEmailSettingsForm.resx">
-      <DependentUpon>AddEmailSettingsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddFtpDestinationForm.resx">
-      <DependentUpon>AddFtpDestinationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\JobControl.resx">
-      <DependentUpon>JobControl.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\HelpControl.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>HelpControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="online.gif" />
-    <EmbeddedResource Include="Properties\licenses.licx" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <SubType>Designer</SubType>
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\RecentItemsControl.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>RecentItemsControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\RibbonApplicationUserControl.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>RibbonApplicationUserControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <Content Include="AppIcon.ico" />
-    <None Include="Resources\Network_Drive.png" />
-    <None Include="Resources\Network_Folder.png" />
-    <Content Include="Resources\Online_Help.png" />
-    <Content Include="Resources\Code_Central.png" />
-    <Content Include="Resources\Contact_Us.png" />
-    <EmbeddedResource Include="Forms\AddFolderDestinationForm.resx">
-      <DependentUpon>AddFolderDestinationForm.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.6.2">
+    <Content Include="AppIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\properties_32x32.png" />
+    <Resource Include="Images\publish_16x16.png" />
+    <Resource Include="Images\mail_16x16.png" />
+    <Resource Include="Images\mail_32x32.png" />
+    <Resource Include="Images\publish_32x32.png" />
+    <Resource Include="Images\datasource_32x32.png" />
+    <Resource Include="Images\run_16x16.png" />
+    <Resource Include="Images\run_32x32.png" />
+    <Resource Include="Images\close_16x16.png" />
+    <Resource Include="Images\close_32x32.png" />
+    <Resource Include="Images\download_16x16.png" />
+    <Resource Include="Images\download_32x32.png" />
+    <Resource Include="Images\log_16x16.png" />
+    <Resource Include="Images\log_32x32.png" />
+    <Resource Include="Images\job_16x16.png" />
+    <Resource Include="Images\job_32x32.png" />
+    <Resource Include="Images\open_16x16.png" />
+    <Resource Include="Images\open_32x32.png" />
+    <Resource Include="Images\saveall_16x16.png" />
+    <Resource Include="Images\saveall_32x32.png" />
+    <Resource Include="Images\saveas_16x16.png" />
+    <Resource Include="Images\saveas_32x32.png" />
+    <Resource Include="Images\save_16x16.png" />
+    <Resource Include="Images\save_32x32.png" />
+    <Resource Include="Images\new_32x32.png" />
+    <Resource Include="Images\new_16x16.png" />
+    <SplashScreen Include="SplashScreen.png" />
+    <Resource Include="online.gif" />
+    <Resource Include="Images\delete_32x32.png" />
+    <Resource Include="Images\network_drive.png" />
+    <Resource Include="Images\network_folder.png" />
+    <Resource Include="Images\Google-Black\exit_16x16.png" />
+    <Resource Include="Images\Google-Black\exit_32x32.png" />
+    <Resource Include="Images\Google-Black\settings_16x16.png" />
+    <Resource Include="Images\Google-Black\settings_32x32.png" />
+    <Resource Include="Images\Google-Black\save_16x16.png" />
+    <Resource Include="Images\Google-Black\save_32x32.png" />
+    <Resource Include="Images\Google-Black\schedule_16x16.png" />
+    <Resource Include="Images\Google-Black\schedule_32x32.png" />
+    <Resource Include="Images\Google-Black\cancel_16x16.png" />
+    <Resource Include="Images\Google-Black\cancel_32x32.png" />
+    <Resource Include="Images\Google-Black\refresh_16x16.png" />
+    <Resource Include="Images\Google-Black\refresh_32x32.png" />
+    <Resource Include="Images\Google-Black\mail_16x12.png" />
+    <Resource Include="Images\Google-Black\mail_32x25.png" />
+    <Resource Include="Images\Google-Black\backup_16x10.png" />
+    <Resource Include="Images\Google-Black\backup_32x21.png" />
+    <Resource Include="Images\Google-Black\download_11x16.png" />
+    <Resource Include="Images\Google-Black\download_23x32.png" />
+    <Resource Include="Images\Google-Black\event_14x16.png" />
+    <Resource Include="Images\Google-Black\event_28x32.png" />
+    <Resource Include="Images\Google-Black\new_12x16.png" />
+    <Resource Include="Images\Google-Black\new_25x32.png" />
+    <Resource Include="Images\Google-Black\write_16x14.png" />
+    <Resource Include="Images\Google-Black\write_32x28.png" />
+    <Content Include="WinSCP.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="System.Windows.Controls.Ribbon">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.6.2 %28x86 и x64%29</ProductName>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 и x64%29</ProductName>
       <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
@@ -505,77 +395,20 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <PublishFile Include="DevExpress.Office.v16.1.Core">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="DevExpress.Printing.v16.1.Core">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="DevExpress.RichEdit.v16.1.Core">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="DevExpress.Sparkline.v16.1.Core">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="DevExpress.XtraPrinting.v16.1">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="DevExpress.XtraTreeList.v16.1">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-  </ItemGroup>
-  <ItemGroup>
     <FileAssociation Include=".jobx">
       <Visible>False</Visible>
-      <Description>Lazy SQL Backup 2 Remote job</Description>
-      <Progid>LazySQLBackup2Remote.Job</Progid>
+      <Description>Файлы заданий</Description>
+      <Progid>LazySQLBackup2Remote</Progid>
       <DefaultIcon>AppIcon.ico</DefaultIcon>
     </FileAssociation>
   </ItemGroup>
   <ItemGroup />
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\KindOfMagic.1.3.1\build\KindOfMagic.targets" Condition="Exists('..\packages\KindOfMagic.1.3.1\build\KindOfMagic.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\KindOfMagic.1.3.1\build\KindOfMagic.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\KindOfMagic.1.3.1\build\KindOfMagic.targets'))" />
+  </Target>
 </Project>

@@ -130,7 +130,7 @@
     <value>в {0} день месяца {1}</value>
   </data>
   <data name="AtTime" xml:space="preserve">
-    <value>В {0:T}</value>
+    <value>В {0:HH:mm}</value>
   </data>
   <data name="BeforeBackup" xml:space="preserve">
     <value>перед архивированием</value>
@@ -244,8 +244,14 @@
   <data name="JobName" xml:space="preserve">
     <value>Имя задания: {0}</value>
   </data>
+  <data name="LocalFileVerified" xml:space="preserve">
+    <value>{0:G} Локалный файл найден и проверен</value>
+  </data>
   <data name="MacOffice" xml:space="preserve">
     <value>MacOffice</value>
+  </data>
+  <data name="NoRecoveryArchiveSelected" xml:space="preserve">
+    <value>Не выбран архив для восстановления!</value>
   </data>
   <data name="Office2007" xml:space="preserve">
     <value>Office 2007</value>
@@ -264,6 +270,9 @@
   </data>
   <data name="Question" xml:space="preserve">
     <value>Вопрос</value>
+  </data>
+  <data name="RemoteFileNotFound" xml:space="preserve">
+    <value>{0:G} Файл '{1}' не найден в хранилище</value>
   </data>
   <data name="RemoteFileVerified" xml:space="preserve">
     <value>{0:G} Размер файла в хранилище проверен</value>
@@ -316,16 +325,7 @@
   <data name="Uploading" xml:space="preserve">
     <value>{0:G} Закачиваем '{1}' в '{2}' ({3})</value>
   </data>
-  <data name="LocalFileVerified" xml:space="preserve">
-    <value>{0:G} Локалный файл найден и проверен</value>
-  </data>
-  <data name="RemoteFileNotFound" xml:space="preserve">
-    <value>{0:G} Файл '{1}' не найден в хранилище</value>
-  </data>
   <data name="ZipFileNotFound" xml:space="preserve">
     <value>{0:G} Файл '{1}' не найден в архиве</value>
-  </data>
-  <data name="NoRecoveryArchiveSelected" xml:space="preserve">
-    <value>Не выбран архив для восстановления!</value>
   </data>
 </root>

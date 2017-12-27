@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Security.Cryptography;
 
@@ -147,4 +147,5 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
 
         }
     }
+
 }

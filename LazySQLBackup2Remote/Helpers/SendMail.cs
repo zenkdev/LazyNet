@@ -300,4 +300,5 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
             public bool SmtpUseSsl { get; }
         }
     }
+
 }

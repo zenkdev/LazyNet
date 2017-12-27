@@ -1,0 +1,35 @@
+﻿<Window x:Class="Dekart.LazyNet.SQLBackup2Remote.Windows.ScheduledJobs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Scheduled Jobs" Height="400" Width="700" WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded" Closing="Window_Closing">
+    <DockPanel>
+        <Grid DockPanel.Dock="Bottom">
+            <Button x:Name="CloseButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,5" Width="100" IsCancel="True" Click="CloseButton_Click">
+                Close
+            </Button>
+        </Grid>
+        <DataGrid x:Name="ScheduledJobsGrid" Margin="5" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Width="34">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="DeleteButton_Click">
+                                <Image Source="../Images/delete_32x32.png"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridCheckBoxColumn Width="55" Header="Enabled" Binding="{Binding Enabled}"/>
+                <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Width="120" Header="Last run time" Binding="{Binding LastRunTime, StringFormat=g}" />
+                <DataGridTextColumn Width="100" Header="Last task result" Binding="{Binding LastTaskResult}" />
+                <DataGridTextColumn Width="120" Header="Next run time" Binding="{Binding NextRunTime, StringFormat=g}" />
+                <DataGridTextColumn Width="150" Header="Number of missed runs" Binding="{Binding NumberOfMissedRuns}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

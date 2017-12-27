@@ -1,12 +1,11 @@
-using System;
+﻿using System;
 using System.Configuration;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Windows.Forms;
-using DevExpress.XtraEditors;
+using System.Windows;
 
 namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
 {
@@ -37,9 +36,6 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
         [DllImport("advapi32.dll", SetLastError = true)]
         public static extern bool LogonUser(string pszUsername, string pszDomain, string pszPassword, int dwLogonType, int dwLogonProvider, ref IntPtr phToken);
 
-        [DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
-        public static extern int GetLastError();
-
         // closes open handes returned by LogonUser
         [DllImport("kernel32.dll", CharSet = CharSet.Auto)]
         public static extern bool CloseHandle(IntPtr handle);
@@ -68,17 +64,10 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
             return tempDirectory;
         }
 
-        /// <summary>StartProcess</summary>
-        public static void StartProcess(string processName)
+        public static bool? ShowDialog(this Window window, Window owner)
         {
-            try
-            {
-                Process.Start(processName);
-            }
-            catch (Exception ex)
-            {
-                XtraMessageBox.Show(ex.Message, ConstStrings.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            window.Owner = owner;
+            return window.ShowDialog();
         }
 
         public static void LogException(Exception ex)
@@ -88,7 +77,7 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
 
         public static void LogException(string errorMsg, Exception ex)
         {
-            if (ConfigurationManager.AppSettings["LogErrors"] == "false") return;
+            if (string.Equals(ConfigurationManager.AppSettings["LogErrors"], bool.FalseString, StringComparison.OrdinalIgnoreCase)) return;
 
             var builder = new StringBuilder();
             builder.Append("\n\n");
@@ -141,4 +130,5 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
             }
         }
     }
+
 }

@@ -1,0 +1,77 @@
+﻿<Window x:Class="Dekart.LazyNet.SQLBackup2Remote.Windows.DownloadAndRestore"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dekart.LazyNet.SQLBackup2Remote.Windows"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Download &amp; Restore" Height="500" Width="800" WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <DockPanel>
+            <Grid DockPanel.Dock="Bottom">
+                <Button x:Name="DownloadAndRestoreButton" VerticalAlignment="Bottom" HorizontalAlignment="Right" IsDefault="True" Margin="0,0,110,5" Width="150" Click="DownloadAndRestoreButton_Click">
+                    Download &amp; Restore
+                </Button>
+                <Button x:Name="CloseButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,5" Width="100" IsCancel="True" Click="CloseButton_Click">
+                    Close
+                </Button>
+            </Grid>
+            <DockPanel Margin="5">
+                <Grid DockPanel.Dock="Top">
+                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top">Database:</TextBlock>
+                    <ComboBox x:Name="DatabaseComboBox" Margin="100,0,200,0" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,30,0,0">Destination:</TextBlock>
+                    <ComboBox x:Name="DestinationComboBox" Margin="100,30,200,0" VerticalAlignment="Top" SelectedValuePath="Value" DisplayMemberPath="Description"></ComboBox>
+                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,60,0,10">Restore to:</TextBlock>
+                    <ComboBox x:Name="TargerComboBox" Margin="100,60,200,10" VerticalAlignment="Top"></ComboBox>
+                    <TextBlock HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,130,0">On date:</TextBlock>
+                    <xctk:DateTimePicker x:Name="SelectedDatePicker" Margin="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120" Format="ShortDate"/>
+                    <Button x:Name="RefreshButton" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,30,35,0" Width="100" Click="RefreshButton_Click">Refresh</Button>
+                    <CheckBox Name="DeleteFilesCheckBox" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,60,35,10" IsChecked="True">Delete files on success</CheckBox>
+                </Grid>
+                <DataGrid x:Name="BackupHistoryGrid" CanUserAddRows="False" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Width="50">
+                            <DataGridTemplateColumn.Header>
+                                <CheckBox Name="SelectAllCheckBox" Checked="SelectAllCheckBox_Checked" Unchecked="SelectAllCheckBox_Unchecked"/>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTemplateColumn.HeaderStyle>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel HorizontalAlignment="Center">
+                                        <CheckBox Name="IsSelectedCheckBox" Click="IsSelectedCheckBox_Click" IsChecked="{Binding IsSelected}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                            <!--<DataGridTemplateColumn.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            </Style>
+                        </DataGridTemplateColumn.CellStyle>-->
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Width="*" Header="Name" Binding="{Binding Name}" />
+                        <DataGridTextColumn Width="*" Header="Type" Binding="{Binding BackupType}" />
+                        <DataGridTextColumn Width="*" Header="Server" Binding="{Binding Server}" />
+                        <DataGridTextColumn Width="*" Header="Database" Binding="{Binding DatabaseName}" />
+                        <DataGridTextColumn Width="120" Header="Start date" Binding="{Binding StartDate, StringFormat=g}" />
+                        <DataGridTextColumn Width="120" Header="Finish date" Binding="{Binding FinishDate, StringFormat=g}" />
+                        <DataGridTextColumn Width="*" Header="First LSN" Binding="{Binding FirstLsn}" />
+                        <DataGridTextColumn Width="*" Header="Last LSN" Binding="{Binding LastLsn}" />
+                        <DataGridTextColumn Width="*" Header="Checkpoint LSN" Binding="{Binding CheckpointLsn}" />
+                        <DataGridTextColumn Width="*" Header="Database backup LSN" Binding="{Binding DatabaseBackupLsn}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </DockPanel>
+        </DockPanel>
+        <xctk:BusyIndicator Name="ProgressBar" IsBusy="False" >
+        </xctk:BusyIndicator>
+    </Grid>
+</Window>

@@ -97,7 +97,7 @@ namespace Dekart.LazyNet.SQLBackup2Remote {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на At {0:T}.
+        ///   Ищет локализованную строку, похожую на At {0:HH:mm}.
         /// </summary>
         internal static string AtTime {
             get {

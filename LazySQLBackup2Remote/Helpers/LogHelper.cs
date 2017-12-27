@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Text;
 
@@ -57,4 +57,5 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
     }
 
     public delegate void TextChangedEventHandler(string text);
+
 }

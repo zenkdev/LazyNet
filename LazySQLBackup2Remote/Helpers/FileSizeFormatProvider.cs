@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
 {
@@ -76,3 +76,4 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
 
     }
 }
+

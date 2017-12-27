@@ -1,0 +1,141 @@
+﻿<Window x:Class="Dekart.LazyNet.SQLBackup2Remote.Windows.ScheduleSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Advanced Backup Schedule" Height="500" Width="600" Loaded="Window_Loaded" Closing="Window_Closing">
+    <DockPanel>
+        <Grid DockPanel.Dock="Bottom">
+            <Button x:Name="OkButton" VerticalAlignment="Bottom" HorizontalAlignment="Right" IsDefault="True" Margin="0,0,110,5" Width="100" Click="OkButton_Click">
+                OK
+            </Button>
+            <Button x:Name="CancelButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,5" Width="100" IsCancel="True" Click="CancelButton_Click">
+                Cancel
+            </Button>
+        </Grid>
+        <DockPanel>
+            <Grid DockPanel.Dock="Bottom" Margin="20">
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top">Run scheduled job as:</TextBlock>
+                <TextBox x:Name="teScheduleUserId" VerticalAlignment="Top" Margin="130,0,130,0"/>
+                <Button x:Name="SetAsCurrentUserButton" HorizontalAlignment="Right" Width="120" Click="SetAsCurrentUserButton_Click">Set as Current User</Button>
+            </Grid>
+            <TabControl>
+                <TabItem Header="Full Backup Schedule">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Bottom" Margin="5">
+                            <Hyperlink Click="AddFullBackupShedule_Click">Add full backup schedule</Hyperlink>
+                        </TextBlock>
+                        <DataGrid x:Name="FullBackupGrid" HeadersVisibility="None" AutoGenerateColumns="False" CanUserAddRows="False">
+                            <DataGrid.Columns>
+                                <DataGridTemplateColumn Width="34">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Click="DeleteFullBackupShedule_Click">
+                                                <Image Source="../Images/delete_32x32.png"/>
+                                            </Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Width="*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="5,0">
+                                                <TextBlock Text="{Binding PlainText}"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Width="34">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Click="EditFullBackupShedule_Click">
+                                                <Image Source="../Images/properties_32x32.png"/>
+                                            </Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="Differential Backup Schedule">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Bottom" Margin="5">
+                            <Hyperlink Click="AddDiffBackupShedule_Click">Add differential backup schedule</Hyperlink>
+                        </TextBlock>
+                        <DataGrid x:Name="DiffBackupGrid" HeadersVisibility="None" AutoGenerateColumns="False" CanUserAddRows="False">
+                            <DataGrid.Columns>
+                                <DataGridTemplateColumn Width="34">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Click="DeleteDiffBackupShedule_Click">
+                                                <Image Source="../Images/delete_32x32.png"/>
+                                            </Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Width="*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="5,0">
+                                                <TextBlock Text="{Binding PlainText}"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Width="34">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Click="EditDiffBackupShedule_Click">
+                                                <Image Source="../Images/properties_32x32.png"/>
+                                            </Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="Transaction Log Backup Schedule">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Bottom" Margin="5">
+                            <Hyperlink Click="AddTranBackupShedule_Click">Add transaction log backup schedule</Hyperlink>
+                        </TextBlock>
+                        <DataGrid x:Name="TranBackupGrid" HeadersVisibility="None" AutoGenerateColumns="False" CanUserAddRows="False">
+                            <DataGrid.Columns>
+                                <DataGridTemplateColumn Width="34">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Click="DeleteTranBackupShedule_Click">
+                                                <Image Source="../Images/delete_32x32.png"/>
+                                            </Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Width="*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="5,0">
+                                                <TextBlock Text="{Binding PlainText}"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Width="34">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Click="EditTranBackupShedule_Click">
+                                                <Image Source="../Images/properties_32x32.png"/>
+                                            </Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+                </TabItem>
+            </TabControl>
+        </DockPanel>
+    </DockPanel>
+</Window>

@@ -130,7 +130,7 @@
     <value>at {0} day of month {1}</value>
   </data>
   <data name="AtTime" xml:space="preserve">
-    <value>At {0:T}</value>
+    <value>At {0:HH:mm}</value>
   </data>
   <data name="BeforeBackup" xml:space="preserve">
     <value>before backup</value>
@@ -159,9 +159,6 @@
   <data name="CreatingRemoteFolder" xml:space="preserve">
     <value>{0:G} Creating remote folder '{1}'</value>
   </data>
-  <data name="RemoteFolderNotFound" xml:space="preserve">
-    <value>{0:G} Remote folder '{1}' not found</value>
-  </data>
   <data name="DatabaseFail" xml:space="preserve">
     <value>Database {0}: Fail</value>
   </data>
@@ -176,6 +173,18 @@
   </data>
   <data name="DisconnectingFrom" xml:space="preserve">
     <value>{0:G} Disconnecting from '{1}'</value>
+  </data>
+  <data name="DownloadAndRestoreFinished" xml:space="preserve">
+    <value>{0:G} Download and restore finished</value>
+  </data>
+  <data name="DownloadAndRestoreStarting" xml:space="preserve">
+    <value>Download &amp; Restore starting...</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0:G} Downloading '{1}' to '{2}' ({3})</value>
+  </data>
+  <data name="DownloadingFileProgress" xml:space="preserve">
+    <value>Downloading {0}... {1}%</value>
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>This test e-mail confirms that your e-mail settings are set correctly</value>
@@ -208,11 +217,23 @@ Please verify if you have receive it!</value>
   <data name="EveryWeeks" xml:space="preserve">
     <value>every {0} week</value>
   </data>
+  <data name="Extracting" xml:space="preserve">
+    <value>{0:G} Extracting '{1}' to '{2}'</value>
+  </data>
+  <data name="ExtractingFileProgress" xml:space="preserve">
+    <value>Extracting {0}... {1:fs} of {2:fs}</value>
+  </data>
+  <data name="ExtractionCompleted" xml:space="preserve">
+    <value>{0:G} Extraction completed (backup: '{1}', size: {2:fs})</value>
+  </data>
   <data name="FailReportNotSent" xml:space="preserve">
     <value>Fail report was not send to {0} ({1})</value>
   </data>
   <data name="FailReportSent" xml:space="preserve">
     <value>Fail report was send to {0} ({1})</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
   </data>
   <data name="JobFilesFilter" xml:space="preserve">
     <value>Job Files (*.jobx)|*.jobx</value>
@@ -223,8 +244,14 @@ Please verify if you have receive it!</value>
   <data name="JobName" xml:space="preserve">
     <value>Job name: {0}</value>
   </data>
+  <data name="LocalFileVerified" xml:space="preserve">
+    <value>{0:G} Local file has been found and verified</value>
+  </data>
   <data name="MacOffice" xml:space="preserve">
     <value>MacOffice</value>
+  </data>
+  <data name="NoRecoveryArchiveSelected" xml:space="preserve">
+    <value>No recovery archive selected!</value>
   </data>
   <data name="Office2007" xml:space="preserve">
     <value>Office 2007</value>
@@ -244,14 +271,26 @@ Please verify if you have receive it!</value>
   <data name="Question" xml:space="preserve">
     <value>Question</value>
   </data>
+  <data name="RemoteFileNotFound" xml:space="preserve">
+    <value>{0:G} Remote file '{1}' not found</value>
+  </data>
   <data name="RemoteFileVerified" xml:space="preserve">
     <value>{0:G} Remote file size has been verified</value>
+  </data>
+  <data name="RemoteFolderNotFound" xml:space="preserve">
+    <value>{0:G} Remote folder '{1}' not found</value>
   </data>
   <data name="RemovingFrom" xml:space="preserve">
     <value>{0:G} Removing '{1}' from '{2}'</value>
   </data>
   <data name="RemovingJunkBackup" xml:space="preserve">
     <value>{0:G} Removing junk backup '{1}'</value>
+  </data>
+  <data name="RestoringDatabase" xml:space="preserve">
+    <value>{0:G} Restoring database '{1}'</value>
+  </data>
+  <data name="RestoringDatabaseProgress" xml:space="preserve">
+    <value>Restoring database {0}... {1}</value>
   </data>
   <data name="RunJobFailure" xml:space="preserve">
     <value>run job failure</value>
@@ -264,6 +303,12 @@ Please verify if you have receive it!</value>
   </data>
   <data name="StartBoundary" xml:space="preserve">
     <value>start at {0:d}</value>
+  </data>
+  <data name="StartDownloadAndRestore" xml:space="preserve">
+    <value>&gt;&gt;&gt; start download and restore {0:G}</value>
+  </data>
+  <data name="Starting" xml:space="preserve">
+    <value>Starting...</value>
   </data>
   <data name="StartJob" xml:space="preserve">
     <value>&gt;&gt;&gt; start job {0:G}</value>
@@ -280,52 +325,7 @@ Please verify if you have receive it!</value>
   <data name="Uploading" xml:space="preserve">
     <value>{0:G} Uploading '{1}' to '{2}' ({3})</value>
   </data>
-  <data name="Extracting" xml:space="preserve">
-    <value>{0:G} Extracting '{1}' to '{2}'</value>
-  </data>
-  <data name="ExtractionCompleted" xml:space="preserve">
-    <value>{0:G} Extraction completed (backup: '{1}', size: {2:fs})</value>
-  </data>
-  <data name="Downloading" xml:space="preserve">
-    <value>{0:G} Downloading '{1}' to '{2}' ({3})</value>
-  </data>
-  <data name="DownloadAndRestoreStarting" xml:space="preserve">
-    <value>Download &amp; Restore starting...</value>
-  </data>
-  <data name="StartDownloadAndRestore" xml:space="preserve">
-    <value>&gt;&gt;&gt; start download and restore {0:G}</value>
-  </data>
-  <data name="DownloadAndRestoreFinished" xml:space="preserve">
-    <value>{0:G} Download and restore finished</value>
-  </data>
-  <data name="DownloadingFileProgress" xml:space="preserve">
-    <value>Downloading {0}... {1}%</value>
-  </data>
-  <data name="ExtractingFileProgress" xml:space="preserve">
-    <value>Extracting {0}... {1:fs} of {2:fs}</value>
-  </data>
-  <data name="Information" xml:space="preserve">
-    <value>Information</value>
-  </data>
-  <data name="RestoringDatabase" xml:space="preserve">
-    <value>{0:G} Restoring database '{1}'</value>
-  </data>
-  <data name="RestoringDatabaseProgress" xml:space="preserve">
-    <value>Restoring database {0}... {1}</value>
-  </data>
-  <data name="Starting" xml:space="preserve">
-    <value>Starting...</value>
-  </data>
-  <data name="LocalFileVerified" xml:space="preserve">
-    <value>{0:G} Local file has been found and verified</value>
-  </data>
-  <data name="RemoteFileNotFound" xml:space="preserve">
-    <value>{0:G} Remote file '{1}' not found</value>
-  </data>
   <data name="ZipFileNotFound" xml:space="preserve">
     <value>{0:G} Zip file '{1}' not found</value>
-  </data>
-  <data name="NoRecoveryArchiveSelected" xml:space="preserve">
-    <value>No recovery archive selected!</value>
   </data>
 </root>

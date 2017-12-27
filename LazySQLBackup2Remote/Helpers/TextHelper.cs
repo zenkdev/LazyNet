@@ -1,4 +1,4 @@
-using System;
+п»їusing System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
@@ -55,10 +55,10 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
         }
 
         /// <summary>
-        /// Вставляет заданный разделитель между элементами массива
-        /// создавая одну сцепленную строку. Пустые элементы игнорируются.
+        /// Р’СЃС‚Р°РІР»СЏРµС‚ Р·Р°РґР°РЅРЅС‹Р№ СЂР°Р·РґРµР»РёС‚РµР»СЊ РјРµР¶РґСѓ СЌР»РµРјРµРЅС‚Р°РјРё РјР°СЃСЃРёРІР°
+        /// СЃРѕР·РґР°РІР°СЏ РѕРґРЅСѓ СЃС†РµРїР»РµРЅРЅСѓСЋ СЃС‚СЂРѕРєСѓ. РџСѓСЃС‚С‹Рµ СЌР»РµРјРµРЅС‚С‹ РёРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ.
         /// </summary>
-        /// <returns>Строка состоящая из элементов value, перемежаемых строками separator.</returns>
+        /// <returns>РЎС‚СЂРѕРєР° СЃРѕСЃС‚РѕСЏС‰Р°СЏ РёР· СЌР»РµРјРµРЅС‚РѕРІ value, РїРµСЂРµРјРµР¶Р°РµРјС‹С… СЃС‚СЂРѕРєР°РјРё separator.</returns>
         public static string Join(string separator, params string[] value)
         {
             var arr = new List<string>(value);
@@ -67,10 +67,10 @@ namespace Dekart.LazyNet.SQLBackup2Remote.Helpers
         }
 
         /// <summary>
-        /// Вставляет заданный разделитель между элементами массива
-        /// создавая одну сцепленную строку. Пустые элементы игнорируются.
+        /// Р’СЃС‚Р°РІР»СЏРµС‚ Р·Р°РґР°РЅРЅС‹Р№ СЂР°Р·РґРµР»РёС‚РµР»СЊ РјРµР¶РґСѓ СЌР»РµРјРµРЅС‚Р°РјРё РјР°СЃСЃРёРІР°
+        /// СЃРѕР·РґР°РІР°СЏ РѕРґРЅСѓ СЃС†РµРїР»РµРЅРЅСѓСЋ СЃС‚СЂРѕРєСѓ. РџСѓСЃС‚С‹Рµ СЌР»РµРјРµРЅС‚С‹ РёРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ.
         /// </summary>
-        /// <returns>Строка состоящая из элементов value, перемежаемых строками separator.</returns>
+        /// <returns>РЎС‚СЂРѕРєР° СЃРѕСЃС‚РѕСЏС‰Р°СЏ РёР· СЌР»РµРјРµРЅС‚РѕРІ value, РїРµСЂРµРјРµР¶Р°РµРјС‹С… СЃС‚СЂРѕРєР°РјРё separator.</returns>
         public static string Join(string separator, IEnumerable<string> value)
         {
             var arr = new List<string>(value);

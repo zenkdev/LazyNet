@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         xmlns:local="clr-namespace:Dekart.LazyNet.SQLBackup2Remote"
               xmlns:gif="http://wpfanimatedgif.codeplex.com" 
         mc:Ignorable="d"
@@ -22,20 +23,20 @@
         <Ribbon x:Name="ribbon" DockPanel.Dock="Top" Title="Lazy SQL Backup 2 Remote">
             <Ribbon.QuickAccessToolBar>
                 <RibbonQuickAccessToolBar>
-                    <RibbonButton SmallImageSource="Images/Google-Black/save_16x16.png" Label="Save" Command="Save"/>
-                    <RibbonButton SmallImageSource="Images/Google-Black/exit_16x16.png" Label="Exit" Command="local:CustomCommands.Exit"/>
+                    <RibbonButton SmallImageSource="{fa:IconSource FloppyO}" Label="Save" Command="Save"/>
+                    <RibbonButton SmallImageSource="{fa:IconSource SignOut, Foreground=Blue}" Label="Exit" Command="local:CustomCommands.Exit"/>
                 </RibbonQuickAccessToolBar>
             </Ribbon.QuickAccessToolBar>
             <Ribbon.ApplicationMenu>
-                <RibbonApplicationMenu SmallImageSource="Images/new_16x16.png">
-                    <RibbonApplicationMenuItem ImageSource="Images/Google-Black/new_25x32.png" Header="New" Command="New" />
-                    <RibbonApplicationMenuItem ImageSource="Images/open_32x32.png" Header="Open..." Command="Open" />
-                    <RibbonApplicationSplitMenuItem ImageSource="Images/saveall_32x32.png" Header="Save">
-                        <RibbonApplicationMenuItem ImageSource="Images/Google-Black/save_32x32.png" Header="Save" Command="Save" />
-                        <RibbonApplicationMenuItem ImageSource="Images/saveas_32x32.png" Header="Save As..." Command="SaveAs" />
+                <RibbonApplicationMenu SmallImageSource="{fa:IconSource FileO}">
+                    <RibbonApplicationMenuItem ImageSource="{fa:IconSource File}" Header="New" Command="New" />
+                    <RibbonApplicationMenuItem ImageSource="{fa:IconSource FolderOpen}" Header="Open..." Command="Open" />
+                    <RibbonApplicationSplitMenuItem ImageSource="{fa:IconSource FloppyO}" Header="Save">
+                        <RibbonApplicationMenuItem Header="Save" Command="Save" HorizontalAlignment="Left" />
+                        <RibbonApplicationMenuItem Header="Save As..." Command="SaveAs" HorizontalAlignment="Left" />
                     </RibbonApplicationSplitMenuItem>
                     <RibbonSeparator />
-                    <RibbonApplicationMenuItem ImageSource="Images/Google-Black/exit_32x32.png" Header="Exit" Command="local:CustomCommands.Exit"/>
+                    <RibbonApplicationMenuItem ImageSource="{fa:IconSource SignOut, Foreground=Blue}" Header="Exit" Command="local:CustomCommands.Exit"/>
                     <RibbonApplicationMenu.AuxiliaryPaneContent>
                         <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                             <Grid.RowDefinitions>
@@ -52,20 +53,20 @@
             </Ribbon.ApplicationMenu>
             <RibbonTab Header="HOME">
                 <RibbonGroup Header="File">
-                    <RibbonButton Label="New" SmallImageSource="Images/Google-Black/new_12x16.png" LargeImageSource="Images/Google-Black/new_25x32.png" Command="New" />
-                    <RibbonButton Label="Open..." SmallImageSource="Images\open_16x16.png" LargeImageSource="Images\open_32x32.png" Command="Open"/>
-                    <RibbonMenuButton Label="Save" SmallImageSource="Images\saveall_16x16.png" LargeImageSource="Images\saveall_32x32.png">
-                        <RibbonButton Label="Save" SmallImageSource="Images/Google-Black/save_16x16.png" LargeImageSource="Images/Google-Black/save_32x32.png" Command="Save" />
-                        <RibbonButton Label="Save As..." SmallImageSource="Images\saveas_16x16.png" LargeImageSource="Images\saveas_32x32.png" Command="SaveAs"/>
+                    <RibbonButton Label="New" SmallImageSource="{fa:IconSource File}" LargeImageSource="{fa:IconSource File}" Command="New" />
+                    <RibbonButton Label="Open..." SmallImageSource="{fa:IconSource FolderOpen}" LargeImageSource="{fa:IconSource FolderOpen}" Command="Open"/>
+                    <RibbonMenuButton Label="Save" SmallImageSource="{fa:IconSource FloppyO}" LargeImageSource="{fa:IconSource FloppyO}">
+                        <RibbonButton Label="Save" Command="Save" HorizontalAlignment="Left" />
+                        <RibbonButton Label="Save As..." Command="SaveAs" HorizontalAlignment="Left"/>
                     </RibbonMenuButton>
                 </RibbonGroup>
                 <RibbonGroup Header="Tools">
-                    <RibbonButton Label="Download" SmallImageSource="Images/Google-Black/download_11x16.png" LargeImageSource="Images/Google-Black/download_23x32.png" Command="local:CustomCommands.Download"/>
-                    <RibbonButton Label="Jobs" SmallImageSource="Images/Google-Black/schedule_16x16.png" LargeImageSource="Images/Google-Black/schedule_32x32.png" Command="local:CustomCommands.Jobs"/>
-                    <RibbonButton Label="Logs" LargeImageSource="Images/Google-Black/event_28x32.png" SmallImageSource="Images/Google-Black/event_14x16.png" Command="local:CustomCommands.Logs"/>
+                    <RibbonButton Label="Download" SmallImageSource="{fa:IconSource Download}" LargeImageSource="{fa:IconSource Download}" Command="local:CustomCommands.Download"/>
+                    <RibbonButton Label="Jobs" SmallImageSource="{fa:IconSource Tasks}" LargeImageSource="{fa:IconSource Tasks}" Command="local:CustomCommands.Jobs"/>
+                    <RibbonButton Label="Logs" LargeImageSource="{fa:IconSource History}" SmallImageSource="{fa:IconSource History}" Command="local:CustomCommands.Logs"/>
                 </RibbonGroup>
                 <RibbonGroup Header="Exit">
-                    <RibbonButton LargeImageSource="Images/Google-Black/exit_32x32.png" Label="Exit" SmallImageSource="Images/Google-Black/exit_16x16.png" Command="local:CustomCommands.Exit"/>
+                    <RibbonButton LargeImageSource="{fa:IconSource SignOut, Foreground=Blue}" Label="Exit" SmallImageSource="{fa:IconSource SignOut, Foreground=Blue}" Command="local:CustomCommands.Exit"/>
                 </RibbonGroup>
             </RibbonTab>
         </Ribbon>

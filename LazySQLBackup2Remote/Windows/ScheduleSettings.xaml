@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         mc:Ignorable="d"
         Title="Advanced Backup Schedule" Height="500" Width="600" Loaded="Window_Loaded" Closing="Window_Closing">
     <DockPanel>
@@ -32,7 +33,7 @@
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
                                             <Button Click="DeleteFullBackupShedule_Click">
-                                                <Image Source="../Images/delete_32x32.png"/>
+                                                <fa:IconImage Icon="Times" Width="24" />
                                             </Button>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
@@ -50,7 +51,7 @@
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
                                             <Button Click="EditFullBackupShedule_Click">
-                                                <Image Source="../Images/properties_32x32.png"/>
+                                                <fa:IconImage Icon="Cog" Width="24"/>
                                             </Button>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
@@ -70,7 +71,7 @@
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
                                             <Button Click="DeleteDiffBackupShedule_Click">
-                                                <Image Source="../Images/delete_32x32.png"/>
+                                                <fa:IconImage Icon="Times" Width="24" />
                                             </Button>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
@@ -88,7 +89,7 @@
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
                                             <Button Click="EditDiffBackupShedule_Click">
-                                                <Image Source="../Images/properties_32x32.png"/>
+                                                <fa:IconImage Icon="Cog" Width="24"/>
                                             </Button>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
@@ -108,7 +109,7 @@
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
                                             <Button Click="DeleteTranBackupShedule_Click">
-                                                <Image Source="../Images/delete_32x32.png"/>
+                                                <fa:IconImage Icon="Times" Width="24" />
                                             </Button>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
@@ -126,7 +127,7 @@
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
                                             <Button Click="EditTranBackupShedule_Click">
-                                                <Image Source="../Images/properties_32x32.png"/>
+                                                <fa:IconImage Icon="Cog" Width="24"/>
                                             </Button>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>

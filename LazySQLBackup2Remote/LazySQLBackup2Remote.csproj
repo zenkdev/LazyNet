@@ -31,7 +31,7 @@
     <ProductName>LazySQLBackup2Remote</ProductName>
     <MinimumRequiredVersion>2018.0.1.0</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>2018.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -83,6 +83,9 @@
     <Reference Include="Dapper.StrongName, Version=1.50.4.0, Culture=neutral, PublicKeyToken=e3e8412083d25dd3, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.StrongName.1.50.4\lib\net451\Dapper.StrongName.dll</HintPath>
     </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=4.7.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.4.7.1\lib\net40\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
       <HintPath>..\packages\DotNetZip.Reduced.1.9.1.8\lib\net20\Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
@@ -100,6 +103,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -311,61 +315,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\properties_32x32.png" />
-    <Resource Include="Images\publish_16x16.png" />
-    <Resource Include="Images\mail_16x16.png" />
-    <Resource Include="Images\mail_32x32.png" />
-    <Resource Include="Images\publish_32x32.png" />
-    <Resource Include="Images\datasource_32x32.png" />
-    <Resource Include="Images\run_16x16.png" />
-    <Resource Include="Images\run_32x32.png" />
-    <Resource Include="Images\close_16x16.png" />
-    <Resource Include="Images\close_32x32.png" />
-    <Resource Include="Images\download_16x16.png" />
-    <Resource Include="Images\download_32x32.png" />
-    <Resource Include="Images\log_16x16.png" />
-    <Resource Include="Images\log_32x32.png" />
-    <Resource Include="Images\job_16x16.png" />
-    <Resource Include="Images\job_32x32.png" />
-    <Resource Include="Images\open_16x16.png" />
-    <Resource Include="Images\open_32x32.png" />
-    <Resource Include="Images\saveall_16x16.png" />
-    <Resource Include="Images\saveall_32x32.png" />
-    <Resource Include="Images\saveas_16x16.png" />
-    <Resource Include="Images\saveas_32x32.png" />
-    <Resource Include="Images\save_16x16.png" />
-    <Resource Include="Images\save_32x32.png" />
-    <Resource Include="Images\new_32x32.png" />
-    <Resource Include="Images\new_16x16.png" />
     <SplashScreen Include="SplashScreen.png" />
     <Resource Include="online.gif" />
-    <Resource Include="Images\delete_32x32.png" />
     <Resource Include="Images\network_drive.png" />
     <Resource Include="Images\network_folder.png" />
-    <Resource Include="Images\Google-Black\exit_16x16.png" />
-    <Resource Include="Images\Google-Black\exit_32x32.png" />
-    <Resource Include="Images\Google-Black\settings_16x16.png" />
-    <Resource Include="Images\Google-Black\settings_32x32.png" />
-    <Resource Include="Images\Google-Black\save_16x16.png" />
-    <Resource Include="Images\Google-Black\save_32x32.png" />
-    <Resource Include="Images\Google-Black\schedule_16x16.png" />
-    <Resource Include="Images\Google-Black\schedule_32x32.png" />
-    <Resource Include="Images\Google-Black\cancel_16x16.png" />
-    <Resource Include="Images\Google-Black\cancel_32x32.png" />
-    <Resource Include="Images\Google-Black\refresh_16x16.png" />
-    <Resource Include="Images\Google-Black\refresh_32x32.png" />
-    <Resource Include="Images\Google-Black\mail_16x12.png" />
-    <Resource Include="Images\Google-Black\mail_32x25.png" />
-    <Resource Include="Images\Google-Black\backup_16x10.png" />
-    <Resource Include="Images\Google-Black\backup_32x21.png" />
-    <Resource Include="Images\Google-Black\download_11x16.png" />
-    <Resource Include="Images\Google-Black\download_23x32.png" />
-    <Resource Include="Images\Google-Black\event_14x16.png" />
-    <Resource Include="Images\Google-Black\event_28x32.png" />
-    <Resource Include="Images\Google-Black\new_12x16.png" />
-    <Resource Include="Images\Google-Black\new_25x32.png" />
-    <Resource Include="Images\Google-Black\write_16x14.png" />
-    <Resource Include="Images\Google-Black\write_32x28.png" />
     <Content Include="WinSCP.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

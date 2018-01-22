@@ -1,7 +1,8 @@
 ﻿<UserControl x:Class="Dekart.LazyNet.SQLBackup2Remote.JobControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              mc:Ignorable="d" 
@@ -10,9 +11,6 @@
         <Style x:Key="grayText">
             <Setter Property="Control.Foreground" Value="Gray"/>
         </Style>
-        <Image x:Key="DataSourceImage" Source="Images/datasource_32x32.png" Margin="0,0,5,0"/>
-        <Image x:Key="PropertiesImage1" Source="Images/Google-Black/settings_32x32.png" Margin="0"/>
-        <Image x:Key="PropertiesImage2" Source="Images/Google-Black/settings_32x32.png" Margin="0"/>
     </UserControl.Resources>
     <Grid Margin="5">
         <Grid.ColumnDefinitions>
@@ -27,9 +25,12 @@
         <DockPanel Grid.Column="0" Grid.Row="0" Margin="5">
             <StackPanel DockPanel.Dock="Top">
                 <TextBlock x:Name="lcServerName" Text="(local)" FontWeight="Bold"></TextBlock>
-                <xctk:IconButton x:Name="sbConnect" Click="ConnectButton_Click" Margin="0,5,0,0" FontWeight="Bold" Icon="{DynamicResource DataSourceImage}">
-                    Connect to SQL Server / Azure
-                </xctk:IconButton>
+                <Button x:Name="sbConnect" Click="ConnectButton_Click">
+                    <StackPanel Orientation="Horizontal" Margin="0">
+                        <fa:IconImage Icon="Plug" Height="24" Margin="5"/>
+                        <TextBlock Text="Connect to SQL Server / Azure" VerticalAlignment="Center" FontWeight="Bold" Margin="0,5,5,5" />
+                    </StackPanel>
+                </Button>
                 <CheckBox x:Name="cbBackupAllNonSystemDBs" Click="CbBackupAllNonSystemDBs_Click" Margin="0,5,0,0">
                     Backup all non-system DBs
                 </CheckBox>
@@ -51,7 +52,7 @@
                 <GroupBox Margin="0,10,0,0" Height="120">
                     <GroupBox.Header>
                         <StackPanel Orientation="Horizontal">
-                            <Image Source="Images/Google-Black/mail_16x12.png"/>
+                            <fa:IconImage Icon="Envelope" Height="16"/>
                             <TextBlock Margin="5,0,0,0" FontSize="16">Send e-mails</TextBlock>
                         </StackPanel>
                     </GroupBox.Header>
@@ -59,7 +60,9 @@
                         <CheckBox x:Name="cbSendEmails" Click="CbSendEmails_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,15,0,0">
                             <TextBlock Text="Send e-mail notifications" FontWeight="Bold"/>
                         </CheckBox>
-                        <xctk:IconButton x:Name="sbEmailSettings" Click="SbEmailSettings_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,5,0" Width="38" Height="38" Icon="{DynamicResource PropertiesImage1}" />
+                        <Button x:Name="sbEmailSettings" Click="SbEmailSettings_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,5,0">
+                            <fa:IconImage Icon="Cog" Height="32"/>
+                        </Button>
                         <TextBlock Margin="5,50,0,0" VerticalAlignment="Top">On success e-mail to:</TextBlock>
                         <TextBox x:Name="teOnSuccessMailTo" HorizontalAlignment="Stretch" Margin="130,50,5,0" VerticalAlignment="Top"></TextBox>
                         <TextBlock Margin="5,0,0,5" HorizontalAlignment="Left" VerticalAlignment="Bottom" >On failure e-mail to:</TextBlock>
@@ -69,7 +72,7 @@
                 <GroupBox Margin="0,10,0,0" Height="100">
                     <GroupBox.Header>
                         <StackPanel Orientation="Horizontal">
-                            <Image Source="Images/Google-Black/schedule_16x16.png"/>
+                            <fa:IconImage Icon="Calendar" Height="16"/>
                             <TextBlock Margin="5,0,0,0" FontSize="16">Scheduler</TextBlock>
                         </StackPanel>
                     </GroupBox.Header>
@@ -77,8 +80,10 @@
                         <CheckBox x:Name="ScheduleThisJobCheckBox" Margin="5,15,0,0" Click="ScheduleThisJobCheckBox_Click" HorizontalAlignment="Left" FontWeight="Bold" VerticalAlignment="Top">
                             Schedule this job
                         </CheckBox>
-                        <xctk:IconButton x:Name="ScheduleSettingsButton" Margin="0,5,5,0" Click="ScheduleSettingsButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Width="38" Height="38" Icon="{DynamicResource PropertiesImage2}" />
-                        <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,0,5">Schedule full backup daily at:</TextBlock>
+                        <Button x:Name="ScheduleSettingsButton" Click="ScheduleSettingsButton_Click" Margin="0,0,5,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+                            <fa:IconImage Icon="Cog" Height="32" />
+                        </Button>
+                        <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,5">Schedule full backup daily at:</TextBlock>
                         <xctk:TimePicker x:Name="NextFullBackupStartTimePicker" Width="100" Margin="0,0,5,5" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
                     </Grid>
                 </GroupBox>
@@ -86,7 +91,7 @@
             <GroupBox>
                 <GroupBox.Header>
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Images/Google-Black/backup_16x10.png"/>
+                        <fa:IconImage Icon="CloudUpload" Height="16"/>
                         <TextBlock Margin="5,0,0,0" FontSize="16">Store backups in following destinations</TextBlock>
                     </StackPanel>
                 </GroupBox.Header>
@@ -100,7 +105,7 @@
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
                                         <Button Click="DeleteButton_Click">
-                                            <Image Source="Images\delete_32x32.png"/>
+                                            <fa:IconImage Icon="Times" Width="24"/>
                                         </Button>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
@@ -119,7 +124,7 @@
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
                                         <Button Click="EditButton_Click">
-                                            <Image Source="Images\properties_32x32.png"/>
+                                            <fa:IconImage Icon="Cog" Width="24"/>
                                         </Button>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
@@ -130,7 +135,7 @@
             </GroupBox>
         </DockPanel>
         <Canvas Grid.Column="0" Grid.Row="1">
-            <TextBlock Text="Run custom SQL scripts:" Canvas.Left="0" Canvas.Top="0" ></TextBlock>
+            <TextBlock Text="Run custom SQL scripts:" Canvas.Left="0" Canvas.Top="0"></TextBlock>
             <TextBlock Canvas.Left="0" Canvas.Top="20">
                     <Hyperlink Click="HlBeforeBackup_Click">Before backup</Hyperlink>
             </TextBlock>
@@ -139,9 +144,9 @@
             </TextBlock>
         </Canvas>
         <Button Grid.Column="3" Grid.Row="1" x:Name="sbRunNow" Click="SbRunNowClick" HorizontalAlignment="Right" VerticalAlignment="Center" Height="36">
-            <StackPanel Orientation="Horizontal" Margin="0,0,10,0">
-                <Image Source="Images\run_32x32.png"/>
-                <TextBlock Text="Run now" VerticalAlignment="Center" FontWeight="Bold" />
+            <StackPanel Orientation="Horizontal" Margin="10,0">
+                <fa:IconImage Icon="Play" Height="24" Margin="5" Foreground="Red"/>
+                <TextBlock Text="Run now" VerticalAlignment="Center" FontWeight="Bold" Foreground="Red" Margin="0,5,5,5" />
             </StackPanel>
         </Button>
     </Grid>

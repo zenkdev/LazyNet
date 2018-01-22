@@ -15,7 +15,7 @@
             </Button>
         </Grid>
         <Grid Margin="5">
-            <TextBox x:Name="ScriptTextBox" TextWrapping="Wrap" Text="TextBox"/>
+            <TextBox x:Name="ScriptTextBox" TextWrapping="Wrap" Text="TextBox" AcceptsTab="True" AcceptsReturn="True" />
         </Grid>
     </DockPanel>
 </Window>
